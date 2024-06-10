@@ -1,0 +1,91 @@
+2024-06-09 22:25:53,955 - main - ERROR - Exception on /card-stats [GET]
+Traceback (most recent call last):
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\main.py", line 37, in card_stats
+    conn = get_connection()
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\main.py", line 45, in get_connection
+    return sqlalchemy.create_engine(os.getenv("SUPABASE_CONN_STRING")).connect()
+  File "<string>", line 2, in create_engine
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\sqlalchemy\util\deprecations.py", line 277, in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\sqlalchemy\engine\create.py", line 554, in create_engine
+    u, plugins, kwargs = u._instantiate_plugins(kwargs)
+AttributeError: 'NoneType' object has no attribute '_instantiate_plugins'
+2024-06-09 22:27:11,102 - main - ERROR - Exception on /card-stats [GET]
+Traceback (most recent call last):
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\main.py", line 38, in card_stats
+    data = pd.read_sql(slqalchemy.sql.text(f"select * from select * from poker.two_player_game_odds where card_1 = '{card1}' and card_2 = '{card2}'"), conn)
+NameError: name 'slqalchemy' is not defined
+2024-06-09 22:27:34,953 - main - ERROR - Exception on /card-stats [GET]
+Traceback (most recent call last):
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\sqlalchemy\engine\default.py", line 747, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.SyntaxError: syntax error at or near "select"
+LINE 1: select * from select * from poker.two_player_game_odds where...
+                      ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\main.py", line 38, in card_stats
+    data = pd.read_sql(sqlalchemy.sql.text(f"select * from select * from poker.two_player_game_odds where card_1 = '{card1}' and card_2 = '{card2}'"), conn)
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\pandas\io\sql.py", line 590, in read_sql
+    return pandas_sql.read_query(
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\pandas\io\sql.py", line 1560, in read_query
+    result = self.execute(*args)
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\pandas\io\sql.py", line 1405, in execute
+    return self.connectable.execution_options().execute(*args, **kwargs)
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\sqlalchemy\engine\base.py", line 1414, in execute
+    return meth(
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\sqlalchemy\sql\elements.py", line 489, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\sqlalchemy\engine\base.py", line 1842, in _execute_context
+    return self._exec_single_context(
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\sqlalchemy\engine\base.py", line 2325, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\amarl\dev\webapps\texas-holdem-dashboard\.venv\lib\site-packages\sqlalchemy\engine\default.py", line 747, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.SyntaxError) syntax error at or near "select"
+LINE 1: select * from select * from poker.two_player_game_odds where...
+                      ^
+
+[SQL: select * from select * from poker.two_player_game_odds where card_1 = 'K of Hearts' and card_2 = 'A of Diamonds']
+(Background on this error at: https://sqlalche.me/e/20/f405)

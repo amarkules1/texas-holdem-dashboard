@@ -1,7 +1,10 @@
-from flask import Flask, redirect
+from flask import Flask, request, redirect
 from flask_cors import CORS
 import logging
 from dotenv import load_dotenv, find_dotenv
+import sqlalchemy
+import os
+import pandas as pd
 
 
 # create console logger and file logger
@@ -28,8 +31,18 @@ def hello():
 
 
 @app.route("/card-stats", methods=['GET'])
-def daily_price_hist():
-    return "Hello, World!"
+def card_stats():
+    card1 = request.args.get('card1')
+    card2 = request.args.get('card2')
+    conn = get_connection()
+    data = pd.read_sql(sqlalchemy.sql.text(f"select * from poker.two_player_game_odds where card_1 = '{card1}' and card_2 = '{card2}'"), conn)
+    conn.commit()
+    conn.close()
+    return data.iloc[0].to_json()
+
+
+def get_connection():
+    return sqlalchemy.create_engine(os.getenv("SUPABASE_CONN_STRING")).connect()
 
 
 if __name__ == '__main__':

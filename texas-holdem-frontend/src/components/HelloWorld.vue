@@ -36,6 +36,18 @@
       <li>
         Percentile: {{ perf.percentile }}%
       </li>
+      <li>
+        Sklasky Rank: {{ perf.sklansky }}
+      </li>
+      <li>
+        Sklasky Playability: {{ perf.sklansky_position }}
+      </li>
+      <li>
+        Modified Sklasky Rank: {{ perf.modified_sklansky }}
+      </li>
+      <li>
+        Modified Sklasky Playability: {{ perf.modified_sklansky_position }}
+      </li>
     </ul>
   </div>
 </template>

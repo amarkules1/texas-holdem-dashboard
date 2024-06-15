@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="selectors">
     <h1>{{ msg }}</h1>
     <h2>First Card</h2>
     <div class="cardSelector">
@@ -18,6 +18,7 @@
       </div>
     </div>
   </div>
+  <div class="statsContainer">
   <div class="stats">
     <h3>Hand Performance</h3>
     <ul>
@@ -37,18 +38,19 @@
         Percentile: {{ perf.percentile }}%
       </li>
       <li>
-        Sklasky Rank: {{ perf.sklansky }}
+        Sklansky Rank: {{ perf.sklansky }}
       </li>
       <li>
-        Sklasky Playability: {{ perf.sklansky_position }}
+        Sklansky Playability: {{ perf.sklansky_position }}
       </li>
       <li>
-        Modified Sklasky Rank: {{ perf.modified_sklansky }}
+        Modified Sklansky Rank: {{ perf.modified_sklansky }}
       </li>
       <li>
-        Modified Sklasky Playability: {{ perf.modified_sklansky_position }}
+        Modified Sklansky Playability: {{ perf.modified_sklansky_position }}
       </li>
     </ul>
+  </div>
   </div>
 </template>
 
@@ -56,7 +58,7 @@
 import axios from 'axios'
 
 export default {
-  name: 'HelloWorld',
+  name: 'HoleCards',
   data() {
     return {
       firstRank: "",
@@ -135,4 +137,25 @@ a {
 
 .cardImage {
   width: 100%;
-}</style>
+}
+.statsContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 130px;
+    z-index: 999;
+    background-color: white;
+    width: 100%;
+}
+
+.stats {
+    width: 100%;
+}
+
+.selectors {
+    height: 90%;
+    overflow-y: scroll;
+    position: fixed;
+    top: 130px;
+}
+</style>

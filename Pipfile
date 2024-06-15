@@ -39,6 +39,7 @@ statsmodels = "*"
 waitress = "*"
 scipy = "*"
 python-dotenv = "*"
+twine = "*"
 
 [dev-packages]
 

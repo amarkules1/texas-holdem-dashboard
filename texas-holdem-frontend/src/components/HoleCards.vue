@@ -10,7 +10,7 @@
       </div>
     </div>
     <h2>Second Card</h2>
-    <div class="cardSelector">
+    <div class="cardSelector" id="cardSelector2">
       <div v-for="suit in suits" :key="suit" class="suitRow">
         <div v-for="rank in ranks" :key="rank" :class="{card: true, selected: secondRank == rank && secondSuit == suit}" @click="selectSecondCard(rank, suit)">
           <img class="cardImage" :src="require(`../assets/cards/${suit}_${rank}.svg`)" alt="card" />
@@ -29,25 +29,25 @@
         Card #2: {{ perf.card_2 }}
       </li>
       <li>
-        Win Rate: {{ perf.win_rate }}
+        Win Rate: {{ perf.win_rate ? perf.win_rate.toFixed(3) : "N/A" }}
       </li>
       <li>
         Rank: {{ perf.rank }} of 2652
       </li>
       <li>
-        Percentile: {{ perf.percentile }}%
+        Percentile: {{ perf.percentile ? perf.percentile.toFixed(3) : "N/A" }}%
       </li>
       <li>
         Sklansky Rank: {{ perf.sklansky }}
       </li>
       <li>
-        Sklansky Playability: {{ perf.sklansky_position }}
+        Sklansky Playability: <strong>{{ perf.sklansky_position }}</strong>
       </li>
       <li>
         Modified Sklansky Rank: {{ perf.modified_sklansky }}
       </li>
       <li>
-        Modified Sklansky Playability: {{ perf.modified_sklansky_position }}
+        Modified Sklansky Playability: <strong>{{ perf.modified_sklansky_position }}</strong>
       </li>
     </ul>
   </div>
@@ -157,5 +157,9 @@ a {
     overflow-y: scroll;
     position: fixed;
     top: 130px;
+}
+
+#cardSelector2 {
+    margin-bottom: 50px;
 }
 </style>

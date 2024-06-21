@@ -23,16 +23,7 @@
     <h3>Hand Performance</h3>
     <ul>
       <li>
-        Card #1: {{ perf.card_1 }}
-      </li>
-      <li>
-        Card #2: {{ perf.card_2 }}
-      </li>
-      <li>
         Win Rate: {{ perf.win_rate ? perf.win_rate.toFixed(3) : "N/A" }}
-      </li>
-      <li>
-        Rank: {{ perf.rank }} of 2652
       </li>
       <li>
         Percentile: {{ perf.percentile ? perf.percentile.toFixed(3) : "N/A" }}%

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "0784f500923f5f00c3bfe1aa8b0d0e802f8f8c14d4a66f44860532908cb8487e"
+            "sha256": "e408047a2787f6b03bcae3bc731dbaeb2434d301bf846a2cf8ed7588e8df549e"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -278,11 +278,11 @@
         },
         "importlib-metadata": {
             "hashes": [
-                "sha256:30962b96c0c223483ed6cc7280e7f0199feb01a0e40cfae4d4450fc6fab1f570",
-                "sha256:b78938b926ee8d5f020fc4772d487045805a55ddbad2ecf21c6d60938dc7fcd2"
+                "sha256:04e4aad329b8b948a5711d394fa8759cb80f009225441b4f2a02bd4d8e5f426c",
+                "sha256:3ff4519071ed42740522d494d04819b666541b9752c43012f85afb2cc220fcc6"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==7.1.0"
+            "version": "==7.2.0"
         },
         "itsdangerous": {
             "hashes": [
@@ -655,11 +655,11 @@
         },
         "setuptools": {
             "hashes": [
-                "sha256:54faa7f2e8d2d11bcd2c07bed282eef1046b5c080d1c32add737d7b5817b1ad4",
-                "sha256:f211a66637b8fa059bb28183da127d4e86396c991a942b028c6650d4319c3fd0"
+                "sha256:01a1e793faa5bd89abc851fa15d0a0db26f160890c7102cd8dce643e886b47f5",
+                "sha256:d9b8b771455a97c8a9f3ab3448ebe0b29b5e105f1228bba41028be116985a267"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==70.0.0"
+            "version": "==70.1.0"
         },
         "six": {
             "hashes": [
@@ -745,6 +745,14 @@
             ],
             "index": "pypi",
             "version": "==0.14.2"
+        },
+        "texas-hold-em-utils": {
+            "hashes": [
+                "sha256:1b8ed50d21c36bdfac7e44bbd9e94e68dafe1cb9d08215678a66997a95c241c0",
+                "sha256:38224273bd28ff6fd0f57ca1db408004bd8ac70e3b42bb44ff99ae6c3c01a11d"
+            ],
+            "index": "pypi",
+            "version": "==0.0.4"
         },
         "twine": {
             "hashes": [

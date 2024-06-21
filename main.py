@@ -5,6 +5,7 @@ from dotenv import load_dotenv, find_dotenv
 import sqlalchemy
 import os
 import pandas as pd
+import texas_hold_em_utils.card as card
 
 
 # create console logger and file logger
@@ -32,10 +33,13 @@ def hello():
 
 @app.route("/card-stats", methods=['GET'])
 def card_stats():
-    card1 = request.args.get('card1')
-    card2 = request.args.get('card2')
+    card1 = card.Card().from_name(request.args.get('card1'))
+    card2 = card.Card().from_name(request.args.get('card2'))
+
     conn = get_connection()
-    data = pd.read_sql(sqlalchemy.sql.text(f"select * from poker.two_player_game_odds where card_1 = '{card1}' and card_2 = '{card2}'"), conn)
+    data = pd.read_sql(sqlalchemy.sql.text(f"select * from poker.two_player_hand_odds where "
+                                           f"card_1_rank = '{card1.rank}' and card_2_rank = '{card2.rank}' "
+                                           f"and {'' if card1.suit == card2.suit else 'not '}suited"), conn)
     conn.commit()
     conn.close()
     return data.iloc[0].to_json()

@@ -35,9 +35,10 @@ def hello():
 def card_stats():
     card1 = card.Card().from_name(request.args.get('card1'))
     card2 = card.Card().from_name(request.args.get('card2'))
+    player_count = request.args.get('player_count')
 
     conn = get_connection()
-    data = pd.read_sql(sqlalchemy.sql.text(f"select * from poker.two_player_hand_odds where "
+    data = pd.read_sql(sqlalchemy.sql.text(f"select * from poker.win_rates where player_count = {player_count} and "
                                            f"card_1_rank = '{card1.rank}' and card_2_rank = '{card2.rank}' "
                                            f"and {'' if card1.suit == card2.suit else 'not '}suited"), conn)
     conn.commit()

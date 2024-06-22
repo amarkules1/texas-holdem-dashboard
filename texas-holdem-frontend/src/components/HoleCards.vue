@@ -1,6 +1,10 @@
 <template>
   <div class="selectors">
-    <h1>{{ msg }}</h1>
+    <!-- <h1>{{ msg }}</h1> -->
+    <h2>Player Count</h2>
+    <select v-model="playerCount">
+      <option v-for="count in [2,3,4,5,6,7,8,9,10,11,12]" :key="count" :value="count">{{ count }}</option>
+    </select>
     <h2>First Card</h2>
     <div class="cardSelector">
       <div v-for="suit in suits" :key="suit" class="suitRow">
@@ -58,7 +62,8 @@ export default {
       secondSuit: "",
       ranks: ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'jack', 'queen', 'king', 'ace'],
       suits: ['clubs', 'diamonds', 'hearts', 'spades'],
-      perf: {}
+      perf: {},
+      playerCount: 2
     }
   },
   methods: {
@@ -88,7 +93,7 @@ export default {
       firstCardRank += ` of ${this.firstSuit.charAt(0).toUpperCase() + this.firstSuit.slice(1)}`
       secondCardRank += ` of ${this.secondSuit.charAt(0).toUpperCase() + this.secondSuit.slice(1)}`
 
-      const response = await axios.get(`http://localhost:5000/card-stats?card1=${firstCardRank}&card2=${secondCardRank}`)
+      const response = await axios.get(`http://localhost:5000/card-stats?card1=${firstCardRank}&card2=${secondCardRank}&player_count=${this.playerCount}`)
       this.perf = response.data
     }
   },

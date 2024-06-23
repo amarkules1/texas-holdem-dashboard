@@ -18,10 +18,10 @@ RUN apt-get update && apt-get install -y gcc libpq-dev && \
 COPY main.py .
 
 # Copy the mjb-tweet-frontend/dist directory to the same in the container
-COPY crypto-opportunity-front-end/dist crypto-opportunity-front-end/dist
+COPY texas-holdem-frontend/dist texas-holdem-frontend/dist
 
-# Expose port 5002
-EXPOSE 5002
+# Expose port 5003
+EXPOSE 5003
 
 # Command to run the application
-CMD ["waitress-serve", "--port=5002", "main:app"]
+CMD ["waitress-serve", "--port=5003", "main:app"]

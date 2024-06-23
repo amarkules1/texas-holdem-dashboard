@@ -93,7 +93,7 @@ export default {
       firstCardRank += ` of ${this.firstSuit.charAt(0).toUpperCase() + this.firstSuit.slice(1)}`
       secondCardRank += ` of ${this.secondSuit.charAt(0).toUpperCase() + this.secondSuit.slice(1)}`
 
-      const response = await axios.get(`http://localhost:5000/card-stats?card1=${firstCardRank}&card2=${secondCardRank}&player_count=${this.playerCount}`)
+      const response = await axios.get(`/card-stats?card1=${firstCardRank}&card2=${secondCardRank}&player_count=${this.playerCount}`)
       this.perf = response.data
     }
   },

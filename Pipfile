@@ -45,4 +45,4 @@ texas-hold-em-utils = "==0.0.4"
 [dev-packages]
 
 [requires]
-python_version = "3.10"
+python_version = "3.11"

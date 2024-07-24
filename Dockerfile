@@ -17,7 +17,7 @@ RUN apt-get update && apt-get install -y gcc libpq-dev && \
 # Copy main.py to the working directory
 COPY main.py .
 
-# Copy the mjb-tweet-frontend/dist directory to the same in the container
+# Copy texas-holdem-frontend/dist directory to the same in the container
 COPY texas-holdem-frontend/dist texas-holdem-frontend/dist
 
 # Expose port 5003

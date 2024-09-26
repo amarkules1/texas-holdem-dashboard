@@ -1,0 +1,7 @@
+- [ ] UI Makeover
+  - [ ] ability to select flop, turn, river cards
+  - [ ] selecting a card should disable it from the card selector for the next card
+  - [ ] cards should be displayed at the top of the page
+  - [ ] card selector should fit to screen
+  - [ ] selecting first card should move you to the second card, etc.
+  - [ ] back and reset buttons to navigate card selections

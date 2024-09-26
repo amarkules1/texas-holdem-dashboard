@@ -40,7 +40,7 @@ waitress = "*"
 scipy = "*"
 python-dotenv = "*"
 twine = "*"
-texas-hold-em-utils = "==0.0.4"
+texas-hold-em-utils = "==0.0.7"
 
 [dev-packages]
 

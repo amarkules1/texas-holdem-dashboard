@@ -1,15 +1,18 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
   <HoleCards/>
+  <!-- <CardStatsContainer/> -->
 </template>
 
 <script>
 import HoleCards from './components/HoleCards.vue'
+// import CardStatsContainer from './components/CardStatsContainer.vue'
 
 export default {
   name: 'App',
   components: {
     HoleCards
+    // CardStatsContainer
   }
 }
 </script>

@@ -1,7 +1,11 @@
 - [ ] UI Makeover
-  - [ ] ability to select flop, turn, river cards
-  - [ ] selecting a card should disable it from the card selector for the next card
-  - [ ] cards should be displayed at the top of the page
-  - [ ] card selector should fit to screen
+  - [x] ability to select flop, turn, river cards
+  - [x] selecting a card should disable it from the card selector for the next card
+  - [x] cards should be displayed at the top of the page
   - [ ] selecting first card should move you to the second card, etc.
   - [ ] back and reset buttons to navigate card selections
+  - [ ] Add stats to new UI
+  - [ ] Add some bootstrap flair/mobile responsiveness
+  - [ ] Add animation and loading for card selection
+  - [ ] Add player count selection
+  - [ ] Put the players around an actual table

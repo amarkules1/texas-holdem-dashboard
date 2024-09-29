@@ -1,11 +1,5 @@
 <template>
-    <div class="cardsDisplay">
-        <div class="cards">
-            <div v-for="card in cards" :key="card.rank + card.suit" class="card">
-                <img class="cardImage" :src="require(`../assets/cards/${card.suit}_${card.rank}.svg`)" alt="card" />
-            </div>
-        </div>
-    </div>
+    <SelectedCards :holeCards="holeCards" :communityCards="communityCards" />
     <div class="cardSelectionHolder">
         <CardSelector :disabledCards="cards" @selectCard="(rank, suit) => selectCard(rank, suit)" />
     </div>
@@ -13,11 +7,13 @@
 
 <script>
 import CardSelector from './CardSelector.vue'
+import SelectedCards from './SelectedCards.vue'
 
 export default {
     name: 'CardStatsContainer',
     components: {
-        CardSelector
+        CardSelector,
+        SelectedCards
     },
     data() {
         return {

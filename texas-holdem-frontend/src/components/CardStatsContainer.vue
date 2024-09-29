@@ -1,7 +1,7 @@
 <template>
     <SelectedCards :holeCards="holeCards" :communityCards="communityCards" />
-    <div class="cardSelectionHolder">
-        <CardSelector :disabledCards="cards" @selectCard="(rank, suit) => selectCard(rank, suit)" />
+    <div class="cardSelectionHolder" v-if="cards.length < 7">
+        <CardSelector :cardToSelect="getCardName()" :disabledCards="cards" @selectCard="(rank, suit) => selectCard(rank, suit)" />
     </div>
 </template>
 
@@ -19,7 +19,14 @@ export default {
         return {
             holeCards: [],
             communityCards: [],
-            cards: []
+            cards: [],
+            selections: ["First Hole Card", 
+                        "Second Hole Card", 
+                        "First Flop Card", 
+                        "Second Flop Card", 
+                        "Third Flop Card", 
+                        "Turn Card", 
+                        "River Card"]
         }
     },
     methods: {
@@ -30,6 +37,10 @@ export default {
                 this.communityCards.push({ "rank": rank, "suit": suit })
             }
             this.cards.push({ "rank": rank, "suit": suit })
+        },
+
+        getCardName() {
+            return this.selections[this.cards.length]
         }
     }
 }

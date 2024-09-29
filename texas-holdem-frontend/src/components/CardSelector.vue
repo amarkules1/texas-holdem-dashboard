@@ -1,5 +1,8 @@
 <template>
+  <!-- try to make this work https://vuejs.org/guide/built-ins/transition  -->
+  <Transition>
   <div class="cardSelector">
+    <h3>Select the {{ cardToSelect }}</h3>
     <div v-for="suit in suits" :key="suit" class="suitRow">
       <div 
         v-for="rank in ranks" 
@@ -11,6 +14,8 @@
       </div>
     </div>
   </div>
+    
+  </Transition>
 </template>
 
 
@@ -30,6 +35,10 @@ export default {
     "disabledCards": {
       type: Array,
       default: () => []
+    },
+    "cardToSelect": {
+      type: String,
+      default: ""
     }
   },
   methods: {
@@ -61,5 +70,17 @@ export default {
 
 .cardImage {
   width: 100%;
+}
+.cardSelector {
+  margin-top: 20px;
+}
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 1s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
 }
 </style>

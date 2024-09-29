@@ -1,13 +1,13 @@
 <template>
     <div class="cardsDisplay">
         <div class="cards">
-            <div class="holeCards">
+            <div class="holeCards" v-if="holeCards.length > 0">
                 <h2>Hole Cards</h2>
                 <div v-for="card in holeCards" :key="card.rank + card.suit" class="card">
                     <img class="cardImage" :src="require(`../assets/cards/${card.suit}_${card.rank}.svg`)" alt="card" />
                 </div>
             </div>
-            <div class="communityCards">
+            <div class="communityCards" v-if="communityCards.length > 0">
                 <h2>Community Cards</h2>
                 <div v-for="card in communityCards" :key="card.rank + card.suit" class="card">
                     <img class="cardImage" :src="require(`../assets/cards/${card.suit}_${card.rank}.svg`)" alt="card" />

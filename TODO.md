@@ -2,7 +2,7 @@
   - [x] ability to select flop, turn, river cards
   - [x] selecting a card should disable it from the card selector for the next card
   - [x] cards should be displayed at the top of the page
-  - [ ] selecting first card should move you to the second card, etc.
+  - [x] selecting first card should move you to the second card, etc.
   - [ ] back and reset buttons to navigate card selections
   - [ ] Add stats to new UI
   - [ ] Add some bootstrap flair/mobile responsiveness

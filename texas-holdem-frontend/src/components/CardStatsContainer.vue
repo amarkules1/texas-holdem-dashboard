@@ -1,5 +1,9 @@
 <template>
     <SelectedCards :holeCards="holeCards" :communityCards="communityCards" />
+    <div class="buttonBar">
+      <button @click="backButton">Back</button>
+      <button @click="reset">Reset</button>
+    </div>
     <div class="cardSelectionHolder" v-if="cards.length < 7">
         <CardSelector :cardToSelect="getCardName()" :disabledCards="cards" @selectCard="(rank, suit) => selectCard(rank, suit)" />
     </div>
@@ -41,6 +45,21 @@ export default {
 
         getCardName() {
             return this.selections[this.cards.length]
+        },
+        backButton() {
+            if (this.cards.length > 0) {
+                this.cards.pop()
+            }
+            if (this.communityCards.length > 0) {
+                this.communityCards.pop()
+            } else if (this.holeCards.length > 0) {
+                this.holeCards.pop()
+            }
+        },
+        reset () {
+            this.cards = []
+            this.holeCards = []
+            this.communityCards = []
         }
     }
 }

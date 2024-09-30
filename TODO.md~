@@ -4,7 +4,7 @@
   - [x] cards should be displayed at the top of the page
   - [x] selecting first card should move you to the second card, etc.
   - [x] back and reset buttons to navigate card selections
-  - [x] Add stats to new UI
+  - [ ] Add stats to new UI
   - [ ] Add some bootstrap flair/mobile responsiveness
     - [ ] Fly in transition for card selector
     - [ ] make selected card display constant size and take up a reasonable amount of space

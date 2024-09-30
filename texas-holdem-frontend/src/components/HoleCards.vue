@@ -1,6 +1,5 @@
 <template>
   <div class="selectors">
-    <!-- <h1>{{ msg }}</h1> -->
     <h2>Player Count</h2>
     <select v-model="playerCount">
       <option v-for="count in [2,3,4,5,6,7,8,9,10,11,12]" :key="count" :value="count">{{ count }}</option>
@@ -81,6 +80,7 @@ export default {
         this.getHandPerformance()
       }
     },
+
     async getHandPerformance() {
       let firstCardRank = this.firstRank
       let secondCardRank = this.secondRank

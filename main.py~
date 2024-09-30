@@ -54,6 +54,7 @@ def card_stats():
     # check if river is provided
     if 'river' in request.args.keys():
         community_cards.append(card.Card().from_name(request.args.get('river')))
+    print(card1.name(), card2.name(), player_count)
     data = preflop_stats_repo.get_win_rate(card1.rank, card2.rank, card1.suit == card2.suit, player_count)
     if len(community_cards) > 0:
         wins, losses, ties = rank_hand([card1, card2], community_cards)

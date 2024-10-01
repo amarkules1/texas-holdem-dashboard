@@ -5,9 +5,12 @@
   - [x] selecting first card should move you to the second card, etc.
   - [x] back and reset buttons to navigate card selections
   - [x] Add stats to new UI
+  - [x] Add player count selection
+  - [ ] Adjust current win rate to account for the number of players
   - [ ] Add some bootstrap flair/mobile responsiveness
     - [ ] Fly in transition for card selector
-    - [ ] make selected card display constant size and take up a reasonable amount of space
-  - [ ] Add animation and loading for card selection
-  - [ ] Add player count selection
+    - [ ] Make everything fit together nicely
+    - [ ] use bootstrap buttons
+    - [ ] Add background
+  - [ ] Add loading for card selection and stats
   - [ ] Put the players around an actual table

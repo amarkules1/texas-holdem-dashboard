@@ -3,6 +3,13 @@
     <div v-if="perf">
         <StatsDisplay :perf="perf" />
     </div>
+    <div>
+        <label for="playerCount">Player Count: </label>
+        <select v-model="playerCount" @change="getHandPerformance">
+      <option v-for="count in [2,3,4,5,6,7,8,9,10,11,12]" :key="count" :value="count">{{ count }}</option>
+    </select>
+    </div>
+    
     <div class="buttonBar">
         <button @click="backButton">Back</button>
         <button @click="reset">Reset</button>

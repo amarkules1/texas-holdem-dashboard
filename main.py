@@ -9,7 +9,7 @@ import os
 import pandas as pd
 import texas_hold_em_utils.card as card
 from texas_hold_em_utils.preflop_stats_repository import PreflopStatsRepository
-from texas_hold_em_utils.relative_ranking import rank_hand
+from texas_hold_em_utils.relative_ranking import rank_hand, get_hand_stats
 
 # create console logger and file logger
 
@@ -58,6 +58,10 @@ def card_stats():
     if len(community_cards) > 0:
         wins, losses, ties = rank_hand([card1, card2], community_cards)
         data['current_win_rate'] = (wins + (ties / int(player_count))) / (wins + losses + ties)
+        stats = get_hand_stats([card1, card2], community_cards, int(player_count))
+        stats['current_win_rate'] = stats['win_rate']
+        del stats['win_rate']
+        data.update(stats)
     else:
         data['current_win_rate'] = data['win_rate']
     # Flask seems to convert the dict to a string, series.to_json() worked before so there you go)

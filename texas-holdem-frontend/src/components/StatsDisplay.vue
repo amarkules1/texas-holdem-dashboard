@@ -4,7 +4,7 @@
     <h3>Hand Performance</h3>
     <ul>
       <li>
-        Pre-Flop Win Rate: {{ perf.win_rate ? perf.win_rate.toFixed(3) : "N/A" }}
+        Pre-Flop Win Rate: {{ perf.preflop_win_rate ? perf.win_rate.toFixed(3) : "N/A" }}
       </li>
       <li>
         Current Win Rate: {{ perf.current_win_rate ? perf.current_win_rate.toFixed(3) : "N/A" }}

@@ -11,8 +11,8 @@
     </div>
     
     <div class="buttonBar">
-        <button @click="backButton">Back</button>
-        <button @click="reset">Reset</button>
+        <button @click="backButton" class="btn btn-info">Back</button>
+        <button @click="reset" class="btn btn-warning">Reset</button>
     </div>
     <div class="cardSelectionHolder" v-if="cards.length < 7">
         <CardSelector :cardToSelect="getCardName()" :disabledCards="cards"

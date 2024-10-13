@@ -41,9 +41,8 @@ export default {
     width: 125px;
 }
 
-.cardDisplay {
-    display: flex;
-    justify-content: center;
+.cardsDisplay {
+    height:260px;
 }
 
 .cardImage {

@@ -88,7 +88,7 @@ export default {
             if (this.cards.length < 2) {
                 return
             }
-            let queryString = "/card-stats?"
+            let queryString = process.env.VUE_APP_REST_ENDPOINT + "/card-stats?"
             queryString += `card1=${this.getCardNameForBackend(this.cards[0].rank, this.cards[0].suit)}`
             queryString += `&card2=${this.getCardNameForBackend(this.cards[1].rank, this.cards[1].suit)}`
 

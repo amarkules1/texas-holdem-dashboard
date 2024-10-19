@@ -55,9 +55,10 @@ export default {
 <style scoped>
 .card {
   display: inline-block;
-  margin: 5px 10px;
-  width: 4%;
+  margin: 5px 0.25%;
+  width: 5%;
   border: 1px solid black;
+  min-width: 30px;
 }
 
 .disabled {

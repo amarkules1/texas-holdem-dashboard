@@ -1,10 +1,10 @@
 <template>
     <div class="container">
         <div class="row">
-            <div class="col-sm">
+            <div class="col-4">
                 <button @click="backButton" class="btn btn-info back-btn">Back</button>
             </div>
-            <div class="col-sm">
+            <div class="col-4">
                 <div class="playerCtInput">
                     <label for="playerCount">Player Count: </label>
                     <select v-model="playerCount" @change="getHandPerformance" class="form-select playerCtSelect">
@@ -14,7 +14,7 @@
                     </select>
                 </div>
             </div>
-            <div class="col-sm">
+            <div class="col-4">
                 <button @click="reset" class="btn btn-warning reset-btn">Reset</button>
             </div>
             

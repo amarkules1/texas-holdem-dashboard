@@ -22,9 +22,30 @@
             <div class="info-text">
                 <h3>Instructions</h3>
                 <p>Welcome to Texas Hold'em! This dashboard provides statistics about your poker hand at any point in the game.
-                    It provides details like the current win rate and parcentile, as well as the Sklansky ranking for your hole cards.
-                    The "Modified Sklansky" values are based on a set of game simulations that I used to recalculate Sklansky rankings. YMMV.
-                </p>
+                    <br/>
+                    To see stats about a particular scenario, select your hole (hand) cards and any known community cards. 
+                    The following statistics will be displayed:</p>
+                    <ul class="info-descriptions list-group">
+                        <li class="list-group-item">
+                            <strong>Current Win Rate:</strong> Expected win rate against (as a proportion) random hands, based on the number of players, your hand, and any known community cards.
+                        </li>
+                        <li class="list-group-item">
+                            <strong>Percentile:</strong> Relative ranking (as a percent) against all other hands at the current point. Does not consider the number of other players.
+                        </li>
+                        <li class="list-group-item">
+                            <strong>Sklansky Rank:</strong> Number from 1 to 9 indicating the strength of your hand pre-flop, based on <a href="https://en.wikipedia.org/wiki/Texas_hold_%27em_starting_hands#Sklansky_hand_groups">Sklansky Hand Groups</a>.
+                        </li>
+                        <li class="list-group-item">
+                            <strong>Sklansky Position:</strong> Description of the Sklansky hand rank.
+                        </li>
+                        <li class="list-group-item">
+                            <strong>Modified Sklansky Rank:</strong> Adjusted version of the Sklansky hand rank based on simulated games.
+                        </li>
+                        <li class="list-group-item">
+                            <strong>Modified Sklansky Position:</strong> Description of the modified Sklansky hand rank.
+                        </li>
+                    </ul>
+                    <br/>
                 <p>Author: <a href="http://marqless.xyz">Alex Markules</a></p>
             </div>
 
@@ -78,11 +99,11 @@ const showInfo = ref(false)
 .info-container {
     border: 3px solid #fff;
     border-radius: 10px;
-    width: 50%;
+    width: 70%;
     background-color: #000;
     position: fixed;
     top: 25%;
-    left: 25%;
+    left: 15%;
     opacity: 1;
     z-index: 1000;
 }
@@ -97,8 +118,10 @@ const showInfo = ref(false)
     transition: opacity 0.3s;
 }
 .info-text{
-    margin: 20px;
+    margin: 40px 10px 10px 10px;
     padding: 20px;
     color: #fff;
+    overflow: auto;
+    max-height: 400px;
 }
 </style>

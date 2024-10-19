@@ -19,10 +19,10 @@
           <div>
             <div class="row">
               <div class="col-sm">
-                <h5>Sklansky Playability: {{ perf.sklansky_position }}</h5>
+                <h5>Percentile: {{ perf.percentile ? perf.percentile.toFixed(3) : "N/A" }}%</h5>
               </div>
               <div class="col-sm">
-                <h5>Percentile: {{ perf.percentile ? perf.percentile.toFixed(3) : "N/A" }}%</h5>
+                <h5>Sklansky Playability: {{ perf.sklansky_position }}</h5>
               </div>
               <div class="col-sm">
                 <h5>Modified Sklansky Playability: {{ perf.modified_sklansky_position }}</h5>

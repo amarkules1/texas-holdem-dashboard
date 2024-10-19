@@ -6,11 +6,10 @@
   - [x] back and reset buttons to navigate card selections
   - [x] Add stats to new UI
   - [x] Add player count selection
-  - [ ] Adjust current win rate to account for the number of players
-  - [ ] Add some bootstrap flair/mobile responsiveness
-    - [ ] Fly in transition for card selector
-    - [ ] Make everything fit together nicely
-    - [ ] use bootstrap buttons
-    - [ ] Add background
+  - [x] Adjust current win rate to account for the number of players
+  - [x] Add some bootstrap flair/mobile responsiveness
+    - [x] Make everything fit together nicely
+    - [x] use bootstrap buttons
+    - [x] Add background
   - [ ] Add loading for card selection and stats
   - [ ] Put the players around an actual table

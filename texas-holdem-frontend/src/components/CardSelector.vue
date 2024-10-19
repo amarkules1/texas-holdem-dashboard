@@ -56,7 +56,7 @@ export default {
 .card {
   display: inline-block;
   margin: 5px 0.25%;
-  width: 5%;
+  width: 4%;
   border: 1px solid black;
   min-width: 30px;
 }

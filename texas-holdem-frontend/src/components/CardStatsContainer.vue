@@ -23,7 +23,7 @@
     <div>
 
         <SelectedCards :holeCards="holeCards" :communityCards="communityCards" />
-        <div v-if="perf">
+        <div>
             <StatsDisplay :perf="perf" />
         </div>
 

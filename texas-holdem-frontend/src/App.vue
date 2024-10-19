@@ -1,18 +1,17 @@
 <template>
-  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-  <!-- <HoleCards/> -->
+  <HeaderComponent/>
   <CardStatsContainer/>
 </template>
 
 <script>
-// import HoleCards from './components/HoleCards.vue'
 import CardStatsContainer from './components/CardStatsContainer.vue'
+import HeaderComponent from './components/HeaderComponent.vue';
 
 export default {
   name: 'App',
   components: {
-    // HoleCards
-    CardStatsContainer
+    CardStatsContainer,
+    HeaderComponent
   }
 }
 </script>
@@ -30,9 +29,10 @@ export default {
 }
 body {
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   margin: 0; 
   display: flex;
-  background-color: #333;
+  background-color: #333 !important;
+  min-height: 100vh;
 }
 </style>

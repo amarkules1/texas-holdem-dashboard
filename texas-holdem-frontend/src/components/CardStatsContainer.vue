@@ -1,22 +1,38 @@
 <template>
-    <SelectedCards :holeCards="holeCards" :communityCards="communityCards" />
-    <div v-if="perf">
-        <StatsDisplay :perf="perf" />
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <button @click="backButton" class="btn btn-info back-btn">Back</button>
+            </div>
+            <div class="col-sm">
+                <div class="playerCtInput">
+                    <label for="playerCount">Player Count: </label>
+                    <select v-model="playerCount" @change="getHandPerformance" class="form-select playerCtSelect">
+                        <option v-for="count in [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]" :key="count"
+                            :value="count">{{ count }}
+                        </option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-sm">
+                <button @click="reset" class="btn btn-warning reset-btn">Reset</button>
+            </div>
+            
+        </div>
     </div>
     <div>
-        <label for="playerCount">Player Count: </label>
-        <select v-model="playerCount" @change="getHandPerformance">
-      <option v-for="count in [2,3,4,5,6,7,8,9,10,11,12]" :key="count" :value="count">{{ count }}</option>
-    </select>
-    </div>
-    
-    <div class="buttonBar">
-        <button @click="backButton" class="btn btn-info">Back</button>
-        <button @click="reset" class="btn btn-warning">Reset</button>
-    </div>
-    <div class="cardSelectionHolder" v-if="cards.length < 7">
-        <CardSelector :cardToSelect="getCardName()" :disabledCards="cards"
-            @selectCard="(rank, suit) => selectCard(rank, suit)" />
+
+        <SelectedCards :holeCards="holeCards" :communityCards="communityCards" />
+        <div v-if="perf">
+            <StatsDisplay :perf="perf" />
+        </div>
+
+
+
+        <div class="cardSelectionHolder" v-if="cards.length < 7">
+            <CardSelector :cardToSelect="getCardName()" :disabledCards="cards"
+                @selectCard="(rank, suit) => selectCard(rank, suit)" />
+        </div>
     </div>
 </template>
 
@@ -125,18 +141,19 @@ export default {
 </script>
 
 <style scoped>
-.card {
-    display: inline-block;
-    margin: 5px 10px;
-    width: 10%;
-    border: 1px solid black;
+.buttonBar {
+    height: 50px;
 }
 
-.cardDisplay {
-    display: flex;
-    justify-content: center;
+.back-btn {
+    margin: 5%;
 }
 
-.cardImage {
-    width: 100%;
-}</style>
+.reset-btn {
+    margin: 5%;
+}
+.playerCtSelect{
+    max-width: 100px;
+    margin:auto;
+}
+</style>

@@ -1,16 +1,26 @@
 <template>
     <div class="cardsDisplay">
         <div class="cards">
-            <div class="holeCards" v-if="holeCards.length > 0">
-                <h2>Hole Cards</h2>
-                <div v-for="card in holeCards" :key="card.rank + card.suit" class="card">
-                    <img class="cardImage" :src="require(`../assets/cards/${card.suit}_${card.rank}.svg`)" alt="card" />
+            <div class="holeCards" >
+                <h4>Hole Cards</h4>
+                <div v-for="i in [0,1]" :key="i" class="playingCard" >
+                    <div class="noshow" v-if="i < holeCards.length">
+                        <img class="cardImage" :src="require(`../assets/cards/${holeCards[i].suit}_${holeCards[i].rank}.svg`)" alt="card" />
+                    </div>
+                    <div class="noshow" v-else>
+                        <img class="cardImage" :src="require(`../assets/cards/gray.svg`)" alt="card" />
+                    </div> 
                 </div>
             </div>
-            <div class="communityCards" v-if="communityCards.length > 0">
-                <h2>Community Cards</h2>
-                <div v-for="card in communityCards" :key="card.rank + card.suit" class="card">
-                    <img class="cardImage" :src="require(`../assets/cards/${card.suit}_${card.rank}.svg`)" alt="card" />
+            <div class="communityCards">
+                <h4>Community Cards</h4>
+                <div v-for="i in [0,1,2,3,4]" :key="i" class="playingCard" >
+                    <div class="noshow" v-if="i < communityCards.length">
+                        <img class="cardImage" :src="require(`../assets/cards/${communityCards[i].suit}_${communityCards[i].rank}.svg`)" alt="card" />
+                    </div>
+                    <div v-else>
+                        <img class="cardImage" :src="require(`../assets/cards/gray.svg`)" alt="card" />
+                    </div> 
                 </div>
             </div>
         </div>
@@ -35,27 +45,31 @@ export default {
 </script>
 
 <style scoped>
-.card {
+.playingCard {
     display: inline-block;
-    margin: 5px 10px;
-    width: 125px;
+    margin: 10px;
 }
 
 .cardsDisplay {
-    height:260px;
+    /* height:160px; */
 }
 
-.cardImage {
-    width: 100%;
-}
 
 .holeCards {
     display: inline-block;
-    width: 33%;
+    width: 300px;
 }
 
 .communityCards {
     display: inline-block;
-    width: 50%;
+    max-width: 500px;
 }
+
+.cardImage {
+    height:80px;
+    margin: 0px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
 </style>

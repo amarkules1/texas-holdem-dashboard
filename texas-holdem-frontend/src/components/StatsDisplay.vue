@@ -1,38 +1,53 @@
 <template>
-    <div class="statsContainer">
-  <div class="stats">
-    <h3>Hand Performance</h3>
-    <ul>
-      <li>
-        Pre-Flop Win Rate: {{ perf.preflop_win_rate ? perf.win_rate.toFixed(3) : "N/A" }}
-      </li>
-      <li>
-        Current Win Rate: {{ perf.current_win_rate ? perf.current_win_rate.toFixed(3) : "N/A" }}
-      </li>
-      <li>
-        Percentile: {{ perf.percentile ? perf.percentile.toFixed(3) : "N/A" }}%
-      </li>
-      <li>
-        Sklansky Rank: {{ perf.sklansky }}
-      </li>
-      <li>
-        Sklansky Playability: <strong>{{ perf.sklansky_position }}</strong>
-      </li>
-      <li>
-        Modified Sklansky Rank: {{ perf.modified_sklansky }}
-      </li>
-      <li>
-        Modified Sklansky Playability: <strong>{{ perf.modified_sklansky_position }}</strong>
-      </li>
-    </ul>
-  </div>
+  <div class="statsDisplay">
+    <div class="stats">
+      <div class="container statsContainer">
+        <div>
+          <div class="row">
+            <div class="col-sm">
+              <h5>Current Win Rate: {{ perf.current_win_rate ? perf.current_win_rate.toFixed(3) : "N/A" }}</h5>
+            </div>
+            <div class="col-sm">
+              <h5>Sklansky Rank: {{ perf.sklansky }}</h5>
+            </div>
+            <div class="col-sm">
+              <h5>Modified Sklansky Rank: {{ perf.modified_sklansky }}</h5>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="row">
+            <div class="col-sm">
+              <h5>Sklansky Playability: {{ perf.sklansky_position }}</h5>
+            </div>
+            <div class="col-sm">
+              <h5>Percentile: {{ perf.percentile ? perf.percentile.toFixed(3) : "N/A" }}%</h5>
+            </div>
+            <div class="col-sm">
+              <h5>Modified Sklansky Playability: {{ perf.modified_sklansky_position }}</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 <script>
 export default {
-    name: 'StatsDisplay',
-    props: {
-        perf: Object
-    }
+  name: 'StatsDisplay',
+  props: {
+    perf: Object
+  }
 }
 </script>
+
+<style scoped>
+.statsContainer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.statsDisplay {
+  display: flex;
+  justify-content: center;
+}
+</style>

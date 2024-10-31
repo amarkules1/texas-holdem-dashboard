@@ -67,7 +67,7 @@ def card_stats():
     data = preflop_stats_repo.get_win_rate(card1.rank, card2.rank, card1.suit == card2.suit, player_count)
     data['preflop_win_rate'] = data['win_rate']
 
-    hand_stats = get_hand_rank_details([card1, card2], community_cards, int(player_count))
+    hand_stats = get_hand_rank_details([card1, card2], community_cards, int(player_count), 3000)
     data['current_win_rate'] = hand_stats['expected_win_rate']
     data['percentile'] = hand_stats['percentile']
 

@@ -70,6 +70,7 @@ def card_stats():
     hand_stats = get_hand_rank_details([card1, card2], community_cards, int(player_count), 3000)
     data['current_win_rate'] = hand_stats['expected_win_rate']
     data['percentile'] = hand_stats['percentile']
+    data['ideal_kelly_max'] = hand_stats['ideal_kelly_max']
 
     # Flask seems to convert the dict to a string, series.to_json() worked before so there you go)
     return pd.Series(data=data).to_json()

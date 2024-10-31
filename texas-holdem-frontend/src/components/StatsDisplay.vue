@@ -9,10 +9,10 @@
                 <h5>Current Win Rate: {{ perf.current_win_rate ? perf.current_win_rate.toFixed(3) : "N/A" }}</h5>
               </div>
               <div class="col-sm">
-                <h5>Sklansky Rank: {{ perf.sklansky }}</h5>
+                <h5>Ideal Kelly Max: {{ perf.ideal_kelly_max }}</h5>
               </div>
               <div class="col-sm">
-                <h5>Modified Sklansky Rank: {{ perf.modified_sklansky }}</h5>
+                <h5>Sklansky Rank: {{ perf.sklansky }}</h5>
               </div>
             </div>
           </div>
@@ -25,7 +25,7 @@
                 <h5>Sklansky Playability: {{ perf.sklansky_position }}</h5>
               </div>
               <div class="col-sm">
-                <h5>Modified Sklansky Playability: {{ perf.modified_sklansky_position }}</h5>
+                <h5>Sklansky Playability: {{ perf.sklansky_position }}</h5>
               </div>
             </div>
           </div>

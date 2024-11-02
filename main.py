@@ -1,6 +1,4 @@
-import json
-
-from flask import Flask, request, redirect, jsonify
+from flask import Flask, request, redirect
 from flask_cors import CORS
 import logging
 from dotenv import load_dotenv, find_dotenv
@@ -74,10 +72,6 @@ def card_stats():
 
     # Flask seems to convert the dict to a string, series.to_json() worked before so there you go)
     return pd.Series(data=data).to_json()
-
-
-def get_connection():
-    return sqlalchemy.create_engine(os.getenv("DATABASE_CONN_STRING")).connect()
 
 
 if __name__ == '__main__':

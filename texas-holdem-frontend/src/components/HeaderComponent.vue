@@ -50,9 +50,7 @@
                     <br/>
                 <p>Author: <a href="http://marqless.xyz">Alex Markules</a></p>
             </div>
-
         </div>
-
     </div>
 </template>
 

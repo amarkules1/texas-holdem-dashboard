@@ -17,14 +17,13 @@
             <div class="col-4">
                 <button @click="reset" class="btn btn-warning reset-btn">Reset</button>
             </div>
-            
         </div>
     </div>
     <div>
 
         <SelectedCards :holeCards="holeCards" :communityCards="communityCards" />
         <div>
-            <StatsDisplay :perf="perf" />
+            <StatsDisplay :perf="perf" :card-count="cards.length" />
         </div>
 
 

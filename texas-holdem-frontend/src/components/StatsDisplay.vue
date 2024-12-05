@@ -9,17 +9,17 @@
                 <h5>Current Win Rate: {{ perf.current_win_rate ? perf.current_win_rate.toFixed(3) : "N/A" }}</h5>
               </div>
               <div class="col-sm">
-                <h5>Ideal Kelly Max: {{ (100 * perf.ideal_kelly_max).toFixed(3) }}%</h5>
+                <h5>Kelly Criterion: {{perf.ideal_kelly_max > 0 ? (100 * perf.ideal_kelly_max).toFixed(3) : 0.0 }}%</h5>
               </div>
               <div class="col-sm">
-                <h5>Sklansky Rank: {{ perf.sklansky }}</h5>
+                <h5>Percentile: {{ perf.percentile ? perf.percentile.toFixed(3) : "N/A" }}%</h5>
               </div>
             </div>
           </div>
           <div>
-            <div class="row">
+            <div class="row" v-if="cardCount < 5">
               <div class="col-sm">
-                <h5>Percentile: {{ perf.percentile ? perf.percentile.toFixed(3) : "N/A" }}%</h5>
+                <h5>Sklansky Rank: {{ perf.sklansky }}</h5>
               </div>
               <div class="col-sm">
               </div>
@@ -37,7 +37,8 @@
 export default {
   name: 'StatsDisplay',
   props: {
-    perf: Object
+    perf: Object,
+    cardCount: Number
   }
 }
 </script>

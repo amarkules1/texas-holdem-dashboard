@@ -11,6 +11,7 @@
   - [x] use bootstrap buttons
   - [x] Add background
 - [ ] Add loading for card selection and stats
+- [ ] Add google analytics tile
 - [ ] Make cards load before page finishes loading (and cache them?)
 - [ ] fix site title and logo
 - [ ] add output router

@@ -8,8 +8,8 @@
                 <div class="playerCtInput">
                     <label for="playerCount">Player Count: </label>
                     <select v-model="playerCount" @change="getHandPerformance" class="form-select playerCtSelect">
-                        <option v-for="count in [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]" :key="count"
-                            :value="count">{{ count }}
+                        <option v-for="count in [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]" :key="count" :value="count">{{
+                            count }}
                         </option>
                     </select>
                 </div>
@@ -22,15 +22,20 @@
     <div>
 
         <SelectedCards :holeCards="holeCards" :communityCards="communityCards" />
-        <div>
+        <div v-if="cards.length >= 2 && !loadingStats">
             <StatsDisplay :perf="perf" :card-count="cards.length" />
         </div>
 
 
 
-        <div class="cardSelectionHolder" v-if="cards.length < 7">
+        <div class="cardSelectionHolder" v-if="cards.length < 7 && !loadingStats">
             <CardSelector :cardToSelect="getCardName()" :disabledCards="cards"
                 @selectCard="(rank, suit) => selectCard(rank, suit)" />
+        </div>
+        <div v-if="loadingStats">
+            <div class="spinner-border" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
         </div>
     </div>
 </template>
@@ -61,7 +66,8 @@ export default {
                 "Second Flop Card",
                 "Third Flop Card",
                 "Turn Card",
-                "River Card"]
+                "River Card"],
+            loadingStats: false
         }
     },
     methods: {
@@ -122,9 +128,10 @@ export default {
             }
 
             queryString += `&player_count=${this.playerCount}`
-
+            this.loadingStats = true
             const response = await axios.get(queryString)
             this.perf = response.data
+            this.loadingStats = false
         },
 
         getCardNameForBackend(rank, suit) {
@@ -151,8 +158,9 @@ export default {
 .reset-btn {
     margin: 5%;
 }
-.playerCtSelect{
+
+.playerCtSelect {
     max-width: 100px;
-    margin:auto;
+    margin: auto;
 }
 </style>

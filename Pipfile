@@ -16,6 +16,8 @@ twine = "*"
 texas-hold-em-utils = "==0.1.7"
 werkzeug = "==2.2.2"
 sqlalchemy = "==2.0.1"
+greenlet = "*"
+gunicorn = "*"
 
 [dev-packages]
 

@@ -12,6 +12,6 @@ Install dependencies: `pipenv install --dev`
 
 run app: `pipenv run flask --app main:app run`
 
-regen requirements.txt after adding a dependency: `pipenv lock -r > requirements.txt`
+regen requirements.txt after adding a dependency: `pipenv requirements > requirements.txt`
 
 regenerate frontend assets (from `/texas-holdem-front-end`): `npm i && npm run build`

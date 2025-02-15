@@ -1,15 +1,21 @@
-- [ ] UI Makeover
-  - [x] ability to select flop, turn, river cards
-  - [x] selecting a card should disable it from the card selector for the next card
-  - [x] cards should be displayed at the top of the page
-  - [x] selecting first card should move you to the second card, etc.
-  - [x] back and reset buttons to navigate card selections
-  - [x] Add stats to new UI
-  - [x] Add player count selection
-  - [x] Adjust current win rate to account for the number of players
-  - [x] Add some bootstrap flair/mobile responsiveness
-    - [x] Make everything fit together nicely
-    - [x] use bootstrap buttons
-    - [x] Add background
-  - [ ] Add loading for card selection and stats
-  - [ ] Put the players around an actual table
+- [x] ability to select flop, turn, river cards
+- [x] selecting a card should disable it from the card selector for the next card
+- [x] cards should be displayed at the top of the page
+- [x] selecting first card should move you to the second card, etc.
+- [x] back and reset buttons to navigate card selections
+- [x] Add stats to new UI
+- [x] Add player count selection
+- [x] Adjust current win rate to account for the number of players
+- [x] Add some bootstrap flair/mobile responsiveness
+  - [x] Make everything fit together nicely
+  - [x] use bootstrap buttons
+  - [x] Add background
+- [ ] Add loading for card selection and stats
+- [ ] Make cards load before page finishes loading (and cache them?)
+- [ ] fix site title and logo
+- [ ] add output router
+- [ ] Add menu dropdown
+- [ ] Add header with logo
+- [ ] add footer with contact info
+- [ ] Add page for hand-vs-hand stats
+- [ ] make card selection more mobile friendly

@@ -5,10 +5,10 @@
                 <h4>Hole Cards</h4>
                 <div v-for="i in [0,1]" :key="i" class="playingCard" >
                     <div class="noshow" v-if="i < holeCards.length">
-                        <img class="cardImage" :src="require(`../assets/cards/${holeCards[i].suit}_${holeCards[i].rank}.svg`)" alt="card" />
+                        <img class="cardImage" :src="require(`../assets/cards/${holeCards[i].suit}_${holeCards[i].rank}.svg`)" alt="card" rel="preload"/>
                     </div>
                     <div class="noshow" v-else>
-                        <img class="cardImage" :src="require(`../assets/cards/gray.svg`)" alt="card" />
+                        <img class="cardImage" :src="require(`../assets/cards/gray.svg`)" alt="card" rel="preload"/>
                     </div> 
                 </div>
             </div>

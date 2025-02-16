@@ -1,16 +1,14 @@
 <template>
   <HeaderComponent/>
-  <CardStatsContainer/>
+  <router-view />
 </template>
 
 <script>
-import CardStatsContainer from './components/CardStatsContainer.vue'
 import HeaderComponent from './components/HeaderComponent.vue';
 
 export default {
   name: 'App',
   components: {
-    CardStatsContainer,
     HeaderComponent
   }
 }

@@ -4,7 +4,12 @@
             <div class="row">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8">
-                    <h1>Texas Hold'em Dashboard</h1>
+                    <div class="centering">
+                    <router-link class="title" to="/home">
+                        <img class="headerImage" src="../../public/android-chrome-192x192.png" alt="PokerSolver" width="100" height="100"/>
+                        <h1 class="headerText">PokerSolver</h1>
+                    </router-link>
+                </div>
                 </div>
                 <div class="col-sm-2">
                     <div class="buttons">
@@ -21,7 +26,7 @@
             </div>
             <div class="info-text">
                 <h3>Instructions</h3>
-                <p>Welcome to Texas Hold'em! This dashboard provides statistics about your poker hand at any point in the game.
+                <p>Welcome to PokerSolver! This dashboard provides statistics about your poker hand at any point in the game.
                     <br/>
                     To see stats about a particular scenario, select your hole (hand) cards and any known community cards. 
                     The following statistics will be displayed:</p>
@@ -69,6 +74,25 @@ const showInfo = ref(false)
     margin-bottom: 20px;
     display: inline-block;
     width: 100%;
+}
+.centering {
+    margin: auto;
+    width: 350px;
+    height: 100%;
+}
+.headerImage {
+    float: left;
+}
+.headerText{
+    float: left;
+    margin-top: 24px;
+}
+
+.title {
+    margin: auto;
+    color: #fff;
+    text-align: center;
+    text-decoration: none !important;
 }
 
 .buttons {

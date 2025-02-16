@@ -10,13 +10,13 @@
   - [x] Make everything fit together nicely
   - [x] use bootstrap buttons
   - [x] Add background
-- [ ] Add loading for card selection and stats
-- [ ] Add google analytics tile
-- [ ] Make cards load before page finishes loading (and cache them?)
-- [ ] fix site title and logo
-- [ ] add output router
+- [x] Add loading for card selection and stats
+- [x] Add google analytics tile
+- [x] Make cards load before page finishes loading (and cache them?)
+- [x] fix site title and logo
+- [x] add output router
 - [ ] Add menu dropdown
-- [ ] Add header with logo
+- [x] Add header with logo
 - [ ] add footer with contact info
 - [ ] Add page for hand-vs-hand stats
 - [ ] make card selection more mobile friendly

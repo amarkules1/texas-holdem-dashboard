@@ -8,7 +8,7 @@
         :class="{ card: true, 
                   disabled: disabledCards.some(card => card.rank == rank && card.suit == suit) }"
         @click="selectCard(rank, suit)">
-        <img class="cardImage" :src="require(`../assets/cards/${suit}_${rank}.svg`)" alt="card" />
+        <img class="cardImage" :src="require(`../assets/cards/${suit}_${rank}.svg`)" alt="card" rel="preload"/>
       </div>
     </div>
   </div>

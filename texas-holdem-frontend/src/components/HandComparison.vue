@@ -120,7 +120,8 @@ export default {
 
         reset() {
             this.cards = []
-            this.holeCards = []
+            this.playersCards = [[],[]]
+            this.playerCount = 2
             this.communityCards = []
             this.perf = null
         },

@@ -23,6 +23,9 @@
                         <router-link class="nav-link" active-class="active" to="/home">Home</router-link>
                     </li>
                     <li class="nav-item">
+                        <router-link class="nav-link" active-class="active" to="/hand-comparison">Hand Comparison</router-link>
+                    </li>
+                    <li class="nav-item">
                         <router-link class="nav-link" active-class="active" to="/resources">Resources</router-link>
                     </li>
                 </ul>

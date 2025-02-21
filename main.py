@@ -5,9 +5,9 @@ from dotenv import load_dotenv, find_dotenv
 import sqlalchemy
 import os
 import pandas as pd
-import texas_hold_em_utils.card as card
+from texas_hold_em_utils.card import Card
 from texas_hold_em_utils.preflop_stats_repository import PreflopStatsRepository
-from texas_hold_em_utils.relative_ranking import get_hand_rank_details
+import texas_hold_em_utils.relative_ranking as rr
 
 # create console logger and file logger
 
@@ -34,6 +34,24 @@ def hello():
     return redirect("/index.html", code=302)
 
 
+@app.route('/compare-hands', methods=['GET'])
+def compare_hands():
+    """
+    :return: win rate for each hand in the request
+    """
+    hands = []
+    community_cards = []
+    for i in range(1, 12):
+        if f'hand{i}' in request.args.keys():
+            hand = request.args.get(f'hand{i}')
+            cards = [Card().from_name(card) for card in hand.split(',')]
+            hands.append(cards)
+    if request.args.get('community_cards'):
+        community_cards = [Card().from_name(card) for card in request.args.get('community_cards').split(',')]
+    return rr.compare_hands(hands, community_cards=community_cards, sample_size=2000)
+
+
+
 @app.route("/card-stats", methods=['GET'])
 def card_stats():
     """
@@ -46,26 +64,26 @@ def card_stats():
         modified_sklansky,
         modified_sklansky_position
     """
-    card1 = card.Card().from_name(request.args.get('card1'))
-    card2 = card.Card().from_name(request.args.get('card2'))
+    card1 = Card().from_name(request.args.get('card1'))
+    card2 = Card().from_name(request.args.get('card2'))
     player_count = request.args.get('player_count')
 
     community_cards = []
     # check if flop is provided
     if 'flop1' in request.args.keys():
-        community_cards.append(card.Card().from_name(request.args.get('flop1')))
-        community_cards.append(card.Card().from_name(request.args.get('flop2')))
-        community_cards.append(card.Card().from_name(request.args.get('flop3')))
+        community_cards.append(Card().from_name(request.args.get('flop1')))
+        community_cards.append(Card().from_name(request.args.get('flop2')))
+        community_cards.append(Card().from_name(request.args.get('flop3')))
     # check if turn is provided
     if 'turn' in request.args.keys():
-        community_cards.append(card.Card().from_name(request.args.get('turn')))
+        community_cards.append(Card().from_name(request.args.get('turn')))
     # check if river is provided
     if 'river' in request.args.keys():
-        community_cards.append(card.Card().from_name(request.args.get('river')))
+        community_cards.append(Card().from_name(request.args.get('river')))
     data = preflop_stats_repo.get_win_rate(card1.rank, card2.rank, card1.suit == card2.suit, player_count)
     data['preflop_win_rate'] = data['win_rate']
 
-    hand_stats = get_hand_rank_details([card1, card2], community_cards, int(player_count), 3000)
+    hand_stats = rr.get_hand_rank_details([card1, card2], community_cards, int(player_count), 3000)
     data['current_win_rate'] = hand_stats['expected_win_rate']
     data['percentile'] = hand_stats['percentile']
     data['ideal_kelly_max'] = hand_stats['ideal_kelly_max']

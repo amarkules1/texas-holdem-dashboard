@@ -15,8 +15,9 @@
 - [x] Make cards load before page finishes loading (and cache them?)
 - [x] fix site title and logo
 - [x] add output router
-- [ ] Add menu dropdown
+- [x] Add menu dropdown
 - [x] Add header with logo
-- [ ] add footer with contact info
 - [ ] Add page for hand-vs-hand stats
 - [ ] make card selection more mobile friendly
+- [ ] add footer with contact info
+  - need to make it so this doesn't get in the way of card selector

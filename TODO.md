@@ -22,6 +22,8 @@
 - [x] add footer with contact info
   - need to make it so this doesn't get in the way of card selector
 - [ ] connect to database to store player stats
+  - use existing linode server database
+  - table player_round_stats: username, folded_before_flop, folded_before_turn, folded_before_river, folded_before_showdown, raise_count, amount_paid_in, amount_won
 - [ ] build out player stat tracking from files
 - [ ] player stats table
   - searchable

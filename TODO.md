@@ -17,7 +17,15 @@
 - [x] add output router
 - [x] Add menu dropdown
 - [x] Add header with logo
-- [ ] Add page for hand-vs-hand stats
-- [ ] make card selection more mobile friendly
-- [ ] add footer with contact info
+- [x] Add page for hand-vs-hand stats
+- [x] make card selection more mobile friendly
+- [x] add footer with contact info
   - need to make it so this doesn't get in the way of card selector
+- [ ] connect to database to store player stats
+- [ ] build out player stat tracking from files
+- [ ] player stats table
+  - searchable
+  - put players you select in top table
+- [ ] add bar chart to OG page with win/loss/tie bars for each hand type
+  - toggle on and off
+  - toggle stats on and off too

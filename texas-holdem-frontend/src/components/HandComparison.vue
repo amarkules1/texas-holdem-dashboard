@@ -62,7 +62,7 @@ import axios from 'axios'
 export default {
     name: 'HandComparison',
     components: {
-        CardSelector,
+        CardSelector
     },
     data() {
         return {

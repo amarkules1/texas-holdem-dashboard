@@ -58,7 +58,7 @@ export default {
   margin: 5px 0.25%;
   width: 4%;
   border: 1px solid black;
-  min-width: 30px;
+  min-width: 28px;
 }
 
 .disabled {

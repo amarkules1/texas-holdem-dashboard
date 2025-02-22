@@ -1,15 +1,20 @@
 <template>
-  <HeaderComponent/>
-  <router-view />
+  <HeaderComponent />
+  <div class="routerContainer">
+    <router-view />
+  </div>
+  <FooterComponent />
 </template>
 
 <script>
+import FooterComponent from './components/FooterComponent.vue';
 import HeaderComponent from './components/HeaderComponent.vue';
 
 export default {
   name: 'App',
   components: {
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   }
 }
 </script>
@@ -25,12 +30,17 @@ export default {
   width: 100%;
   height: 100%;
 }
+
 body {
   width: 100%;
   /* height: 100vh; */
-  margin: 0; 
+  margin: 0;
   display: flex;
   background-color: #333 !important;
   min-height: 100vh;
+}
+
+.routerContainer {
+  min-height: 73vh;
 }
 </style>

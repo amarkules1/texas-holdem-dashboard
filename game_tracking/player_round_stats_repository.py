@@ -28,7 +28,11 @@ class PlayerRoundStatsRepository:
                                                 "call_count INT NOT NULL default 0, "
                                                 "check_count INT NOT NULL default 0, "
                                                 "amount_paid_in FLOAT NOT NULL default 0, "
-                                                "amount_won FLOAT NOT NULL default 0)")
+                                                "amount_won FLOAT NOT NULL default 0,"
+                                                "seat INT NOT NULL default 0, "
+                                                "big_blind FLOAT NOT NULL default 0, "
+                                                "dealer_seat INT NOT NULL default 0, "
+                                                "timestamp DATETIME NOT NULL default CURRENT_TIMESTAMP)")
         Session = sessionmaker(bind=self.db_engine)
         self.session = Session()
         self.table = Table("player_round_stats", MetaData(), autoload_with=self.db_engine)

@@ -39,14 +39,9 @@ class GameTracker:
         self.line_count += 1
         self.logger.debug(f"Line {self.line_count}: {line}")
         line = self.clean_line(line)
-        # TODO - handle lines ending in "and is all in", split pots
         if line.startswith("PokerStars Hand #"):
             self.game_id = line.split(" ")[2]
             self.is_summary_phase = False
-            # end_of_game_summary = BettingRoundSummary(3, self.pot, self.round_bet, self.community_cards)
-            # end_of_game_summary = self.add_player_statuses_to_summary(end_of_game_summary)
-            # self.betting_round_summaries.append(end_of_game_summary)
-            # TODO - save betting round summaries at this point
             self.community_cards = []
             self.betting_round_summaries = []
             return
@@ -116,9 +111,10 @@ class GameTracker:
             player = PlayerTracker()
             player.username = username
             player.chips = chips
+            player.round_start_chips = chips
             player.seat = seat
             player.sitting_out = sitting_out
-            player.folded = sitting_out
+            # TODO 2/27/25 adjust everything below here to use new player tracker object, rip out anything that's not needed
             self.players[seat - 1] = player
             return
         player = self.get_player(username)
@@ -356,6 +352,8 @@ class GameTracker:
         # we should already have them at this point, doesn't hurt to be redundant
         cards = line.split("[")[1].split("]")[0].split(" ")
         self.community_cards = [Card().from_str(card[0], card[1]) for card in cards]
+
+
 
     def to_display_game_state(self):
         player = [player for player in self.players if player.is_player]

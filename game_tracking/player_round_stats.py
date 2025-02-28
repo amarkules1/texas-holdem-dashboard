@@ -17,6 +17,9 @@ class PlayerRoundStats:
     check_count: int = 0
     amount_paid_in: float = 0
     amount_won: float = 0
+    seat: int = 0
+    big_blind: float = 0
+    dealer_seat: int = 0
 
 class PlayerRoundStatsTable(Base):
 
@@ -34,6 +37,9 @@ class PlayerRoundStatsTable(Base):
     check_count = Column(Integer)
     amount_paid_in = Column(Float)
     amount_won = Column(Float)
+    seat = Column(Integer)
+    big_blind = Column(Float)
+    dealer_seat = Column(Integer)
 
     def __init__(self, player_round_stats: PlayerRoundStats):
         self.username = player_round_stats.username
@@ -47,3 +53,6 @@ class PlayerRoundStatsTable(Base):
         self.check_count = player_round_stats.check_count
         self.amount_paid_in = player_round_stats.amount_paid_in
         self.amount_won = player_round_stats.amount_won
+        self.seat = player_round_stats.seat
+        self.big_blind = player_round_stats.big_blind
+        self.dealer_seat = player_round_stats.dealer_seat

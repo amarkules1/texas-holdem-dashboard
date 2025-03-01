@@ -50,10 +50,6 @@ export default {
     margin: 10px;
 }
 
-.cardsDisplay {
-    /* height:160px; */
-}
-
 
 .holeCards {
     display: inline-block;

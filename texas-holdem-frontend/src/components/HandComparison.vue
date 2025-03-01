@@ -44,7 +44,7 @@
         </div>
 
         <div class="cardSelectionHolder" v-if="communityCards.length < 5">
-            <CardSelector :disabledCards="cards"
+            <CardSelector :disabledCards="cards" cardToSelect="Next Card"
                 @selectCard="(rank, suit) => selectCard(rank, suit)" />
         </div>
         <div v-if="loadingStats">
@@ -204,11 +204,6 @@ export default {
     display: inline-block;
     margin: 10px;
 }
-
-.cardsDisplay {
-    /* height:160px; */
-}
-
 
 .holeCards {
     display: inline-block;

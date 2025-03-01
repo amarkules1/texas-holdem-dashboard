@@ -1,0 +1,22 @@
+PokerStars Hand #253054498755:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:00:31 ET
+Table 'Cetus' 6-max Seat #4 is the button
+Seat 1: MAAE88 ($2.48 in chips)
+Seat 2: ExplosiveDecomp ($2.91 in chips)
+Seat 3: amarkules ($0.82 in chips)
+Seat 4: Part77 ($2.59 in chips)
+Seat 5: hrmc7 ($2.08 in chips)
+Seat 6: Simbak9 ($1.49 in chips)
+hrmc7: posts small blind $0.01
+Simbak9: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [6c Ad]
+MAAE88: folds
+ExplosiveDecomp: folds
+amarkules: raises $0.04 to $0.06
+Part77: calls $0.06
+hrmc7: calls $0.05
+Simbak9: calls $0.04
+*** FLOP *** [Ah 5c 9h]
+hrmc7: checks
+Simbak9: checks
+amarkules: bets $0.23

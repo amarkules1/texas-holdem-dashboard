@@ -2,6 +2,8 @@ from dataclasses import dataclass
 from sqlalchemy import Column, Integer, Float, String, Boolean
 from sqlalchemy.ext.declarative import declarative_base
 
+from game_tracking.player_tracker import PlayerTracker
+
 Base = declarative_base()
 
 @dataclass
@@ -20,6 +22,21 @@ class PlayerRoundStats:
     seat: int = 0
     big_blind: float = 0
     dealer_seat: int = 0
+
+    def from_player_tracker(self, player_tracker: PlayerTracker):
+        self.username = player_tracker.username
+        self.game_id = player_tracker.game_id
+        self.folded_before_flop = player_tracker.folded_before_flop
+        self.folded_before_turn = player_tracker.folded_before_turn
+        self.folded_before_river = player_tracker.folded_before_river
+        self.folded_before_showdown = player_tracker.folded_before_showdown
+        self.raise_count = player_tracker.raise_count
+        self.call_count = player_tracker.call_count
+        self.check_count = player_tracker.check_count
+        self.amount_paid_in = player_tracker.amount_paid_in
+        self.amount_won = player_tracker.amount_won
+        self.seat = player_tracker.seat
+        return self
 
 class PlayerRoundStatsTable(Base):
 

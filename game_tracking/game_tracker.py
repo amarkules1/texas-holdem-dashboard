@@ -1,10 +1,7 @@
 import logging
 import math
-from dataclasses import asdict
 
-import pandas as pd
 from texas_hold_em_utils.card import Card
-from texas_hold_em_utils.hands import HandOfTwo
 from texas_hold_em_utils.preflop_stats_repository import PreflopStatsRepository
 from texas_hold_em_utils.relative_ranking import get_hand_rank_details
 
@@ -13,7 +10,8 @@ from game_tracking.player_tracker import PlayerTracker
 
 # TODO - After each game, save all player_round_summaries
 class GameTracker:
-    def __init__(self, logger=logging.getLogger(__name__)):
+    def __init__(self, logger=logging.getLogger(__name__), player_round_stats_repo=None):
+        self.player_round_stats_repo = player_round_stats_repo
         self.logger = logger
         self.community_cards = []
         self.current_game = None  # maybe not needed?
@@ -32,18 +30,18 @@ class GameTracker:
         self.rake = 0.0
         self.is_summary_phase = False
         self.line_count = 0
-        self.betting_round_summaries = []
         self.preflop_stats_repo = PreflopStatsRepository()
+        self.betting_round = 0 # 0= preflop, 1=flop, 2=turn, 3=river
 
     def parse_line(self, line):
         self.line_count += 1
         self.logger.debug(f"Line {self.line_count}: {line}")
         line = self.clean_line(line)
         if line.startswith("PokerStars Hand #"):
+            self.save_player_round_summaries()
             self.game_id = line.split(" ")[2]
             self.is_summary_phase = False
             self.community_cards = []
-            self.betting_round_summaries = []
             return
         if line.startswith("Table"):
             self.table_name = line.split("'")[1]
@@ -114,24 +112,22 @@ class GameTracker:
             player.round_start_chips = chips
             player.seat = seat
             player.sitting_out = sitting_out
+            player.game_id = self.game_id
             # TODO 2/27/25 adjust everything below here to use new player tracker object, rip out anything that's not needed
             self.players[seat - 1] = player
             return
         player = self.get_player(username)
         if player is None:
             return
-        player.player_round_summary = line.split(username)[1].strip()
-        if "[" in player.player_round_summary and "]" in player.player_round_summary:
-            cards = player.player_round_summary.split("[")[1].split("]")[0].split(" ")
-            player.cards = HandOfTwo([Card().from_str(card[0], card[1]) for card in cards])
-        if " won ($" in player.player_round_summary:
-            won = player.player_round_summary.split(" won ($")[1].split(")")[0]
-            player.round_winnings = float(won)
+        player_round_summary = line.split(username)[1].strip()
+        if " won ($" in player_round_summary:
+            won = player_round_summary.split(" won ($")[1].split(")")[0]
+            player.amount_won = float(won)
         else:
-            player.round_winnings = 0.0
+            player.amount_won = 0.0
 
     def is_player_action_line(self, line):
-        # if there's no player in a seat, then we have a player with no username, indicates we needto filter
+        # if there's no player in a seat, then we have a player with no username, indicates we need to filter
         players_need_filtering = False
         retval = False
         for player in self.players:
@@ -155,10 +151,8 @@ class GameTracker:
             sb = line.split("small blind ")[1]
             sb = sb.replace("$", "")
             self.small_blind_amount = float(sb)
-            player.folded = False
-            player.sitting_out = False
-            player.current_hand_bet = self.small_blind_amount
             player.chips -= self.small_blind_amount
+            player.amount_paid_in += self.small_blind_amount
             self.round_bet = self.small_blind_amount
             self.pot += self.small_blind_amount
             return
@@ -169,71 +163,70 @@ class GameTracker:
             bb = line.split("big blind ")[1]
             bb = bb.replace("$", "")
             self.big_blind_amount = float(bb)
-            player.folded = False
-            player.sitting_out = False
-            player.current_hand_bet = self.big_blind_amount
             player.chips -= self.big_blind_amount
+            player.amount_paid_in += self.big_blind_amount
             self.round_bet = self.big_blind_amount
             self.pot += self.big_blind_amount
             return
         if "folds" in line:
-            player.folded = True
+            if self.betting_round < 1:
+                player.folded_before_flop = True
+            if self.betting_round < 2:
+                player.folded_before_turn = True
+            if self.betting_round < 3:
+                player.folded_before_river = True
+            player.folded_before_showdown = True
             player.sitting_out = False
             return
         if "calls" in line:
-            player.folded = False
             player.sitting_out = False
+            player.call_count += 1
             amount = line.split("calls ")[1].split(" ")[0]
             amount = amount.replace("$", "")
             amount = float(amount)
-            player.current_hand_bet += amount
+            player.amount_paid_in += amount
             player.chips -= amount
             self.pot += amount
             self.round_bet = amount
             return
         if "raises" in line:
+            player.sitting_out = False
+            player.raise_count += 1
             amount = line.split("raises ")[1].split("to ")[1].split(" ")[0]
             amount = amount.replace("$", "")
             amount = float(amount)
-            player.current_hand_bet = amount
+            player.amount_paid_in += amount
             player.chips -= amount
             self.pot += amount
             self.round_bet = amount
             return
         if "checks" in line:
-            player.folded = False
             player.sitting_out = False
+            player.check_count += 1
             return
         if "shows" in line:
-            player.folded = False
             player.sitting_out = False
-            cards = line.split("[")[1].split("]")[0].split(" ")
-            player.cards = HandOfTwo([Card().from_str(card[0], card[1]) for card in cards])
             return
         if "mucks" in line:
-            player.folded = True
             return
         if "sits out" in line:
-            player.folded = True
             player.sitting_out = True
             return
         if " bets " in line:
-            player.folded = False
             player.sitting_out = False
+            player.raise_count += 1
             amount = line.split(" bets ")[1].split(" ")[0]
             amount = amount.replace("$", "")
             amount = float(amount)
-            player.current_hand_bet = amount
+            player.amount_paid_in += amount
             player.chips -= amount
             self.pot += amount
             self.round_bet = amount
             return
         if "doesn't show hand" in line:
-            player.folded = False
             player.sitting_out = False
             return
         if " is sitting out" in line:
-            player.folded = True
             player.sitting_out = True
             return
 
@@ -260,15 +253,6 @@ class GameTracker:
         player = self.get_player(username)
         player.is_player = True
 
-        cards = line.split("[")[1].split("]")[0]
-        card1 = cards.split(" ")[0]
-        card2 = cards.split(" ")[1]
-
-        card1 = Card().from_str(card1[0], card1[1])
-        card2 = Card().from_str(card2[0], card2[1])
-
-        player.cards = HandOfTwo([card1, card2])
-
     def get_player(self, username):
         for player in self.players:
             if player.username == username:
@@ -276,44 +260,18 @@ class GameTracker:
         return None
 
     def handle_flop_line(self, line):
-        # preflop_summary = BettingRoundSummary(0, self.pot, self.round_bet)
-        # preflop_summary = self.add_player_statuses_to_summary(preflop_summary)
-        # self.betting_round_summaries.append(preflop_summary)
-        betting_round_summaries = []
-        for player in self.players:
-            player_summary = PlayerRoundStats()
-            player_summary.username = player.username
-            player_summary.game_id = self.game_id
-            player_summary.round_number = 0
-            player_summary.folded_pre_round = player.sitting_out
-            player_summary.folded = player.folded
-            player_summary.round_bet = player.current_hand_bet
-
-        cards = line.split("[")[1].split("]")[0].split(" ")
-        self.community_cards = [Card().from_str(card[0], card[1]) for card in cards]
+        self.betting_round = 1
 
     def handle_leave_table_line(self, line):
         username = line.split(" leaves the table")[0]
         player = self.get_player(username)
         player.sitting_out = True
-        player.folded = True
-        player.cards = None
 
     def handle_river_line(self, line):
-        # pre_river_summary = BettingRoundSummary(2, self.pot, self.round_bet, self.community_cards)
-        # pre_river_summary = self.add_player_statuses_to_summary(pre_river_summary)
-        # self.betting_round_summaries.append(pre_river_summary)
-        new_card = line.split("[")[2].split("]")[0]
-        new_card = Card().from_str(new_card[0], new_card[1])
-        self.community_cards.append(new_card)
+        self.betting_round = 3
 
     def handle_turn_line(self, line):
-        # pre_turn_summary = BettingRoundSummary(1, self.pot, self.round_bet, self.community_cards)
-        # pre_turn_summary = self.add_player_statuses_to_summary(pre_turn_summary)
-        # self.betting_round_summaries.append(pre_turn_summary)
-        new_card = line.split("[")[2].split("]")[0]
-        new_card = Card().from_str(new_card[0], new_card[1])
-        self.community_cards.append(new_card)
+        self.betting_round = 2
 
     def add_player_statuses_to_summary(self, betting_round_summary):
         for player in self.players:
@@ -334,14 +292,12 @@ class GameTracker:
         player.username = username
         player.seat = seat
         player.sitting_out = True
-        player.folded = True
         self.players.insert(seat - 1, player)
 
     def handle_disconnect_line(self, line):
         username = line.split(" is disconnected")[0]
         player = self.get_player(username)
         player.sitting_out = True
-        player.folded = True
 
     def handle_total_line(self, line):
         self.total_pot = float(line.split("Total pot ")[1].split(" ")[0].replace("$", ""))
@@ -353,43 +309,16 @@ class GameTracker:
         cards = line.split("[")[1].split("]")[0].split(" ")
         self.community_cards = [Card().from_str(card[0], card[1]) for card in cards]
 
-
-
-    def to_display_game_state(self):
-        player = [player for player in self.players if player.is_player]
-        data = {"player_folded": True}
-        if len(player) == 1 and not player[0].folded and player[0].cards is not None and len(player[0].cards.cards) == 2:
-            hole_cards = player[0].cards.cards
-            player_count = len([player for player in self.players if not player.sitting_out and not player.folded])
-            data['player_folded'] = False
-            if player_count > 1:
-                data = self.preflop_stats_repo.get_win_rate(hole_cards[0].rank, hole_cards[1].rank,
-                                                            hole_cards[0].suit == hole_cards[1].suit, player_count)
-                data['preflop_win_rate'] = data['win_rate']
-                hand_stats = get_hand_rank_details([hole_cards[0], hole_cards[1]], self.community_cards, player_count, 1000)
-                data['current_win_rate'] = hand_stats['expected_win_rate']
-                data['percentile'] = hand_stats['percentile']
-                data['ideal_kelly_max'] = hand_stats['ideal_kelly_max']
-
-        data.update({
-            "pot": self.pot,
-            "dealer_position": self.dealer_seat,
-            "small_blind_position": self.small_blind_seat,
-            "big_blind_position": self.big_blind_seat,
-            "community_cards": [{"suit": card.get_suit_str(), "rank": card.get_rank_str()} for card in
-                                self.community_cards],
-            "players": [{"stack": player.chips, "folded": player.folded, "sitting_out": player.sitting_out,
-                         "name": player.username,
-                         "cards": [{"suit": card.get_suit_str(), "rank": card.get_rank_str()} for card in
-                                   player.cards.cards]}
-                        for player in self.players]
-        })
-        # remove nans because flask can't convert them to proper json
-        data = {k: v for k, v in data.items() if not isinstance(v, float) or not math.isnan(v)}
-        return dict(data)
-
     def handle_uncalled_bet_line(self, line):
         player = line.split("returned to ")[-1]
         player = self.get_player(player)
         returned_amount = float(line.split("(")[1].split(")")[0].replace("$", ""))
         player.chips += returned_amount
+        player.amount_paid_in -= returned_amount
+
+    def save_player_round_summaries(self):
+        if self.player_round_stats_repo is not None and len(self.players) > 0:
+            for player in self.players:
+                if player.username is not None and not player.sitting_out:
+                    prs = PlayerRoundStats().from_player_tracker(player)
+                    self.player_round_stats_repo.add(prs)

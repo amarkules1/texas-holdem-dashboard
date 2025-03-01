@@ -1,0 +1,3973 @@
+﻿PokerStars Hand #253054500992:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:06:09 ET
+Table 'Hekate' 6-max Seat #5 is the button
+Seat 6: FredJeken ($0 in chips) is sitting out
+Seat 1: sbc1985nj ($1.98 in chips) 
+Seat 2: amarkules ($1.60 in chips) 
+Seat 3: Fly_By_Knight2 ($5.39 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+Seat 5: motowngamble ($1.86 in chips) 
+sbc1985nj: posts small blind $0.01
+amarkules: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [As 9h]
+Fly_By_Knight2: folds 
+MAAE88: folds 
+motowngamble: calls $0.02
+sbc1985nj: calls $0.01
+amarkules: raises $0.08 to $0.10
+motowngamble: calls $0.08
+sbc1985nj: calls $0.08
+*** FLOP *** [8s 4d 5c]
+FredJeken leaves the table
+sbc1985nj: checks 
+amarkules: checks 
+motowngamble: checks 
+*** TURN *** [8s 4d 5c] [2c]
+sbc1985nj: checks 
+amarkules: checks 
+motowngamble: checks 
+*** RIVER *** [8s 4d 5c 2c] [Qd]
+ZachTheReaper joins the table at seat #6 
+ZachTheReaper is disconnected 
+sbc1985nj: checks 
+amarkules: checks 
+motowngamble: checks 
+*** SHOW DOWN ***
+sbc1985nj: shows [Ad Td] (high card Ace)
+amarkules: mucks hand 
+motowngamble: mucks hand 
+sbc1985nj collected $0.29 from pot
+*** SUMMARY ***
+Total pot $0.30 | Rake $0.01 
+Board [8s 4d 5c 2c Qd]
+Seat 6: FredJeken
+Seat 1: sbc1985nj (small blind) showed [Ad Td] and won ($0.29) with high card Ace
+Seat 2: amarkules (big blind) mucked [As 9h]
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: MAAE88 folded before Flop (didn't bet)
+Seat 5: motowngamble (button) mucked [Ac 6s]
+
+
+
+PokerStars Hand #253054501325:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:06:58 ET
+Table 'Hekate' 6-max Seat #1 is the button
+Seat 6: ZachTheReaper ($2 in chips) is sitting out
+Seat 1: sbc1985nj ($2.17 in chips) 
+Seat 2: amarkules ($1.50 in chips) 
+Seat 3: Fly_By_Knight2 ($5.39 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+Seat 5: motowngamble ($1.76 in chips) 
+amarkules: posts small blind $0.01
+Fly_By_Knight2: posts big blind $0.02
+ZachTheReaper: sits out 
+*** HOLE CARDS ***
+Dealt to amarkules [Ts Qs]
+MAAE88: folds 
+motowngamble: calls $0.02
+sbc1985nj: calls $0.02
+amarkules: raises $0.14 to $0.16
+Fly_By_Knight2: folds 
+motowngamble: calls $0.14
+sbc1985nj: folds 
+*** FLOP *** [9h Kc 3h]
+amarkules: checks 
+motowngamble: checks 
+*** TURN *** [9h Kc 3h] [Qh]
+amarkules: bets $0.11
+motowngamble: calls $0.11
+*** RIVER *** [9h Kc 3h Qh] [As]
+amarkules: checks 
+motowngamble: bets $0.12
+amarkules: calls $0.12
+*** SHOW DOWN ***
+motowngamble: shows [6d Ad] (a pair of Aces)
+amarkules: mucks hand 
+motowngamble collected $0.78 from pot
+*** SUMMARY ***
+Total pot $0.82 | Rake $0.04 
+Board [9h Kc 3h Qh As]
+Seat 6: ZachTheReaper
+Seat 1: sbc1985nj (button) folded before Flop
+Seat 2: amarkules (small blind) mucked [Ts Qs]
+Seat 3: Fly_By_Knight2 (big blind) folded before Flop
+Seat 4: MAAE88 folded before Flop (didn't bet)
+Seat 5: motowngamble showed [6d Ad] and won ($0.78) with a pair of Aces
+
+
+
+PokerStars Hand #253054501704:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:07:56 ET
+Table 'Hekate' 6-max Seat #2 is the button
+Seat 6: ZachTheReaper ($2 in chips) is sitting out
+Seat 1: sbc1985nj ($2.15 in chips) 
+Seat 2: amarkules ($1.11 in chips) 
+Seat 3: Fly_By_Knight2 ($5.37 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+Seat 5: motowngamble ($2.15 in chips) 
+Fly_By_Knight2: posts small blind $0.01
+MAAE88: posts big blind $0.02
+ZachTheReaper: sits out 
+*** HOLE CARDS ***
+Dealt to amarkules [5h 8h]
+motowngamble: folds 
+sbc1985nj: folds 
+amarkules: folds 
+Fly_By_Knight2: raises $0.06 to $0.08
+MAAE88: folds 
+Uncalled bet ($0.06) returned to Fly_By_Knight2
+Fly_By_Knight2 collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 
+Seat 6: ZachTheReaper
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules (button) folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 (small blind) collected ($0.04)
+Seat 4: MAAE88 (big blind) folded before Flop
+Seat 5: motowngamble folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054501813:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:08:12 ET
+Table 'Hekate' 6-max Seat #3 is the button
+Seat 6: ZachTheReaper ($2 in chips) is sitting out
+Seat 1: sbc1985nj ($2.15 in chips) 
+Seat 2: amarkules ($1.11 in chips) 
+Seat 3: Fly_By_Knight2 ($5.39 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+Seat 5: motowngamble ($2.15 in chips) 
+MAAE88: posts small blind $0.01
+motowngamble: posts big blind $0.02
+ZachTheReaper: sits out 
+*** HOLE CARDS ***
+Dealt to amarkules [5c Ad]
+sbc1985nj: calls $0.02
+amarkules: calls $0.02
+Fly_By_Knight2: folds 
+MAAE88: folds 
+motowngamble: checks 
+*** FLOP *** [6d Qc Js]
+motowngamble: checks 
+sbc1985nj: checks 
+amarkules: checks 
+*** TURN *** [6d Qc Js] [9d]
+motowngamble: checks 
+sbc1985nj: checks 
+amarkules: checks 
+*** RIVER *** [6d Qc Js 9d] [2h]
+motowngamble: checks 
+sbc1985nj: checks 
+amarkules: checks 
+*** SHOW DOWN ***
+motowngamble: shows [4d As] (high card Ace)
+sbc1985nj: mucks hand 
+amarkules: shows [5c Ad] (high card Ace)
+motowngamble collected $0.04 from pot
+amarkules collected $0.03 from pot
+*** SUMMARY ***
+Total pot $0.07 | Rake $0 
+Board [6d Qc Js 9d 2h]
+Seat 6: ZachTheReaper
+Seat 1: sbc1985nj mucked [Ks 8c]
+Seat 2: amarkules showed [5c Ad] and won ($0.03) with high card Ace
+Seat 3: Fly_By_Knight2 (button) folded before Flop (didn't bet)
+Seat 4: MAAE88 (small blind) folded before Flop
+Seat 5: motowngamble (big blind) showed [4d As] and won ($0.04) with high card Ace
+
+
+
+PokerStars Hand #253054502216:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:09:12 ET
+Table 'Hekate' 6-max Seat #4 is the button
+Seat 1: sbc1985nj ($2.13 in chips) 
+Seat 2: amarkules ($1.12 in chips) 
+Seat 3: Fly_By_Knight2 ($5.39 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+Seat 5: motowngamble ($2.17 in chips) 
+Seat 6: ZachTheReaper ($2 in chips) 
+motowngamble: posts small blind $0.01
+ZachTheReaper: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [4s Ts]
+sbc1985nj: calls $0.02
+amarkules: folds 
+Fly_By_Knight2: folds 
+MAAE88: folds 
+motowngamble: calls $0.01
+ZachTheReaper: checks 
+*** FLOP *** [9c 8h 8d]
+motowngamble: checks 
+ZachTheReaper: checks 
+sbc1985nj: checks 
+*** TURN *** [9c 8h 8d] [5s]
+motowngamble: checks 
+ZachTheReaper: checks 
+sbc1985nj: checks 
+*** RIVER *** [9c 8h 8d 5s] [8s]
+motowngamble: checks 
+ZachTheReaper: checks 
+sbc1985nj: checks 
+*** SHOW DOWN ***
+motowngamble: shows [2h Js] (three of a kind, Eights)
+ZachTheReaper: shows [7s Jd] (three of a kind, Eights)
+sbc1985nj: shows [6h 6c] (a full house, Eights full of Sixes)
+sbc1985nj collected $0.06 from pot
+*** SUMMARY ***
+Total pot $0.06 | Rake $0 
+Board [9c 8h 8d 5s 8s]
+Seat 1: sbc1985nj showed [6h 6c] and won ($0.06) with a full house, Eights full of Sixes
+Seat 2: amarkules folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: MAAE88 (button) folded before Flop (didn't bet)
+Seat 5: motowngamble (small blind) showed [2h Js] and lost with three of a kind, Eights
+Seat 6: ZachTheReaper (big blind) showed [7s Jd] and lost with three of a kind, Eights
+
+
+
+PokerStars Hand #253054502417:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:09:42 ET
+Table 'Hekate' 6-max Seat #5 is the button
+Seat 1: sbc1985nj ($2.17 in chips) 
+Seat 2: amarkules ($1.12 in chips) 
+Seat 3: Fly_By_Knight2 ($5.39 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+Seat 5: motowngamble ($2.15 in chips) 
+Seat 6: ZachTheReaper ($1.98 in chips) 
+ZachTheReaper: posts small blind $0.01
+sbc1985nj: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Jd 4c]
+amarkules: folds 
+Fly_By_Knight2: folds 
+MAAE88: folds 
+motowngamble: folds 
+motowngamble leaves the table
+ZachTheReaper: calls $0.01
+sbc1985nj: checks 
+*** FLOP *** [3s Kc 5d]
+ZachTheReaper: checks 
+sbc1985nj: checks 
+*** TURN *** [3s Kc 5d] [3d]
+ZachTheReaper: checks 
+sbc1985nj: checks 
+*** RIVER *** [3s Kc 5d 3d] [Th]
+ZachTheReaper: checks 
+sbc1985nj: checks 
+*** SHOW DOWN ***
+ZachTheReaper: shows [9c 8d] (a pair of Threes)
+sbc1985nj: shows [Td 8s] (two pair, Tens and Threes)
+sbc1985nj collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 
+Board [3s Kc 5d 3d Th]
+Seat 1: sbc1985nj (big blind) showed [Td 8s] and won ($0.04) with two pair, Tens and Threes
+Seat 2: amarkules folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: MAAE88 folded before Flop (didn't bet)
+Seat 5: motowngamble (button) folded before Flop (didn't bet)
+Seat 6: ZachTheReaper (small blind) showed [9c 8d] and lost with a pair of Threes
+
+
+
+PokerStars Hand #253054502607:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:10:08 ET
+Table 'Hekate' 6-max Seat #6 is the button
+Seat 1: sbc1985nj ($2.19 in chips) 
+Seat 2: amarkules ($1.12 in chips) 
+Seat 3: Fly_By_Knight2 ($5.39 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+Seat 6: ZachTheReaper ($1.96 in chips) 
+sbc1985nj: posts small blind $0.01
+amarkules: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [8c 7h]
+Fly_By_Knight2: folds 
+MAAE88: folds 
+ZachTheReaper: raises $0.04 to $0.06
+sbc1985nj: folds 
+amarkules: folds 
+Uncalled bet ($0.04) returned to ZachTheReaper
+ZachTheReaper collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: sbc1985nj (small blind) folded before Flop
+Seat 2: amarkules (big blind) folded before Flop
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: MAAE88 folded before Flop (didn't bet)
+Seat 6: ZachTheReaper (button) collected ($0.05)
+
+
+
+PokerStars Hand #253054502705:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:10:23 ET
+Table 'Hekate' 6-max Seat #1 is the button
+Seat 1: sbc1985nj ($2.18 in chips) 
+Seat 2: amarkules ($1.10 in chips) 
+Seat 3: Fly_By_Knight2 ($5.39 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+Seat 6: ZachTheReaper ($1.99 in chips) 
+amarkules: posts small blind $0.01
+Fly_By_Knight2: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [9d Kd]
+MAAE88: folds 
+ZachTheReaper: folds 
+sbc1985nj: folds 
+amarkules: raises $0.08 to $0.10
+Fly_By_Knight2: folds 
+Uncalled bet ($0.08) returned to amarkules
+amarkules collected $0.04 from pot
+amarkules: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 
+Seat 1: sbc1985nj (button) folded before Flop (didn't bet)
+Seat 2: amarkules (small blind) collected ($0.04)
+Seat 3: Fly_By_Knight2 (big blind) folded before Flop
+Seat 4: MAAE88 folded before Flop (didn't bet)
+Seat 6: ZachTheReaper folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054502832:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:10:42 ET
+Table 'Hekate' 6-max Seat #2 is the button
+Seat 1: sbc1985nj ($2.18 in chips) 
+Seat 2: amarkules ($1.12 in chips) 
+Seat 3: Fly_By_Knight2 ($5.37 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+Seat 6: ZachTheReaper ($1.99 in chips) 
+Fly_By_Knight2: posts small blind $0.01
+MAAE88: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Ks 8c]
+ZachTheReaper: folds 
+sbc1985nj: calls $0.02
+amarkules: calls $0.02
+Fly_By_Knight2: folds 
+MAAE88: checks 
+*** FLOP *** [4d 8d 6h]
+MAAE88: checks 
+sbc1985nj: checks 
+amarkules: bets $0.08
+MAAE88: folds 
+sbc1985nj: folds 
+Uncalled bet ($0.08) returned to amarkules
+amarkules collected $0.07 from pot
+amarkules: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.07 | Rake $0 
+Board [4d 8d 6h]
+Seat 1: sbc1985nj folded on the Flop
+Seat 2: amarkules (button) collected ($0.07)
+Seat 3: Fly_By_Knight2 (small blind) folded before Flop
+Seat 4: MAAE88 (big blind) folded on the Flop
+Seat 6: ZachTheReaper folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054503034:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:11:12 ET
+Table 'Hekate' 6-max Seat #3 is the button
+Seat 1: sbc1985nj ($2.16 in chips) 
+Seat 2: amarkules ($1.17 in chips) 
+Seat 3: Fly_By_Knight2 ($5.36 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+Seat 6: ZachTheReaper ($1.99 in chips) 
+MAAE88: posts small blind $0.01
+ZachTheReaper: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Ac Jd]
+sbc1985nj: folds 
+amarkules: raises $0.08 to $0.10
+Fly_By_Knight2: calls $0.10
+MAAE88: folds 
+ZachTheReaper: folds 
+*** FLOP *** [Qh 6d 8d]
+amarkules: checks 
+Fly_By_Knight2: bets $0.11
+amarkules: folds 
+Uncalled bet ($0.11) returned to Fly_By_Knight2
+Fly_By_Knight2 collected $0.22 from pot
+*** SUMMARY ***
+Total pot $0.23 | Rake $0.01 
+Board [Qh 6d 8d]
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules folded on the Flop
+Seat 3: Fly_By_Knight2 (button) collected ($0.22)
+Seat 4: MAAE88 (small blind) folded before Flop
+Seat 6: ZachTheReaper (big blind) folded before Flop
+
+
+
+PokerStars Hand #253054503241:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:11:44 ET
+Table 'Hekate' 6-max Seat #4 is the button
+Seat 1: sbc1985nj ($2.16 in chips) 
+Seat 2: amarkules ($1.07 in chips) 
+Seat 3: Fly_By_Knight2 ($5.48 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+Seat 6: ZachTheReaper ($1.97 in chips) 
+ZachTheReaper: posts small blind $0.01
+sbc1985nj: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [As Th]
+amarkules: raises $0.08 to $0.10
+Fly_By_Knight2: folds 
+MAAE88: calls $0.10
+ZachTheReaper: folds 
+sbc1985nj: folds 
+*** FLOP *** [2s 6d 4c]
+amarkules: checks 
+MAAE88: checks 
+*** TURN *** [2s 6d 4c] [8s]
+amarkules: checks 
+MAAE88: checks 
+*** RIVER *** [2s 6d 4c 8s] [7d]
+amarkules: checks 
+MAAE88: checks 
+*** SHOW DOWN ***
+amarkules: shows [As Th] (high card Ace)
+MAAE88: mucks hand 
+amarkules collected $0.22 from pot
+*** SUMMARY ***
+Total pot $0.23 | Rake $0.01 
+Board [2s 6d 4c 8s 7d]
+Seat 1: sbc1985nj (big blind) folded before Flop
+Seat 2: amarkules showed [As Th] and won ($0.22) with high card Ace
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: MAAE88 (button) mucked [Kh Td]
+Seat 6: ZachTheReaper (small blind) folded before Flop
+
+
+
+PokerStars Hand #253054503764:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:13:04 ET
+Table 'Hekate' 6-max Seat #6 is the button
+Seat 1: sbc1985nj ($2.14 in chips) 
+Seat 2: amarkules ($1.19 in chips) 
+Seat 3: Fly_By_Knight2 ($5.48 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+Seat 6: ZachTheReaper ($1.96 in chips) 
+sbc1985nj: posts small blind $0.01
+amarkules: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [2h 2c]
+Fly_By_Knight2: raises $0.03 to $0.05
+MAAE88: folds 
+ZachTheReaper: calls $0.05
+sbc1985nj: folds 
+amarkules: folds 
+*** FLOP *** [8c Jc 3h]
+Fly_By_Knight2: bets $0.10
+ZachTheReaper: calls $0.10
+*** TURN *** [8c Jc 3h] [2s]
+Fly_By_Knight2: bets $0.18
+ZachTheReaper: calls $0.18
+*** RIVER *** [8c Jc 3h 2s] [4c]
+Fly_By_Knight2: checks 
+ZachTheReaper: checks 
+*** SHOW DOWN ***
+Fly_By_Knight2: shows [8h Ah] (a pair of Eights)
+ZachTheReaper: shows [6s Js] (a pair of Jacks)
+ZachTheReaper collected $0.66 from pot
+*** SUMMARY ***
+Total pot $0.69 | Rake $0.03 
+Board [8c Jc 3h 2s 4c]
+Seat 1: sbc1985nj (small blind) folded before Flop
+Seat 2: amarkules (big blind) folded before Flop
+Seat 3: Fly_By_Knight2 showed [8h Ah] and lost with a pair of Eights
+Seat 4: MAAE88 folded before Flop (didn't bet)
+Seat 6: ZachTheReaper (button) showed [6s Js] and won ($0.66) with a pair of Jacks
+
+
+
+PokerStars Hand #253054504079:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:13:50 ET
+Table 'Hekate' 6-max Seat #1 is the button
+Seat 1: sbc1985nj ($2.13 in chips) 
+Seat 2: amarkules ($1.17 in chips) 
+Seat 3: Fly_By_Knight2 ($5.15 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+Seat 6: ZachTheReaper ($2.29 in chips) 
+amarkules: posts small blind $0.01
+Fly_By_Knight2: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Qc Qh]
+MAAE88: folds 
+ZachTheReaper: raises $0.04 to $0.06
+sbc1985nj: folds 
+amarkules: raises $0.12 to $0.18
+Fly_By_Knight2: folds 
+ZachTheReaper: calls $0.12
+*** FLOP *** [Jh 4h 6d]
+amarkules: bets $0.10
+ZachTheReaper: raises $0.56 to $0.66
+amarkules: calls $0.56
+*** TURN *** [Jh 4h 6d] [4c]
+amarkules: checks 
+ZachTheReaper: bets $0.81
+amarkules: calls $0.33 and is all-in
+Uncalled bet ($0.48) returned to ZachTheReaper
+*** RIVER *** [Jh 4h 6d 4c] [3h]
+*** SHOW DOWN ***
+amarkules: shows [Qc Qh] (two pair, Queens and Fours)
+ZachTheReaper: shows [Jc As] (two pair, Jacks and Fours)
+amarkules collected $2.25 from pot
+*** SUMMARY ***
+Total pot $2.36 | Rake $0.11 
+Board [Jh 4h 6d 4c 3h]
+Seat 1: sbc1985nj (button) folded before Flop (didn't bet)
+Seat 2: amarkules (small blind) showed [Qc Qh] and won ($2.25) with two pair, Queens and Fours
+Seat 3: Fly_By_Knight2 (big blind) folded before Flop
+Seat 4: MAAE88 folded before Flop (didn't bet)
+Seat 6: ZachTheReaper showed [Jc As] and lost with two pair, Jacks and Fours
+
+
+
+PokerStars Hand #253054504447:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:14:44 ET
+Table 'Hekate' 6-max Seat #2 is the button
+Seat 1: sbc1985nj ($2.13 in chips) 
+Seat 2: amarkules ($2.25 in chips) 
+Seat 3: Fly_By_Knight2 ($5.13 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+Seat 6: ZachTheReaper ($1.12 in chips) 
+Fly_By_Knight2: posts small blind $0.01
+MAAE88: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [3s Js]
+ZachTheReaper: folds 
+sbc1985nj: folds 
+ZachTheReaper leaves the table
+amarkules: folds 
+Fly_By_Knight2: raises $0.04 to $0.06
+MAAE88: folds 
+Uncalled bet ($0.04) returned to Fly_By_Knight2
+Fly_By_Knight2 collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules (button) folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 (small blind) collected ($0.04)
+Seat 4: MAAE88 (big blind) folded before Flop
+Seat 6: ZachTheReaper folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054504571:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:15:03 ET
+Table 'Hekate' 6-max Seat #3 is the button
+Seat 1: sbc1985nj ($2.13 in chips) 
+Seat 2: amarkules ($2.25 in chips) 
+Seat 3: Fly_By_Knight2 ($5.15 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+MAAE88: posts small blind $0.01
+sbc1985nj: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [3d 4s]
+amarkules: folds 
+Fly_By_Knight2: folds 
+MAAE88: calls $0.01
+sbc1985nj: checks 
+*** FLOP *** [7c Kd 3s]
+MAAE88: checks 
+sbc1985nj: bets $0.08
+MAAE88: folds 
+Uncalled bet ($0.08) returned to sbc1985nj
+sbc1985nj collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 
+Board [7c Kd 3s]
+Seat 1: sbc1985nj (big blind) collected ($0.04)
+Seat 2: amarkules folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 (button) folded before Flop (didn't bet)
+Seat 4: MAAE88 (small blind) folded on the Flop
+
+
+
+PokerStars Hand #253054504774:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:15:31 ET
+Table 'Hekate' 6-max Seat #4 is the button
+Seat 1: sbc1985nj ($2.15 in chips) 
+Seat 2: amarkules ($2.25 in chips) 
+Seat 3: Fly_By_Knight2 ($5.15 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+sbc1985nj: posts small blind $0.01
+amarkules: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [7c 8s]
+Fly_By_Knight2: folds 
+MAAE88: folds 
+sbc1985nj: calls $0.01
+amarkules: checks 
+*** FLOP *** [3s 2d Tc]
+sbc1985nj: checks 
+amarkules: checks 
+*** TURN *** [3s 2d Tc] [6h]
+sbc1985nj: bets $0.02
+amarkules: folds 
+Uncalled bet ($0.02) returned to sbc1985nj
+sbc1985nj collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 
+Board [3s 2d Tc 6h]
+Seat 1: sbc1985nj (small blind) collected ($0.04)
+Seat 2: amarkules (big blind) folded on the Turn
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: MAAE88 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054505109:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:16:17 ET
+Table 'Hekate' 6-max Seat #1 is the button
+Seat 1: sbc1985nj ($2.17 in chips) 
+Seat 2: amarkules ($2.23 in chips) 
+Seat 3: Fly_By_Knight2 ($5.15 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+amarkules: posts small blind $0.01
+Fly_By_Knight2: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [8h Jc]
+MAAE88: folds 
+sbc1985nj: calls $0.02
+amarkules: calls $0.01
+Fly_By_Knight2: checks 
+*** FLOP *** [3d 5c Kc]
+amarkules: checks 
+Fly_By_Knight2: checks 
+sbc1985nj: checks 
+*** TURN *** [3d 5c Kc] [Ks]
+amarkules: checks 
+Fly_By_Knight2: checks 
+sbc1985nj: checks 
+*** RIVER *** [3d 5c Kc Ks] [7d]
+amarkules: checks 
+Fly_By_Knight2: checks 
+sbc1985nj: checks 
+*** SHOW DOWN ***
+amarkules: shows [8h Jc] (a pair of Kings)
+Fly_By_Knight2: shows [9s Jh] (a pair of Kings - Jack+Nine kicker)
+sbc1985nj: shows [9d Jd] (a pair of Kings)
+Fly_By_Knight2 collected $0.03 from pot
+sbc1985nj collected $0.03 from pot
+*** SUMMARY ***
+Total pot $0.06 | Rake $0 
+Board [3d 5c Kc Ks 7d]
+Seat 1: sbc1985nj (button) showed [9d Jd] and won ($0.03) with a pair of Kings
+Seat 2: amarkules (small blind) showed [8h Jc] and lost with a pair of Kings
+Seat 3: Fly_By_Knight2 (big blind) showed [9s Jh] and won ($0.03) with a pair of Kings
+Seat 4: MAAE88 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054505493:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:17:08 ET
+Table 'Hekate' 6-max Seat #2 is the button
+Seat 1: sbc1985nj ($2.18 in chips) 
+Seat 2: amarkules ($2.21 in chips) 
+Seat 3: Fly_By_Knight2 ($5.16 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+Fly_By_Knight2: posts small blind $0.01
+MAAE88: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [3c 8d]
+sbc1985nj: calls $0.02
+amarkules: folds 
+Fly_By_Knight2: folds 
+MAAE88: checks 
+*** FLOP *** [Ks 7d 2h]
+MAAE88: checks 
+sbc1985nj: bets $0.02
+MAAE88: calls $0.02
+*** TURN *** [Ks 7d 2h] [6h]
+MAAE88: checks 
+sbc1985nj: bets $0.02
+MAAE88: folds 
+Uncalled bet ($0.02) returned to sbc1985nj
+sbc1985nj collected $0.09 from pot
+*** SUMMARY ***
+Total pot $0.09 | Rake $0 
+Board [Ks 7d 2h 6h]
+Seat 1: sbc1985nj collected ($0.09)
+Seat 2: amarkules (button) folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 (small blind) folded before Flop
+Seat 4: MAAE88 (big blind) folded on the Turn
+
+
+
+PokerStars Hand #253054505710:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:17:35 ET
+Table 'Hekate' 6-max Seat #3 is the button
+Seat 1: sbc1985nj ($2.23 in chips) 
+Seat 2: amarkules ($2.21 in chips) 
+Seat 3: Fly_By_Knight2 ($5.15 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+MAAE88: posts small blind $0.01
+sbc1985nj: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Ts Qd]
+amarkules: raises $0.08 to $0.10
+Fly_By_Knight2: folds 
+MAAE88: folds 
+sbc1985nj: folds 
+Uncalled bet ($0.08) returned to amarkules
+amarkules collected $0.05 from pot
+amarkules: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: sbc1985nj (big blind) folded before Flop
+Seat 2: amarkules collected ($0.05)
+Seat 3: Fly_By_Knight2 (button) folded before Flop (didn't bet)
+Seat 4: MAAE88 (small blind) folded before Flop
+
+
+
+PokerStars Hand #253054505870:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:17:56 ET
+Table 'Hekate' 6-max Seat #4 is the button
+Seat 1: sbc1985nj ($2.21 in chips) 
+Seat 2: amarkules ($2.24 in chips) 
+Seat 3: Fly_By_Knight2 ($5.15 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+sbc1985nj: posts small blind $0.01
+amarkules: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [2d Kd]
+Fly_By_Knight2: folds 
+MAAE88: folds 
+sbc1985nj: calls $0.01
+amarkules: raises $0.02 to $0.04
+sbc1985nj: calls $0.02
+*** FLOP *** [Ah Ad Ac]
+sbc1985nj: checks 
+amarkules: bets $0.08
+sbc1985nj: folds 
+Uncalled bet ($0.08) returned to amarkules
+amarkules collected $0.08 from pot
+amarkules: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.08 | Rake $0 
+Board [Ah Ad Ac]
+Seat 1: sbc1985nj (small blind) folded on the Flop
+Seat 2: amarkules (big blind) collected ($0.08)
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: MAAE88 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054506170:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:18:35 ET
+Table 'Hekate' 6-max Seat #1 is the button
+Seat 1: sbc1985nj ($2.17 in chips) 
+Seat 2: amarkules ($2.28 in chips) 
+Seat 3: Fly_By_Knight2 ($5.15 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+amarkules: posts small blind $0.01
+Fly_By_Knight2: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [7d 2s]
+MAAE88: folds 
+sbc1985nj: folds 
+amarkules: folds 
+Uncalled bet ($0.01) returned to Fly_By_Knight2
+Fly_By_Knight2 collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 1: sbc1985nj (button) folded before Flop (didn't bet)
+Seat 2: amarkules (small blind) folded before Flop
+Seat 3: Fly_By_Knight2 (big blind) collected ($0.02)
+Seat 4: MAAE88 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054506255:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:18:46 ET
+Table 'Hekate' 6-max Seat #2 is the button
+Seat 1: sbc1985nj ($2.17 in chips) 
+Seat 2: amarkules ($2.27 in chips) 
+Seat 3: Fly_By_Knight2 ($5.16 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+Fly_By_Knight2: posts small blind $0.01
+MAAE88: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Ts 9d]
+sbc1985nj: folds 
+amarkules: raises $0.04 to $0.06
+Fly_By_Knight2: folds 
+MAAE88: calls $0.04
+*** FLOP *** [8c 5d Jh]
+MAAE88: bets $0.11
+amarkules: raises $0.17 to $0.28
+MAAE88: calls $0.17
+*** TURN *** [8c 5d Jh] [Qh]
+MAAE88: checks 
+amarkules: bets $0.66
+MAAE88: folds 
+Uncalled bet ($0.66) returned to amarkules
+amarkules collected $0.66 from pot
+amarkules: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.69 | Rake $0.03 
+Board [8c 5d Jh Qh]
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules (button) collected ($0.66)
+Seat 3: Fly_By_Knight2 (small blind) folded before Flop
+Seat 4: MAAE88 (big blind) folded on the Turn
+
+
+
+PokerStars Hand #253054506602:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:19:36 ET
+Table 'Hekate' 6-max Seat #3 is the button
+Seat 1: sbc1985nj ($2.17 in chips) 
+Seat 2: amarkules ($2.59 in chips) 
+Seat 3: Fly_By_Knight2 ($5.15 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+MAAE88: posts small blind $0.01
+sbc1985nj: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Qd Qs]
+amarkules: raises $0.18 to $0.20
+Fly_By_Knight2: folds 
+MAAE88: folds 
+sbc1985nj: calls $0.18
+*** FLOP *** [7s 6h 2h]
+sbc1985nj: checks 
+amarkules: bets $0.20
+sbc1985nj: folds 
+Uncalled bet ($0.20) returned to amarkules
+amarkules collected $0.39 from pot
+amarkules: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.41 | Rake $0.02 
+Board [7s 6h 2h]
+Seat 1: sbc1985nj (big blind) folded on the Flop
+Seat 2: amarkules collected ($0.39)
+Seat 3: Fly_By_Knight2 (button) folded before Flop (didn't bet)
+Seat 4: MAAE88 (small blind) folded before Flop
+
+
+
+PokerStars Hand #253054506877:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:20:15 ET
+Table 'Hekate' 6-max Seat #4 is the button
+Seat 1: sbc1985nj ($1.97 in chips) 
+Seat 2: amarkules ($2.78 in chips) 
+Seat 3: Fly_By_Knight2 ($5.15 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+sbc1985nj: posts small blind $0.01
+amarkules: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [7c 8d]
+Fly_By_Knight2: folds 
+MAAE88: folds 
+sbc1985nj: calls $0.01
+amarkules: checks 
+*** FLOP *** [Qh 8s Ah]
+sbc1985nj: bets $0.02
+amarkules: folds 
+Uncalled bet ($0.02) returned to sbc1985nj
+sbc1985nj collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 
+Board [Qh 8s Ah]
+Seat 1: sbc1985nj (small blind) collected ($0.04)
+Seat 2: amarkules (big blind) folded on the Flop
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: MAAE88 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054507058:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:20:42 ET
+Table 'Hekate' 6-max Seat #1 is the button
+Seat 1: sbc1985nj ($1.99 in chips) 
+Seat 2: amarkules ($2.76 in chips) 
+Seat 3: Fly_By_Knight2 ($5.15 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+amarkules: posts small blind $0.01
+Fly_By_Knight2: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [5d 2s]
+MAAE88: folds 
+sbc1985nj: folds 
+amarkules: folds 
+Uncalled bet ($0.01) returned to Fly_By_Knight2
+Fly_By_Knight2 collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 1: sbc1985nj (button) folded before Flop (didn't bet)
+Seat 2: amarkules (small blind) folded before Flop
+Seat 3: Fly_By_Knight2 (big blind) collected ($0.02)
+Seat 4: MAAE88 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054507105:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:20:50 ET
+Table 'Hekate' 6-max Seat #2 is the button
+Seat 1: sbc1985nj ($1.99 in chips) 
+Seat 2: amarkules ($2.75 in chips) 
+Seat 3: Fly_By_Knight2 ($5.16 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+Fly_By_Knight2: posts small blind $0.01
+MAAE88: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [As 3d]
+sbc1985nj: folds 
+amarkules: folds 
+Fly_By_Knight2: folds 
+Uncalled bet ($0.01) returned to MAAE88
+MAAE88 collected $0.02 from pot
+MAAE88: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules (button) folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 (small blind) folded before Flop
+Seat 4: MAAE88 (big blind) collected ($0.02)
+
+
+
+PokerStars Hand #253054507176:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:21:00 ET
+Table 'Hekate' 6-max Seat #3 is the button
+Seat 1: sbc1985nj ($1.99 in chips) 
+Seat 2: amarkules ($2.75 in chips) 
+Seat 3: Fly_By_Knight2 ($5.15 in chips) 
+Seat 4: MAAE88 ($2.01 in chips) 
+MAAE88: posts small blind $0.01
+sbc1985nj: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Jd 4c]
+amarkules: folds 
+Fly_By_Knight2: folds 
+MAAE88: folds 
+Uncalled bet ($0.01) returned to sbc1985nj
+sbc1985nj collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 1: sbc1985nj (big blind) collected ($0.02)
+Seat 2: amarkules folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 (button) folded before Flop (didn't bet)
+Seat 4: MAAE88 (small blind) folded before Flop
+
+
+
+PokerStars Hand #253054507298:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:21:15 ET
+Table 'Hekate' 6-max Seat #4 is the button
+Seat 1: sbc1985nj ($2 in chips) 
+Seat 2: amarkules ($2.75 in chips) 
+Seat 3: Fly_By_Knight2 ($5.15 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+sbc1985nj: posts small blind $0.01
+amarkules: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [7c 4d]
+Fly_By_Knight2: folds 
+MAAE88: folds 
+sbc1985nj: folds 
+Uncalled bet ($0.01) returned to amarkules
+amarkules collected $0.02 from pot
+amarkules: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 1: sbc1985nj (small blind) folded before Flop
+Seat 2: amarkules (big blind) collected ($0.02)
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: MAAE88 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054507361:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:21:24 ET
+Table 'Hekate' 6-max Seat #1 is the button
+Seat 1: sbc1985nj ($1.99 in chips) 
+Seat 2: amarkules ($2.76 in chips) 
+Seat 3: Fly_By_Knight2 ($5.15 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+amarkules: posts small blind $0.01
+Fly_By_Knight2: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [4s 8c]
+MAAE88: folds 
+sbc1985nj: folds 
+amarkules: folds 
+Uncalled bet ($0.01) returned to Fly_By_Knight2
+Fly_By_Knight2 collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 1: sbc1985nj (button) folded before Flop (didn't bet)
+Seat 2: amarkules (small blind) folded before Flop
+Seat 3: Fly_By_Knight2 (big blind) collected ($0.02)
+Seat 4: MAAE88 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054507435:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:21:36 ET
+Table 'Hekate' 6-max Seat #2 is the button
+Seat 1: sbc1985nj ($1.99 in chips) 
+Seat 2: amarkules ($2.75 in chips) 
+Seat 3: Fly_By_Knight2 ($5.16 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+Fly_By_Knight2: posts small blind $0.01
+MAAE88: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [2h 2d]
+sbc1985nj: calls $0.02
+amarkules: folds 
+Fly_By_Knight2: calls $0.01
+MAAE88: checks 
+*** FLOP *** [6d Jh Kc]
+Fly_By_Knight2: checks 
+MAAE88: checks 
+sbc1985nj: bets $0.02
+Fly_By_Knight2: folds 
+MAAE88: folds 
+Uncalled bet ($0.02) returned to sbc1985nj
+sbc1985nj collected $0.06 from pot
+*** SUMMARY ***
+Total pot $0.06 | Rake $0 
+Board [6d Jh Kc]
+Seat 1: sbc1985nj collected ($0.06)
+Seat 2: amarkules (button) folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 (small blind) folded on the Flop
+Seat 4: MAAE88 (big blind) folded on the Flop
+
+
+
+PokerStars Hand #253054507653:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:22:07 ET
+Table 'Hekate' 6-max Seat #3 is the button
+Seat 1: sbc1985nj ($2.03 in chips) 
+Seat 2: amarkules ($2.75 in chips) 
+Seat 3: Fly_By_Knight2 ($5.14 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+MAAE88: posts small blind $0.01
+sbc1985nj: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [4h As]
+amarkules: calls $0.02
+Fly_By_Knight2: folds 
+MAAE88: folds 
+sbc1985nj: checks 
+*** FLOP *** [9d 5d Qd]
+sbc1985nj: checks 
+amarkules: checks 
+*** TURN *** [9d 5d Qd] [Jh]
+sbc1985nj: checks 
+amarkules: checks 
+*** RIVER *** [9d 5d Qd Jh] [Kd]
+sbc1985nj: checks 
+amarkules: bets $0.05
+sbc1985nj: folds 
+Uncalled bet ($0.05) returned to amarkules
+amarkules collected $0.05 from pot
+amarkules: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Board [9d 5d Qd Jh Kd]
+Seat 1: sbc1985nj (big blind) folded on the River
+Seat 2: amarkules collected ($0.05)
+Seat 3: Fly_By_Knight2 (button) folded before Flop (didn't bet)
+Seat 4: MAAE88 (small blind) folded before Flop
+
+
+
+PokerStars Hand #253054507926:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:22:50 ET
+Table 'Hekate' 6-max Seat #4 is the button
+Seat 1: sbc1985nj ($2.01 in chips) 
+Seat 2: amarkules ($2.78 in chips) 
+Seat 3: Fly_By_Knight2 ($5.14 in chips) 
+Seat 4: MAAE88 ($2 in chips) 
+sbc1985nj: posts small blind $0.01
+amarkules: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Kc Ac]
+Fly_By_Knight2: calls $0.02
+MAAE88: raises $0.04 to $0.06
+sbc1985nj: folds 
+amarkules: raises $0.27 to $0.33
+Fly_By_Knight2: folds 
+MAAE88: calls $0.27
+*** FLOP *** [Td 9d 3h]
+amarkules: checks 
+MAAE88: checks 
+*** TURN *** [Td 9d 3h] [Qh]
+amarkules: checks 
+MAAE88: bets $0.50
+amarkules: folds 
+Uncalled bet ($0.50) returned to MAAE88
+MAAE88 collected $0.66 from pot
+MAAE88: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.69 | Rake $0.03 
+Board [Td 9d 3h Qh]
+Seat 1: sbc1985nj (small blind) folded before Flop
+Seat 2: amarkules (big blind) folded on the Turn
+Seat 3: Fly_By_Knight2 folded before Flop
+Seat 4: MAAE88 (button) collected ($0.66)
+
+
+
+PokerStars Hand #253054508279:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:23:45 ET
+Table 'Hekate' 6-max Seat #1 is the button
+Seat 1: sbc1985nj ($2 in chips) 
+Seat 2: amarkules ($2.45 in chips) 
+Seat 3: Fly_By_Knight2 ($5.12 in chips) 
+Seat 4: MAAE88 ($2.33 in chips) 
+amarkules: posts small blind $0.01
+Fly_By_Knight2: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [5s Tc]
+MAAE88: folds 
+sbc1985nj: folds 
+amarkules: folds 
+Uncalled bet ($0.01) returned to Fly_By_Knight2
+Fly_By_Knight2 collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 1: sbc1985nj (button) folded before Flop (didn't bet)
+Seat 2: amarkules (small blind) folded before Flop
+Seat 3: Fly_By_Knight2 (big blind) collected ($0.02)
+Seat 4: MAAE88 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054508357:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:23:58 ET
+Table 'Hekate' 6-max Seat #2 is the button
+Seat 1: sbc1985nj ($2 in chips) 
+Seat 2: amarkules ($2.44 in chips) 
+Seat 3: Fly_By_Knight2 ($5.13 in chips) 
+Seat 4: MAAE88 ($2.33 in chips) 
+Fly_By_Knight2: posts small blind $0.01
+MAAE88: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [4c 9d]
+sbc1985nj: folds 
+amarkules: folds 
+Fly_By_Knight2: folds 
+Uncalled bet ($0.01) returned to MAAE88
+MAAE88 collected $0.02 from pot
+MAAE88: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules (button) folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 (small blind) folded before Flop
+Seat 4: MAAE88 (big blind) collected ($0.02)
+
+
+
+PokerStars Hand #253054508442:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:24:10 ET
+Table 'Hekate' 6-max Seat #3 is the button
+Seat 1: sbc1985nj ($2 in chips) 
+Seat 2: amarkules ($2.44 in chips) 
+Seat 3: Fly_By_Knight2 ($5.12 in chips) 
+Seat 4: MAAE88 ($2.34 in chips) 
+MAAE88: posts small blind $0.01
+sbc1985nj: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Qh Ad]
+amarkules: raises $0.12 to $0.14
+Fly_By_Knight2: folds 
+MAAE88: folds 
+sbc1985nj: folds 
+Uncalled bet ($0.12) returned to amarkules
+amarkules collected $0.05 from pot
+amarkules: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: sbc1985nj (big blind) folded before Flop
+Seat 2: amarkules collected ($0.05)
+Seat 3: Fly_By_Knight2 (button) folded before Flop (didn't bet)
+Seat 4: MAAE88 (small blind) folded before Flop
+
+
+
+PokerStars Hand #253054508581:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:24:30 ET
+Table 'Hekate' 6-max Seat #4 is the button
+Seat 1: sbc1985nj ($1.98 in chips) 
+Seat 2: amarkules ($2.47 in chips) 
+Seat 3: Fly_By_Knight2 ($5.12 in chips) 
+Seat 4: MAAE88 ($2.33 in chips) 
+sbc1985nj: posts small blind $0.01
+amarkules: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [6c 7h]
+Fly_By_Knight2: folds 
+MAAE88: folds 
+sbc1985nj: calls $0.01
+amarkules: checks 
+*** FLOP *** [2c Qd 4s]
+sbc1985nj: checks 
+amarkules: checks 
+*** TURN *** [2c Qd 4s] [Kd]
+sbc1985nj: bets $0.02
+amarkules: folds 
+Uncalled bet ($0.02) returned to sbc1985nj
+sbc1985nj collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 
+Board [2c Qd 4s Kd]
+Seat 1: sbc1985nj (small blind) collected ($0.04)
+Seat 2: amarkules (big blind) folded on the Turn
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: MAAE88 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054508745:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:24:56 ET
+Table 'Hekate' 6-max Seat #1 is the button
+Seat 1: sbc1985nj ($2 in chips) 
+Seat 2: amarkules ($2.45 in chips) 
+Seat 3: Fly_By_Knight2 ($5.12 in chips) 
+Seat 4: MAAE88 ($2.33 in chips) 
+amarkules: posts small blind $0.01
+Fly_By_Knight2: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Jh Qs]
+rabscack joins the table at seat #5 
+MAAE88: raises $0.05 to $0.07
+sbc1985nj: calls $0.07
+amarkules: raises $0.05 to $0.12
+Fly_By_Knight2: folds 
+MAAE88: calls $0.05
+sbc1985nj: calls $0.05
+*** FLOP *** [Tc 3s Kd]
+amarkules: bets $0.18
+MAAE88: calls $0.18
+sbc1985nj: folds 
+*** TURN *** [Tc 3s Kd] [5h]
+amarkules: checks 
+MAAE88: bets $0.53
+amarkules: folds 
+Uncalled bet ($0.53) returned to MAAE88
+MAAE88 collected $0.71 from pot
+MAAE88: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.74 | Rake $0.03 
+Board [Tc 3s Kd 5h]
+Seat 1: sbc1985nj (button) folded on the Flop
+Seat 2: amarkules (small blind) folded on the Turn
+Seat 3: Fly_By_Knight2 (big blind) folded before Flop
+Seat 4: MAAE88 collected ($0.71)
+
+
+
+PokerStars Hand #253054509052:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:25:44 ET
+Table 'Hekate' 6-max Seat #2 is the button
+Seat 1: sbc1985nj ($1.88 in chips) 
+Seat 2: amarkules ($2.15 in chips) 
+Seat 3: Fly_By_Knight2 ($5.10 in chips) 
+Seat 4: MAAE88 ($2.74 in chips) 
+Seat 5: rabscack ($2.11 in chips) 
+Fly_By_Knight2: posts small blind $0.01
+MAAE88: posts big blind $0.02
+rabscack: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [9c Ts]
+rabscack: checks 
+sbc1985nj: calls $0.02
+amarkules: raises $0.04 to $0.06
+Fly_By_Knight2: folds 
+MAAE88: folds 
+rabscack: calls $0.04
+sbc1985nj: calls $0.04
+*** FLOP *** [8h 3c 3d]
+rabscack: checks 
+sbc1985nj: bets $0.02
+amarkules: folds 
+rabscack: calls $0.02
+*** TURN *** [8h 3c 3d] [Js]
+rabscack: checks 
+sbc1985nj: bets $0.02
+rabscack: calls $0.02
+*** RIVER *** [8h 3c 3d Js] [5h]
+rabscack: checks 
+sbc1985nj: checks 
+*** SHOW DOWN ***
+rabscack: shows [6d Ad] (a pair of Threes)
+sbc1985nj: shows [8c Qs] (two pair, Eights and Threes)
+sbc1985nj collected $0.28 from pot
+*** SUMMARY ***
+Total pot $0.29 | Rake $0.01 
+Board [8h 3c 3d Js 5h]
+Seat 1: sbc1985nj showed [8c Qs] and won ($0.28) with two pair, Eights and Threes
+Seat 2: amarkules (button) folded on the Flop
+Seat 3: Fly_By_Knight2 (small blind) folded before Flop
+Seat 4: MAAE88 (big blind) folded before Flop
+Seat 5: rabscack showed [6d Ad] and lost with a pair of Threes
+
+
+
+PokerStars Hand #253054509288:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:26:21 ET
+Table 'Hekate' 6-max Seat #3 is the button
+Seat 1: sbc1985nj ($2.06 in chips) 
+Seat 2: amarkules ($2.09 in chips) 
+Seat 3: Fly_By_Knight2 ($5.09 in chips) 
+Seat 4: MAAE88 ($2.72 in chips) 
+Seat 5: rabscack ($2.01 in chips) 
+MAAE88: posts small blind $0.01
+rabscack: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [2d Ac]
+sbc1985nj: folds 
+amarkules: folds 
+Fly_By_Knight2: folds 
+MAAE88: folds 
+Uncalled bet ($0.01) returned to rabscack
+rabscack collected $0.02 from pot
+rabscack: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 (button) folded before Flop (didn't bet)
+Seat 4: MAAE88 (small blind) folded before Flop
+Seat 5: rabscack (big blind) collected ($0.02)
+
+
+
+PokerStars Hand #253054509375:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:26:33 ET
+Table 'Hekate' 6-max Seat #4 is the button
+Seat 1: sbc1985nj ($2.06 in chips) 
+Seat 2: amarkules ($2.09 in chips) 
+Seat 3: Fly_By_Knight2 ($5.09 in chips) 
+Seat 4: MAAE88 ($2.71 in chips) 
+Seat 5: rabscack ($2.02 in chips) 
+rabscack: posts small blind $0.01
+sbc1985nj: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Qc 3h]
+amarkules: folds 
+Fly_By_Knight2: calls $0.02
+MAAE88: folds 
+rabscack: calls $0.01
+sbc1985nj: checks 
+*** FLOP *** [5c 5d 7d]
+rabscack: checks 
+sbc1985nj: checks 
+Fly_By_Knight2: checks 
+*** TURN *** [5c 5d 7d] [5s]
+rabscack: checks 
+sbc1985nj: bets $0.02
+Fly_By_Knight2: folds 
+rabscack: folds 
+Uncalled bet ($0.02) returned to sbc1985nj
+sbc1985nj collected $0.06 from pot
+*** SUMMARY ***
+Total pot $0.06 | Rake $0 
+Board [5c 5d 7d 5s]
+Seat 1: sbc1985nj (big blind) collected ($0.06)
+Seat 2: amarkules folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 folded on the Turn
+Seat 4: MAAE88 (button) folded before Flop (didn't bet)
+Seat 5: rabscack (small blind) folded on the Turn
+
+
+
+PokerStars Hand #253054509588:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:27:04 ET
+Table 'Hekate' 6-max Seat #5 is the button
+Seat 1: sbc1985nj ($2.10 in chips) 
+Seat 2: amarkules ($2.09 in chips) 
+Seat 3: Fly_By_Knight2 ($5.07 in chips) 
+Seat 4: MAAE88 ($2.71 in chips) 
+Seat 5: rabscack ($2 in chips) 
+sbc1985nj: posts small blind $0.01
+amarkules: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [8d 6d]
+Fly_By_Knight2: folds 
+MAAE88: raises $0.05 to $0.07
+rabscack: folds 
+sbc1985nj: folds 
+amarkules: folds 
+Uncalled bet ($0.05) returned to MAAE88
+MAAE88 collected $0.05 from pot
+MAAE88: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: sbc1985nj (small blind) folded before Flop
+Seat 2: amarkules (big blind) folded before Flop
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: MAAE88 collected ($0.05)
+Seat 5: rabscack (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054509677:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:27:17 ET
+Table 'Hekate' 6-max Seat #1 is the button
+Seat 1: sbc1985nj ($2.09 in chips) 
+Seat 2: amarkules ($2.07 in chips) 
+Seat 3: Fly_By_Knight2 ($5.07 in chips) 
+Seat 4: MAAE88 ($2.74 in chips) 
+Seat 5: rabscack ($2 in chips) 
+amarkules: posts small blind $0.01
+Fly_By_Knight2: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Jc 3c]
+MAAE88: raises $0.05 to $0.07
+rabscack: folds 
+sbc1985nj: calls $0.07
+amarkules: folds 
+Fly_By_Knight2: calls $0.05
+*** FLOP *** [Ad 6d 9c]
+Fly_By_Knight2: checks 
+MAAE88: checks 
+sbc1985nj: checks 
+*** TURN *** [Ad 6d 9c] [4s]
+Fly_By_Knight2: checks 
+MAAE88: checks 
+sbc1985nj: checks 
+*** RIVER *** [Ad 6d 9c 4s] [Kc]
+Fly_By_Knight2: checks 
+MAAE88: checks 
+sbc1985nj: checks 
+*** SHOW DOWN ***
+Fly_By_Knight2: shows [Qc Ks] (a pair of Kings)
+MAAE88: mucks hand 
+sbc1985nj: mucks hand 
+Fly_By_Knight2 collected $0.21 from pot
+*** SUMMARY ***
+Total pot $0.22 | Rake $0.01 
+Board [Ad 6d 9c 4s Kc]
+Seat 1: sbc1985nj (button) mucked [8s 8h]
+Seat 2: amarkules (small blind) folded before Flop
+Seat 3: Fly_By_Knight2 (big blind) showed [Qc Ks] and won ($0.21) with a pair of Kings
+Seat 4: MAAE88 mucked [Js Kd]
+Seat 5: rabscack folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054509895:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:27:47 ET
+Table 'Hekate' 6-max Seat #2 is the button
+Seat 1: sbc1985nj ($2.02 in chips) 
+Seat 2: amarkules ($2.06 in chips) 
+Seat 3: Fly_By_Knight2 ($5.21 in chips) 
+Seat 4: MAAE88 ($2.67 in chips) 
+Seat 5: rabscack ($2 in chips) 
+Fly_By_Knight2: posts small blind $0.01
+MAAE88: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [5d 8s]
+rabscack: folds 
+sbc1985nj: folds 
+amarkules: folds 
+Fly_By_Knight2: raises $0.04 to $0.06
+MAAE88: folds 
+Uncalled bet ($0.04) returned to Fly_By_Knight2
+Fly_By_Knight2 collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules (button) folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 (small blind) collected ($0.04)
+Seat 4: MAAE88 (big blind) folded before Flop
+Seat 5: rabscack folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054509980:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:28:01 ET
+Table 'Hekate' 6-max Seat #3 is the button
+Seat 1: sbc1985nj ($2.02 in chips) 
+Seat 2: amarkules ($2.06 in chips) 
+Seat 3: Fly_By_Knight2 ($5.23 in chips) 
+Seat 4: MAAE88 ($2.65 in chips) 
+Seat 5: rabscack ($2 in chips) 
+MAAE88: posts small blind $0.01
+rabscack: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Ad 5d]
+sbc1985nj: folds 
+amarkules: raises $0.08 to $0.10
+Fly_By_Knight2: folds 
+MAAE88: folds 
+rabscack: folds 
+Uncalled bet ($0.08) returned to amarkules
+amarkules collected $0.05 from pot
+amarkules: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules collected ($0.05)
+Seat 3: Fly_By_Knight2 (button) folded before Flop (didn't bet)
+Seat 4: MAAE88 (small blind) folded before Flop
+Seat 5: rabscack (big blind) folded before Flop
+
+
+
+PokerStars Hand #253054510118:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:28:21 ET
+Table 'Hekate' 6-max Seat #4 is the button
+Seat 1: sbc1985nj ($2.02 in chips) 
+Seat 2: amarkules ($2.09 in chips) 
+Seat 3: Fly_By_Knight2 ($5.23 in chips) 
+Seat 4: MAAE88 ($2.64 in chips) 
+Seat 5: rabscack ($1.98 in chips) 
+rabscack: posts small blind $0.01
+sbc1985nj: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Ah Jd]
+amarkules: raises $0.11 to $0.13
+Fly_By_Knight2: folds 
+MAAE88: calls $0.13
+rabscack: calls $0.12
+sbc1985nj: folds 
+*** FLOP *** [3d 3c Qs]
+rabscack: checks 
+amarkules: checks 
+MAAE88: bets $0.35
+rabscack: folds 
+amarkules: folds 
+Uncalled bet ($0.35) returned to MAAE88
+MAAE88 collected $0.39 from pot
+MAAE88: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.41 | Rake $0.02 
+Board [3d 3c Qs]
+Seat 1: sbc1985nj (big blind) folded before Flop
+Seat 2: amarkules folded on the Flop
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: MAAE88 (button) collected ($0.39)
+Seat 5: rabscack (small blind) folded on the Flop
+
+
+
+PokerStars Hand #253054510345:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:28:55 ET
+Table 'Hekate' 6-max Seat #5 is the button
+Seat 1: sbc1985nj ($2 in chips) 
+Seat 2: amarkules ($1.96 in chips) 
+Seat 3: Fly_By_Knight2 ($5.23 in chips) 
+Seat 4: MAAE88 ($2.90 in chips) 
+Seat 5: rabscack ($1.85 in chips) 
+sbc1985nj: posts small blind $0.01
+amarkules: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Qd Ks]
+Fly_By_Knight2: folds 
+MAAE88: folds 
+rabscack: folds 
+sbc1985nj: calls $0.01
+amarkules: raises $0.08 to $0.10
+sbc1985nj: calls $0.08
+*** FLOP *** [7c Ah 2c]
+sbc1985nj: checks 
+amarkules: checks 
+*** TURN *** [7c Ah 2c] [7h]
+sbc1985nj: checks 
+amarkules: checks 
+*** RIVER *** [7c Ah 2c 7h] [Qh]
+sbc1985nj: checks 
+amarkules: bets $0.10
+sbc1985nj: folds 
+Uncalled bet ($0.10) returned to amarkules
+amarkules collected $0.19 from pot
+amarkules: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.20 | Rake $0.01 
+Board [7c Ah 2c 7h Qh]
+Seat 1: sbc1985nj (small blind) folded on the River
+Seat 2: amarkules (big blind) collected ($0.19)
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: MAAE88 folded before Flop (didn't bet)
+Seat 5: rabscack (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054510665:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:29:42 ET
+Table 'Hekate' 6-max Seat #1 is the button
+Seat 1: sbc1985nj ($1.90 in chips) 
+Seat 2: amarkules ($2.05 in chips) 
+Seat 3: Fly_By_Knight2 ($5.23 in chips) 
+Seat 4: MAAE88 ($2.90 in chips) 
+Seat 5: rabscack ($1.85 in chips) 
+amarkules: posts small blind $0.01
+Fly_By_Knight2: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [9s 5d]
+MAAE88: folds 
+rabscack: folds 
+sbc1985nj: folds 
+amarkules: folds 
+Uncalled bet ($0.01) returned to Fly_By_Knight2
+Fly_By_Knight2 collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 1: sbc1985nj (button) folded before Flop (didn't bet)
+Seat 2: amarkules (small blind) folded before Flop
+Seat 3: Fly_By_Knight2 (big blind) collected ($0.02)
+Seat 4: MAAE88 folded before Flop (didn't bet)
+Seat 5: rabscack folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054510746:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:29:53 ET
+Table 'Hekate' 6-max Seat #2 is the button
+Seat 1: sbc1985nj ($1.90 in chips) 
+Seat 2: amarkules ($2.04 in chips) 
+Seat 3: Fly_By_Knight2 ($5.24 in chips) 
+Seat 4: MAAE88 ($2.90 in chips) 
+Seat 5: rabscack ($1.85 in chips) 
+Fly_By_Knight2: posts small blind $0.01
+MAAE88: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Kd 9c]
+rabscack: folds 
+sbc1985nj: folds 
+reek90 joins the table at seat #6 
+reek90 is disconnected 
+amarkules: raises $0.04 to $0.06
+Fly_By_Knight2: folds 
+MAAE88: folds 
+Uncalled bet ($0.04) returned to amarkules
+amarkules collected $0.05 from pot
+amarkules: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules (button) collected ($0.05)
+Seat 3: Fly_By_Knight2 (small blind) folded before Flop
+Seat 4: MAAE88 (big blind) folded before Flop
+Seat 5: rabscack folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054510902:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:30:14 ET
+Table 'Hekate' 6-max Seat #3 is the button
+Seat 1: sbc1985nj ($1.90 in chips) 
+Seat 2: amarkules ($2.07 in chips) 
+Seat 3: Fly_By_Knight2 ($5.23 in chips) 
+Seat 4: MAAE88 ($2.88 in chips) 
+Seat 5: rabscack ($1.85 in chips) 
+Seat 6: reek90 ($1.86 in chips) 
+MAAE88: posts small blind $0.01
+rabscack: posts big blind $0.02
+reek90: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [2c Js]
+reek90: checks 
+sbc1985nj: calls $0.02
+amarkules: folds 
+Fly_By_Knight2: folds 
+MAAE88: folds 
+rabscack: checks 
+*** FLOP *** [9h 9d Jc]
+rabscack: checks 
+reek90: checks 
+sbc1985nj: checks 
+*** TURN *** [9h 9d Jc] [Ad]
+rabscack: checks 
+reek90: checks 
+sbc1985nj: bets $0.08
+rabscack: folds 
+reek90: folds 
+Uncalled bet ($0.08) returned to sbc1985nj
+sbc1985nj collected $0.07 from pot
+*** SUMMARY ***
+Total pot $0.07 | Rake $0 
+Board [9h 9d Jc Ad]
+Seat 1: sbc1985nj collected ($0.07)
+Seat 2: amarkules folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 (button) folded before Flop (didn't bet)
+Seat 4: MAAE88 (small blind) folded before Flop
+Seat 5: rabscack (big blind) folded on the Turn
+Seat 6: reek90 folded on the Turn (didn't bet)
+
+
+
+PokerStars Hand #253054511247:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:31:04 ET
+Table 'Hekate' 6-max Seat #4 is the button
+Seat 1: sbc1985nj ($1.95 in chips) 
+Seat 2: amarkules ($2.07 in chips) 
+Seat 3: Fly_By_Knight2 ($5.23 in chips) 
+Seat 4: MAAE88 ($2.87 in chips) 
+Seat 5: rabscack ($1.83 in chips) 
+Seat 6: reek90 ($1.84 in chips) 
+rabscack: posts small blind $0.01
+reek90: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [3s Tc]
+sbc1985nj: folds 
+amarkules: folds 
+Fly_By_Knight2: folds 
+MAAE88: folds 
+rabscack: folds 
+Uncalled bet ($0.01) returned to reek90
+reek90 collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: MAAE88 (button) folded before Flop (didn't bet)
+Seat 5: rabscack (small blind) folded before Flop
+Seat 6: reek90 (big blind) collected ($0.02)
+
+
+
+PokerStars Hand #253054511436:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:31:31 ET
+Table 'Hekate' 6-max Seat #5 is the button
+Seat 1: sbc1985nj ($1.95 in chips) 
+Seat 2: amarkules ($2.07 in chips) 
+Seat 3: Fly_By_Knight2 ($5.23 in chips) 
+Seat 4: MAAE88 ($2.87 in chips) 
+Seat 5: rabscack ($1.82 in chips) 
+Seat 6: reek90 ($1.85 in chips) 
+reek90: posts small blind $0.01
+sbc1985nj: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [6d 8s]
+amarkules: folds 
+Fly_By_Knight2: folds 
+MAAE88: folds 
+rabscack: raises $0.04 to $0.06
+reek90: calls $0.05
+sbc1985nj: folds 
+*** FLOP *** [9h 6s Kh]
+reek90: checks 
+rabscack: checks 
+*** TURN *** [9h 6s Kh] [5d]
+reek90: bets $0.04
+rabscack: calls $0.04
+*** RIVER *** [9h 6s Kh 5d] [Td]
+reek90: bets $0.04
+rabscack: calls $0.04
+*** SHOW DOWN ***
+reek90: shows [4d 5s] (a pair of Fives)
+rabscack: shows [Ac 6c] (a pair of Sixes)
+rabscack collected $0.29 from pot
+*** SUMMARY ***
+Total pot $0.30 | Rake $0.01 
+Board [9h 6s Kh 5d Td]
+Seat 1: sbc1985nj (big blind) folded before Flop
+Seat 2: amarkules folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: MAAE88 folded before Flop (didn't bet)
+Seat 5: rabscack (button) showed [Ac 6c] and won ($0.29) with a pair of Sixes
+Seat 6: reek90 (small blind) showed [4d 5s] and lost with a pair of Fives
+
+
+
+PokerStars Hand #253054511769:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:32:21 ET
+Table 'Hekate' 6-max Seat #6 is the button
+Seat 1: sbc1985nj ($1.93 in chips) 
+Seat 2: amarkules ($2.07 in chips) 
+Seat 3: Fly_By_Knight2 ($5.23 in chips) 
+Seat 4: MAAE88 ($2.87 in chips) 
+Seat 5: rabscack ($1.97 in chips) 
+Seat 6: reek90 ($1.71 in chips) 
+sbc1985nj: posts small blind $0.01
+amarkules: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [7s Kc]
+Fly_By_Knight2: calls $0.02
+MAAE88: folds 
+rabscack: calls $0.02
+reek90: calls $0.02
+sbc1985nj: calls $0.01
+amarkules: checks 
+*** FLOP *** [3c 9d 8s]
+sbc1985nj: checks 
+amarkules: checks 
+Fly_By_Knight2: bets $0.10
+rabscack: folds 
+reek90: folds 
+sbc1985nj: folds 
+amarkules: folds 
+Uncalled bet ($0.10) returned to Fly_By_Knight2
+Fly_By_Knight2 collected $0.10 from pot
+*** SUMMARY ***
+Total pot $0.10 | Rake $0 
+Board [3c 9d 8s]
+Seat 1: sbc1985nj (small blind) folded on the Flop
+Seat 2: amarkules (big blind) folded on the Flop
+Seat 3: Fly_By_Knight2 collected ($0.10)
+Seat 4: MAAE88 folded before Flop (didn't bet)
+Seat 5: rabscack folded on the Flop
+Seat 6: reek90 (button) folded on the Flop
+
+
+
+PokerStars Hand #253054512034:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:32:59 ET
+Table 'Hekate' 6-max Seat #1 is the button
+Seat 1: sbc1985nj ($1.91 in chips) 
+Seat 2: amarkules ($2.05 in chips) 
+Seat 3: Fly_By_Knight2 ($5.31 in chips) 
+Seat 4: MAAE88 ($2.87 in chips) 
+Seat 5: rabscack ($1.95 in chips) 
+Seat 6: reek90 ($1.69 in chips) 
+amarkules: posts small blind $0.01
+Fly_By_Knight2: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [6h 5h]
+MAAE88: folds 
+rabscack: folds 
+reek90: calls $0.02
+sbc1985nj: calls $0.02
+amarkules: calls $0.01
+Fly_By_Knight2: checks 
+*** FLOP *** [Jc 9c Kd]
+amarkules: checks 
+Fly_By_Knight2: checks 
+reek90: bets $0.04
+sbc1985nj: calls $0.04
+amarkules: folds 
+Fly_By_Knight2: folds 
+*** TURN *** [Jc 9c Kd] [3h]
+reek90: bets $0.04
+sbc1985nj: calls $0.04
+*** RIVER *** [Jc 9c Kd 3h] [4h]
+reek90: bets $0.08
+sbc1985nj: calls $0.08
+*** SHOW DOWN ***
+reek90: shows [9d Ts] (a pair of Nines)
+sbc1985nj: mucks hand 
+reek90 collected $0.38 from pot
+*** SUMMARY ***
+Total pot $0.40 | Rake $0.02 
+Board [Jc 9c Kd 3h 4h]
+Seat 1: sbc1985nj (button) mucked [As Tc]
+Seat 2: amarkules (small blind) folded on the Flop
+Seat 3: Fly_By_Knight2 (big blind) folded on the Flop
+Seat 4: MAAE88 folded before Flop (didn't bet)
+Seat 5: rabscack folded before Flop (didn't bet)
+Seat 6: reek90 showed [9d Ts] and won ($0.38) with a pair of Nines
+
+
+
+PokerStars Hand #253054512304:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:33:41 ET
+Table 'Hekate' 6-max Seat #2 is the button
+Seat 1: sbc1985nj ($1.73 in chips) 
+Seat 2: amarkules ($2.03 in chips) 
+Seat 3: Fly_By_Knight2 ($5.29 in chips) 
+Seat 4: MAAE88 ($2.87 in chips) 
+Seat 5: rabscack ($1.95 in chips) 
+Seat 6: reek90 ($1.89 in chips) 
+Fly_By_Knight2: posts small blind $0.01
+MAAE88: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Ah Td]
+rabscack: folds 
+reek90: calls $0.02
+sbc1985nj: calls $0.02
+amarkules: raises $0.09 to $0.11
+Fly_By_Knight2: folds 
+MAAE88: folds 
+reek90: folds 
+sbc1985nj: calls $0.09
+*** FLOP *** [Th Jc 7c]
+sbc1985nj: checks 
+amarkules: bets $0.13
+sbc1985nj: calls $0.13
+*** TURN *** [Th Jc 7c] [8h]
+sbc1985nj: bets $0.10
+amarkules: calls $0.10
+*** RIVER *** [Th Jc 7c 8h] [Qd]
+sbc1985nj: bets $0.10
+amarkules: calls $0.10
+*** SHOW DOWN ***
+sbc1985nj: shows [9s Ks] (a straight, Nine to King)
+amarkules: mucks hand 
+sbc1985nj collected $0.89 from pot
+*** SUMMARY ***
+Total pot $0.93 | Rake $0.04 
+Board [Th Jc 7c 8h Qd]
+Seat 1: sbc1985nj showed [9s Ks] and won ($0.89) with a straight, Nine to King
+Seat 2: amarkules (button) mucked [Ah Td]
+Seat 3: Fly_By_Knight2 (small blind) folded before Flop
+Seat 4: MAAE88 (big blind) folded before Flop
+Seat 5: rabscack folded before Flop (didn't bet)
+Seat 6: reek90 folded before Flop
+
+
+
+PokerStars Hand #253054512626:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:34:30 ET
+Table 'Hekate' 6-max Seat #3 is the button
+Seat 1: sbc1985nj ($2.18 in chips) 
+Seat 2: amarkules ($1.59 in chips) 
+Seat 3: Fly_By_Knight2 ($5.28 in chips) 
+Seat 4: MAAE88 ($2.85 in chips) 
+Seat 5: rabscack ($1.95 in chips) 
+Seat 6: reek90 ($1.87 in chips) 
+MAAE88: posts small blind $0.01
+rabscack: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Kc Kh]
+reek90: folds 
+sbc1985nj: folds 
+amarkules: raises $0.17 to $0.19
+Fly_By_Knight2: folds 
+MAAE88: folds 
+rabscack: folds 
+Uncalled bet ($0.17) returned to amarkules
+amarkules collected $0.05 from pot
+amarkules: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules collected ($0.05)
+Seat 3: Fly_By_Knight2 (button) folded before Flop (didn't bet)
+Seat 4: MAAE88 (small blind) folded before Flop
+Seat 5: rabscack (big blind) folded before Flop
+Seat 6: reek90 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054512851:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:35:00 ET
+Table 'Hekate' 6-max Seat #4 is the button
+Seat 1: sbc1985nj ($2.18 in chips) 
+Seat 2: amarkules ($1.62 in chips) 
+Seat 3: Fly_By_Knight2 ($5.28 in chips) 
+Seat 4: MAAE88 ($2.84 in chips) 
+Seat 5: rabscack ($1.93 in chips) 
+Seat 6: reek90 ($1.87 in chips) 
+rabscack: posts small blind $0.01
+reek90: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [3c 2c]
+sbc1985nj: folds 
+amarkules: folds 
+Fly_By_Knight2: folds 
+MAAE88: folds 
+rabscack: raises $0.02 to $0.04
+reek90: raises $0.02 to $0.06
+rabscack: calls $0.02
+*** FLOP *** [5d Ac 4c]
+rabscack: bets $0.04
+reek90: calls $0.04
+*** TURN *** [5d Ac 4c] [As]
+rabscack: bets $0.10
+reek90: folds 
+Uncalled bet ($0.10) returned to rabscack
+rabscack collected $0.19 from pot
+rabscack: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.20 | Rake $0.01 
+Board [5d Ac 4c As]
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: MAAE88 (button) folded before Flop (didn't bet)
+Seat 5: rabscack (small blind) collected ($0.19)
+Seat 6: reek90 (big blind) folded on the Turn
+
+
+
+PokerStars Hand #253054513095:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:35:33 ET
+Table 'Hekate' 6-max Seat #5 is the button
+Seat 1: sbc1985nj ($2.18 in chips) 
+Seat 2: amarkules ($1.62 in chips) 
+Seat 3: Fly_By_Knight2 ($5.28 in chips) 
+Seat 4: MAAE88 ($2.84 in chips) 
+Seat 5: rabscack ($2.02 in chips) 
+Seat 6: reek90 ($1.77 in chips) 
+reek90: posts small blind $0.01
+sbc1985nj: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Qh 6h]
+amarkules: calls $0.02
+Fly_By_Knight2: folds 
+MAAE88: folds 
+rabscack: folds 
+reek90: calls $0.01
+sbc1985nj: checks 
+*** FLOP *** [8c 2h 7c]
+reek90: bets $0.04
+sbc1985nj: calls $0.04
+amarkules: folds 
+*** TURN *** [8c 2h 7c] [Ac]
+reek90: bets $0.08
+sbc1985nj: calls $0.08
+*** RIVER *** [8c 2h 7c Ac] [2c]
+reek90: bets $0.12
+sbc1985nj: calls $0.12
+*** SHOW DOWN ***
+reek90: shows [Ks 7h] (two pair, Sevens and Deuces)
+sbc1985nj: shows [5h 4c] (a flush, Ace high)
+sbc1985nj collected $0.52 from pot
+*** SUMMARY ***
+Total pot $0.54 | Rake $0.02 
+Board [8c 2h 7c Ac 2c]
+Seat 1: sbc1985nj (big blind) showed [5h 4c] and won ($0.52) with a flush, Ace high
+Seat 2: amarkules folded on the Flop
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: MAAE88 folded before Flop (didn't bet)
+Seat 5: rabscack (button) folded before Flop (didn't bet)
+Seat 6: reek90 (small blind) showed [Ks 7h] and lost with two pair, Sevens and Deuces
+
+
+
+PokerStars Hand #253054513390:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:36:17 ET
+Table 'Hekate' 6-max Seat #6 is the button
+Seat 1: sbc1985nj ($2.44 in chips) 
+Seat 2: amarkules ($1.60 in chips) 
+Seat 3: Fly_By_Knight2 ($5.28 in chips) 
+Seat 4: MAAE88 ($2.84 in chips) 
+Seat 5: rabscack ($2.02 in chips) 
+Seat 6: reek90 ($1.51 in chips) 
+sbc1985nj: posts small blind $0.01
+amarkules: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Qc 3d]
+Fly_By_Knight2: folds 
+MAAE88: raises $0.05 to $0.07
+rabscack: folds 
+reek90: calls $0.07
+sbc1985nj: folds 
+amarkules: folds 
+*** FLOP *** [Tc Kh 6d]
+MAAE88: bets $0.14
+reek90: folds 
+Uncalled bet ($0.14) returned to MAAE88
+MAAE88 collected $0.16 from pot
+MAAE88: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.17 | Rake $0.01 
+Board [Tc Kh 6d]
+Seat 1: sbc1985nj (small blind) folded before Flop
+Seat 2: amarkules (big blind) folded before Flop
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: MAAE88 collected ($0.16)
+Seat 5: rabscack folded before Flop (didn't bet)
+Seat 6: reek90 (button) folded on the Flop
+
+
+
+PokerStars Hand #253054513586:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:36:45 ET
+Table 'Hekate' 6-max Seat #1 is the button
+Seat 1: sbc1985nj ($2.43 in chips) 
+Seat 2: amarkules ($1.58 in chips) 
+Seat 3: Fly_By_Knight2 ($5.28 in chips) 
+Seat 4: MAAE88 ($2.93 in chips) 
+Seat 5: rabscack ($2.02 in chips) 
+Seat 6: reek90 ($1.44 in chips) 
+amarkules: posts small blind $0.01
+Fly_By_Knight2: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Ad 9s]
+MAAE88: folds 
+rabscack: raises $0.02 to $0.04
+reek90: raises $0.04 to $0.08
+sbc1985nj: calls $0.08
+amarkules: calls $0.07
+Fly_By_Knight2: folds 
+rabscack: calls $0.04
+*** FLOP *** [5h Th 6c]
+amarkules: checks 
+rabscack: bets $0.08
+reek90: calls $0.08
+sbc1985nj: folds 
+amarkules: folds 
+*** TURN *** [5h Th 6c] [3c]
+rabscack: bets $0.12
+reek90: raises $0.12 to $0.24
+rabscack: calls $0.12
+*** RIVER *** [5h Th 6c 3c] [8c]
+rabscack: checks 
+reek90: bets $0.13
+rabscack: calls $0.13
+*** SHOW DOWN ***
+reek90: shows [4s 4d] (a pair of Fours)
+rabscack: shows [Qs Td] (a pair of Tens)
+rabscack collected $1.18 from pot
+*** SUMMARY ***
+Total pot $1.24 | Rake $0.06 
+Board [5h Th 6c 3c 8c]
+Seat 1: sbc1985nj (button) folded on the Flop
+Seat 2: amarkules (small blind) folded on the Flop
+Seat 3: Fly_By_Knight2 (big blind) folded before Flop
+Seat 4: MAAE88 folded before Flop (didn't bet)
+Seat 5: rabscack showed [Qs Td] and won ($1.18) with a pair of Tens
+Seat 6: reek90 showed [4s 4d] and lost with a pair of Fours
+
+
+
+PokerStars Hand #253054514015:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:37:43 ET
+Table 'Hekate' 6-max Seat #2 is the button
+Seat 1: sbc1985nj ($2.35 in chips) 
+Seat 2: amarkules ($1.50 in chips) 
+Seat 3: Fly_By_Knight2 ($5.26 in chips) 
+Seat 4: MAAE88 ($2.93 in chips) 
+Seat 5: rabscack ($2.67 in chips) 
+Seat 6: reek90 ($0.91 in chips) 
+Fly_By_Knight2: posts small blind $0.01
+MAAE88: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [7h 5h]
+rabscack: folds 
+reek90: calls $0.02
+sbc1985nj: folds 
+amarkules: folds 
+Fly_By_Knight2: folds 
+MAAE88: raises $0.05 to $0.07
+reek90: folds 
+Uncalled bet ($0.05) returned to MAAE88
+MAAE88 collected $0.05 from pot
+MAAE88: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules (button) folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 (small blind) folded before Flop
+Seat 4: MAAE88 (big blind) collected ($0.05)
+Seat 5: rabscack folded before Flop (didn't bet)
+Seat 6: reek90 folded before Flop
+
+
+
+PokerStars Hand #253054514157:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:38:04 ET
+Table 'Hekate' 6-max Seat #3 is the button
+Seat 1: sbc1985nj ($2.35 in chips) 
+Seat 2: amarkules ($1.50 in chips) 
+Seat 3: Fly_By_Knight2 ($5.25 in chips) 
+Seat 4: MAAE88 ($2.96 in chips) 
+Seat 5: rabscack ($2.67 in chips) 
+Seat 6: reek90 ($0.89 in chips) 
+MAAE88: posts small blind $0.01
+rabscack: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [7d 4s]
+reek90: raises $0.02 to $0.04
+sbc1985nj: folds 
+amarkules: folds 
+Fly_By_Knight2: folds 
+MAAE88: folds 
+rabscack: calls $0.02
+*** FLOP *** [7c 9c 6s]
+rabscack: checks 
+reek90: bets $0.02
+rabscack: calls $0.02
+*** TURN *** [7c 9c 6s] [4d]
+rabscack: bets $0.04
+reek90: folds 
+Uncalled bet ($0.04) returned to rabscack
+rabscack collected $0.12 from pot
+rabscack: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.13 | Rake $0.01 
+Board [7c 9c 6s 4d]
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 (button) folded before Flop (didn't bet)
+Seat 4: MAAE88 (small blind) folded before Flop
+Seat 5: rabscack (big blind) collected ($0.12)
+Seat 6: reek90 folded on the Turn
+
+
+
+PokerStars Hand #253054514371:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:38:34 ET
+Table 'Hekate' 6-max Seat #4 is the button
+Seat 1: sbc1985nj ($2.35 in chips) 
+Seat 2: amarkules ($1.50 in chips) 
+Seat 3: Fly_By_Knight2 ($5.25 in chips) 
+Seat 4: MAAE88 ($2.95 in chips) 
+Seat 5: rabscack ($2.73 in chips) 
+Seat 6: reek90 ($0.83 in chips) 
+rabscack: posts small blind $0.01
+reek90: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [7c 8h]
+sbc1985nj: calls $0.02
+amarkules: folds 
+Fly_By_Knight2: folds 
+MAAE88: folds 
+rabscack: calls $0.01
+reek90: checks 
+*** FLOP *** [Ts Qc 4s]
+rabscack: checks 
+reek90: bets $0.04
+sbc1985nj: folds 
+rabscack: folds 
+Uncalled bet ($0.04) returned to reek90
+reek90 collected $0.06 from pot
+*** SUMMARY ***
+Total pot $0.06 | Rake $0 
+Board [Ts Qc 4s]
+Seat 1: sbc1985nj folded on the Flop
+Seat 2: amarkules folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: MAAE88 (button) folded before Flop (didn't bet)
+Seat 5: rabscack (small blind) folded on the Flop
+Seat 6: reek90 (big blind) collected ($0.06)
+
+
+
+PokerStars Hand #253054514564:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:39:01 ET
+Table 'Hekate' 6-max Seat #5 is the button
+Seat 1: sbc1985nj ($2.33 in chips) 
+Seat 2: amarkules ($1.50 in chips) 
+Seat 3: Fly_By_Knight2 ($5.25 in chips) 
+Seat 4: MAAE88 ($2.95 in chips) 
+Seat 5: rabscack ($2.71 in chips) 
+Seat 6: reek90 ($0.87 in chips) 
+reek90: posts small blind $0.01
+sbc1985nj: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Ks Ac]
+amarkules: raises $0.08 to $0.10
+Fly_By_Knight2: folds 
+MAAE88: folds 
+rabscack: folds 
+reek90: folds 
+sbc1985nj: folds 
+Uncalled bet ($0.08) returned to amarkules
+amarkules collected $0.05 from pot
+amarkules: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: sbc1985nj (big blind) folded before Flop
+Seat 2: amarkules collected ($0.05)
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: MAAE88 folded before Flop (didn't bet)
+Seat 5: rabscack (button) folded before Flop (didn't bet)
+Seat 6: reek90 (small blind) folded before Flop
+
+
+
+PokerStars Hand #253054514731:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:39:26 ET
+Table 'Hekate' 6-max Seat #6 is the button
+Seat 1: sbc1985nj ($2.31 in chips) 
+Seat 2: amarkules ($1.53 in chips) 
+Seat 3: Fly_By_Knight2 ($5.25 in chips) 
+Seat 4: MAAE88 ($2.95 in chips) 
+Seat 5: rabscack ($2.71 in chips) 
+Seat 6: reek90 ($0.86 in chips) 
+sbc1985nj: posts small blind $0.01
+amarkules: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [7d 6s]
+Fly_By_Knight2: folds 
+MAAE88: folds 
+rabscack: raises $0.10 to $0.12
+reek90: folds 
+sbc1985nj: folds 
+amarkules: folds 
+Uncalled bet ($0.10) returned to rabscack
+rabscack collected $0.05 from pot
+rabscack: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: sbc1985nj (small blind) folded before Flop
+Seat 2: amarkules (big blind) folded before Flop
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: MAAE88 folded before Flop (didn't bet)
+Seat 5: rabscack collected ($0.05)
+Seat 6: reek90 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054514829:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:39:41 ET
+Table 'Hekate' 6-max Seat #1 is the button
+Seat 1: sbc1985nj ($2.30 in chips) 
+Seat 2: amarkules ($1.51 in chips) 
+Seat 3: Fly_By_Knight2 ($5.25 in chips) 
+Seat 4: MAAE88 ($2.95 in chips) 
+Seat 5: rabscack ($2.74 in chips) 
+Seat 6: reek90 ($0.86 in chips) 
+amarkules: posts small blind $0.01
+Fly_By_Knight2: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [3s 4c]
+MAAE88: raises $0.05 to $0.07
+rabscack: calls $0.07
+reek90: folds 
+sbc1985nj: calls $0.07
+amarkules: folds 
+Fly_By_Knight2: calls $0.05
+*** FLOP *** [5c Qh 6c]
+Fly_By_Knight2: checks 
+MAAE88: bets $0.28
+rabscack: folds 
+sbc1985nj: folds 
+Fly_By_Knight2: folds 
+Uncalled bet ($0.28) returned to MAAE88
+MAAE88 collected $0.28 from pot
+MAAE88: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.29 | Rake $0.01 
+Board [5c Qh 6c]
+Seat 1: sbc1985nj (button) folded on the Flop
+Seat 2: amarkules (small blind) folded before Flop
+Seat 3: Fly_By_Knight2 (big blind) folded on the Flop
+Seat 4: MAAE88 collected ($0.28)
+Seat 5: rabscack folded on the Flop
+Seat 6: reek90 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054515046:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:40:11 ET
+Table 'Hekate' 6-max Seat #2 is the button
+Seat 1: sbc1985nj ($2.23 in chips) 
+Seat 2: amarkules ($1.50 in chips) 
+Seat 3: Fly_By_Knight2 ($5.18 in chips) 
+Seat 4: MAAE88 ($3.16 in chips) 
+Seat 5: rabscack ($2.67 in chips) 
+Seat 6: reek90 ($0.86 in chips) 
+Fly_By_Knight2: posts small blind $0.01
+MAAE88: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Ts 9c]
+rabscack: raises $0.04 to $0.06
+reek90: folds 
+sbc1985nj: folds 
+amarkules: calls $0.06
+Fly_By_Knight2: folds 
+MAAE88: folds 
+*** FLOP *** [2c 4d Qs]
+rabscack: checks 
+amarkules: checks 
+*** TURN *** [2c 4d Qs] [6c]
+rabscack: checks 
+amarkules: checks 
+*** RIVER *** [2c 4d Qs 6c] [Td]
+rabscack: checks 
+amarkules: bets $0.07
+rabscack: calls $0.07
+*** SHOW DOWN ***
+amarkules: shows [Ts 9c] (a pair of Tens)
+rabscack: shows [Th Ah] (a pair of Tens - Ace kicker)
+rabscack collected $0.28 from pot
+*** SUMMARY ***
+Total pot $0.29 | Rake $0.01 
+Board [2c 4d Qs 6c Td]
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules (button) showed [Ts 9c] and lost with a pair of Tens
+Seat 3: Fly_By_Knight2 (small blind) folded before Flop
+Seat 4: MAAE88 (big blind) folded before Flop
+Seat 5: rabscack showed [Th Ah] and won ($0.28) with a pair of Tens
+Seat 6: reek90 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054515274:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:40:46 ET
+Table 'Hekate' 6-max Seat #3 is the button
+Seat 1: sbc1985nj ($2.23 in chips) 
+Seat 2: amarkules ($1.37 in chips) 
+Seat 3: Fly_By_Knight2 ($5.17 in chips) 
+Seat 4: MAAE88 ($3.14 in chips) 
+Seat 5: rabscack ($2.82 in chips) 
+Seat 6: reek90 ($0.86 in chips) 
+MAAE88: posts small blind $0.01
+rabscack: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [9d Qd]
+reek90: raises $0.02 to $0.04
+sbc1985nj: folds 
+amarkules: raises $0.04 to $0.08
+Fly_By_Knight2: folds 
+MAAE88: folds 
+rabscack: folds 
+reek90: raises $0.78 to $0.86 and is all-in
+amarkules: folds 
+Uncalled bet ($0.78) returned to reek90
+reek90 collected $0.19 from pot
+*** SUMMARY ***
+Total pot $0.19 | Rake $0 
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules folded before Flop
+Seat 3: Fly_By_Knight2 (button) folded before Flop (didn't bet)
+Seat 4: MAAE88 (small blind) folded before Flop
+Seat 5: rabscack (big blind) folded before Flop
+Seat 6: reek90 collected ($0.19)
+
+
+
+PokerStars Hand #253054515438:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:41:11 ET
+Table 'Hekate' 6-max Seat #4 is the button
+Seat 1: sbc1985nj ($2.23 in chips) 
+Seat 2: amarkules ($1.29 in chips) 
+Seat 3: Fly_By_Knight2 ($5.17 in chips) 
+Seat 4: MAAE88 ($3.13 in chips) 
+Seat 5: rabscack ($2.80 in chips) 
+Seat 6: reek90 ($0.97 in chips) 
+rabscack: posts small blind $0.01
+reek90: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [6s 6c]
+sbc1985nj: folds 
+amarkules: raises $0.05 to $0.07
+Fly_By_Knight2: folds 
+MAAE88: calls $0.07
+rabscack: folds 
+reek90: calls $0.05
+*** FLOP *** [8d 9s Kh]
+reek90: checks 
+amarkules: checks 
+MAAE88: checks 
+*** TURN *** [8d 9s Kh] [Js]
+reek90: bets $0.07
+amarkules: folds 
+MAAE88: calls $0.07
+*** RIVER *** [8d 9s Kh Js] [Jh]
+reek90: bets $0.10
+MAAE88: folds 
+Uncalled bet ($0.10) returned to reek90
+reek90 collected $0.34 from pot
+*** SUMMARY ***
+Total pot $0.36 | Rake $0.02 
+Board [8d 9s Kh Js Jh]
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules folded on the Turn
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: MAAE88 (button) folded on the River
+Seat 5: rabscack (small blind) folded before Flop
+Seat 6: reek90 (big blind) collected ($0.34)
+
+
+
+PokerStars Hand #253054515855:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:42:10 ET
+Table 'Hekate' 6-max Seat #5 is the button
+Seat 1: sbc1985nj ($2.23 in chips) 
+Seat 2: amarkules ($1.22 in chips) 
+Seat 3: Fly_By_Knight2 ($5.17 in chips) 
+Seat 4: MAAE88 ($2.99 in chips) 
+Seat 5: rabscack ($2.79 in chips) 
+Seat 6: reek90 ($1.17 in chips) 
+reek90: posts small blind $0.01
+sbc1985nj: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [6d 8c]
+amarkules: folds 
+Fly_By_Knight2: folds 
+MAAE88: folds 
+rabscack: calls $0.02
+reek90: folds 
+sbc1985nj: checks 
+*** FLOP *** [Th 9d 3s]
+sbc1985nj: bets $0.02
+rabscack: calls $0.02
+*** TURN *** [Th 9d 3s] [Kh]
+sbc1985nj: bets $0.02
+rabscack: calls $0.02
+*** RIVER *** [Th 9d 3s Kh] [7s]
+sbc1985nj: bets $0.10
+rabscack: folds 
+Uncalled bet ($0.10) returned to sbc1985nj
+sbc1985nj collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.13 | Rake $0.01 
+Board [Th 9d 3s Kh 7s]
+Seat 1: sbc1985nj (big blind) collected ($0.12)
+Seat 2: amarkules folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: MAAE88 folded before Flop (didn't bet)
+Seat 5: rabscack (button) folded on the River
+Seat 6: reek90 (small blind) folded before Flop
+
+
+
+PokerStars Hand #253054516082:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:42:47 ET
+Table 'Hekate' 6-max Seat #6 is the button
+Seat 1: sbc1985nj ($2.29 in chips) 
+Seat 2: amarkules ($1.22 in chips) 
+Seat 3: Fly_By_Knight2 ($5.17 in chips) 
+Seat 4: MAAE88 ($2.99 in chips) 
+Seat 5: rabscack ($2.73 in chips) 
+Seat 6: reek90 ($1.16 in chips) 
+sbc1985nj: posts small blind $0.01
+amarkules: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Ah Jc]
+Fly_By_Knight2: folds 
+MAAE88: folds 
+rabscack: folds 
+reek90: calls $0.02
+sbc1985nj: calls $0.01
+amarkules: raises $0.10 to $0.12
+reek90: folds 
+sbc1985nj: folds 
+Uncalled bet ($0.10) returned to amarkules
+amarkules collected $0.06 from pot
+amarkules: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.06 | Rake $0 
+Seat 1: sbc1985nj (small blind) folded before Flop
+Seat 2: amarkules (big blind) collected ($0.06)
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: MAAE88 folded before Flop (didn't bet)
+Seat 5: rabscack folded before Flop (didn't bet)
+Seat 6: reek90 (button) folded before Flop
+
+
+
+PokerStars Hand #253054516223:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:43:11 ET
+Table 'Hekate' 6-max Seat #1 is the button
+Seat 1: sbc1985nj ($2.27 in chips) 
+Seat 2: amarkules ($1.26 in chips) 
+Seat 3: Fly_By_Knight2 ($5.17 in chips) 
+Seat 4: MAAE88 ($2.99 in chips) 
+Seat 5: rabscack ($2.73 in chips) 
+Seat 6: reek90 ($1.14 in chips) 
+amarkules: posts small blind $0.01
+Fly_By_Knight2: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [5h 7d]
+MAAE88: raises $0.04 to $0.06
+rabscack: folds 
+reek90: folds 
+sbc1985nj: folds 
+amarkules: folds 
+Fly_By_Knight2: folds 
+Uncalled bet ($0.04) returned to MAAE88
+MAAE88 collected $0.05 from pot
+MAAE88: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Seat 1: sbc1985nj (button) folded before Flop (didn't bet)
+Seat 2: amarkules (small blind) folded before Flop
+Seat 3: Fly_By_Knight2 (big blind) folded before Flop
+Seat 4: MAAE88 collected ($0.05)
+Seat 5: rabscack folded before Flop (didn't bet)
+Seat 6: reek90 folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054516367:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:43:32 ET
+Table 'Hekate' 6-max Seat #2 is the button
+Seat 4: MAAE88 ($3.02 in chips) is sitting out
+Seat 1: sbc1985nj ($2.27 in chips) 
+Seat 2: amarkules ($1.25 in chips) 
+Seat 3: Fly_By_Knight2 ($5.15 in chips) 
+Seat 5: rabscack ($2.73 in chips) 
+Seat 6: reek90 ($1.14 in chips) 
+Fly_By_Knight2: posts small blind $0.01
+MAAE88: is sitting out 
+rabscack: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Qd 7c]
+MAAE88 leaves the table
+reek90: calls $0.02
+sbc1985nj: folds 
+amarkules: folds 
+Fly_By_Knight2: calls $0.01
+rabscack: checks 
+*** FLOP *** [Qh Ac Jh]
+Fly_By_Knight2: checks 
+rabscack: checks 
+reek90: bets $0.02
+Fly_By_Knight2: calls $0.02
+rabscack: calls $0.02
+*** TURN *** [Qh Ac Jh] [Td]
+Fly_By_Knight2: checks 
+rabscack: checks 
+reek90: bets $0.04
+Fly_By_Knight2: folds 
+PIOUJMJPRO joins the table at seat #4 
+rabscack: folds 
+Uncalled bet ($0.04) returned to reek90
+reek90 collected $0.11 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0.01 
+Board [Qh Ac Jh Td]
+Seat 4: MAAE88
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules (button) folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 (small blind) folded on the Turn
+Seat 5: rabscack (big blind) folded on the Turn
+Seat 6: reek90 collected ($0.11)
+
+
+
+PokerStars Hand #253054516618:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:44:10 ET
+Table 'Hekate' 6-max Seat #3 is the button
+Seat 4: PIOUJMJPRO ($2 in chips) is sitting out
+Seat 1: sbc1985nj ($2.27 in chips) 
+Seat 2: amarkules ($1.25 in chips) 
+Seat 3: Fly_By_Knight2 ($5.11 in chips) 
+Seat 5: rabscack ($2.69 in chips) 
+Seat 6: reek90 ($1.21 in chips) 
+rabscack: posts small blind $0.01
+reek90: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [4c 3h]
+sbc1985nj: folds 
+amarkules: folds 
+Fly_By_Knight2: folds 
+rabscack: calls $0.01
+reek90: raises $0.04 to $0.06
+rabscack: calls $0.04
+*** FLOP *** [4h 2d 9c]
+rabscack: bets $0.06
+reek90: raises $0.06 to $0.12
+rabscack: calls $0.06
+*** TURN *** [4h 2d 9c] [Ah]
+rabscack: checks 
+reek90: bets $0.10
+rabscack: calls $0.10
+*** RIVER *** [4h 2d 9c Ah] [8d]
+rabscack: checks 
+reek90: bets $0.17
+rabscack: folds 
+Uncalled bet ($0.17) returned to reek90
+reek90 collected $0.53 from pot
+*** SUMMARY ***
+Total pot $0.56 | Rake $0.03 
+Board [4h 2d 9c Ah 8d]
+Seat 4: PIOUJMJPRO
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 (button) folded before Flop (didn't bet)
+Seat 5: rabscack (small blind) folded on the River
+Seat 6: reek90 (big blind) collected ($0.53)
+
+
+
+PokerStars Hand #253054516887:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:44:52 ET
+Table 'Hekate' 6-max Seat #5 is the button
+Seat 4: PIOUJMJPRO ($2 in chips) is sitting out
+Seat 1: sbc1985nj ($2.27 in chips) 
+Seat 2: amarkules ($1.25 in chips) 
+Seat 3: Fly_By_Knight2 ($5.11 in chips) 
+Seat 5: rabscack ($2.41 in chips) 
+Seat 6: reek90 ($1.46 in chips) 
+reek90: posts small blind $0.01
+sbc1985nj: posts big blind $0.02
+PIOUJMJPRO: sits out 
+*** HOLE CARDS ***
+Dealt to amarkules [2h Tc]
+amarkules: folds 
+Fly_By_Knight2: folds 
+rabscack: calls $0.02
+reek90: calls $0.01
+sbc1985nj: checks 
+*** FLOP *** [3c 7c 4h]
+reek90: checks 
+sbc1985nj: checks 
+rabscack: checks 
+*** TURN *** [3c 7c 4h] [Ah]
+reek90: checks 
+sbc1985nj: checks 
+rabscack: checks 
+*** RIVER *** [3c 7c 4h Ah] [5d]
+reek90: bets $0.04
+sbc1985nj: calls $0.04
+rabscack: raises $0.04 to $0.08
+reek90: raises $0.04 to $0.12
+sbc1985nj: calls $0.08
+rabscack: calls $0.04
+*** SHOW DOWN ***
+reek90: shows [2s As] (a straight, Ace to Five)
+sbc1985nj: shows [2d 8h] (a straight, Ace to Five)
+rabscack: shows [Ks 6s] (a straight, Three to Seven)
+rabscack collected $0.40 from pot
+*** SUMMARY ***
+Total pot $0.42 | Rake $0.02 
+Board [3c 7c 4h Ah 5d]
+Seat 4: PIOUJMJPRO
+Seat 1: sbc1985nj (big blind) showed [2d 8h] and lost with a straight, Ace to Five
+Seat 2: amarkules folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 5: rabscack (button) showed [Ks 6s] and won ($0.40) with a straight, Three to Seven
+Seat 6: reek90 (small blind) showed [2s As] and lost with a straight, Ace to Five
+
+
+
+PokerStars Hand #253054517131:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:45:30 ET
+Table 'Hekate' 6-max Seat #6 is the button
+Seat 4: PIOUJMJPRO ($2 in chips) is sitting out
+Seat 1: sbc1985nj ($2.13 in chips) 
+Seat 2: amarkules ($1.25 in chips) 
+Seat 3: Fly_By_Knight2 ($5.11 in chips) 
+Seat 5: rabscack ($2.67 in chips) 
+Seat 6: reek90 ($1.32 in chips) 
+sbc1985nj: posts small blind $0.01
+amarkules: posts big blind $0.02
+PIOUJMJPRO: sits out 
+*** HOLE CARDS ***
+Dealt to amarkules [6s 7d]
+Fly_By_Knight2: folds 
+rabscack: raises $0.04 to $0.06
+reek90: calls $0.06
+sbc1985nj: folds 
+amarkules: folds 
+*** FLOP *** [5c 3h Qc]
+rabscack: checks 
+reek90: checks 
+*** TURN *** [5c 3h Qc] [4c]
+rabscack: checks 
+reek90: checks 
+*** RIVER *** [5c 3h Qc 4c] [Jd]
+rabscack: checks 
+reek90: bets $0.07
+rabscack: folds 
+Uncalled bet ($0.07) returned to reek90
+reek90 collected $0.14 from pot
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01 
+Board [5c 3h Qc 4c Jd]
+Seat 4: PIOUJMJPRO
+Seat 1: sbc1985nj (small blind) folded before Flop
+Seat 2: amarkules (big blind) folded before Flop
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 5: rabscack folded on the River
+Seat 6: reek90 (button) collected ($0.14)
+
+
+
+PokerStars Hand #253054517429:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:46:20 ET
+Table 'Hekate' 6-max Seat #1 is the button
+Seat 4: PIOUJMJPRO ($2 in chips) is sitting out
+Seat 1: sbc1985nj ($2.12 in chips) 
+Seat 2: amarkules ($1.23 in chips) 
+Seat 3: Fly_By_Knight2 ($5.11 in chips) 
+Seat 5: rabscack ($2.61 in chips) 
+Seat 6: reek90 ($1.40 in chips) 
+amarkules: posts small blind $0.01
+Fly_By_Knight2: posts big blind $0.02
+PIOUJMJPRO: sits out 
+*** HOLE CARDS ***
+Dealt to amarkules [Ts 8s]
+rabscack: calls $0.02
+reek90: calls $0.02
+sbc1985nj: calls $0.02
+amarkules: raises $0.02 to $0.04
+Fly_By_Knight2: folds 
+rabscack: calls $0.02
+reek90: calls $0.02
+sbc1985nj: calls $0.02
+*** FLOP *** [7d 9h 8d]
+amarkules: bets $0.17
+rabscack: folds 
+reek90: folds 
+sbc1985nj: folds 
+Uncalled bet ($0.17) returned to amarkules
+amarkules collected $0.17 from pot
+amarkules: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01 
+Board [7d 9h 8d]
+Seat 4: PIOUJMJPRO
+Seat 1: sbc1985nj (button) folded on the Flop
+Seat 2: amarkules (small blind) collected ($0.17)
+Seat 3: Fly_By_Knight2 (big blind) folded before Flop
+Seat 5: rabscack folded on the Flop
+Seat 6: reek90 folded on the Flop
+
+
+
+PokerStars Hand #253054517655:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:46:59 ET
+Table 'Hekate' 6-max Seat #2 is the button
+Seat 1: sbc1985nj ($2.08 in chips) 
+Seat 2: amarkules ($1.36 in chips) 
+Seat 3: Fly_By_Knight2 ($5.09 in chips) 
+Seat 4: PIOUJMJPRO ($2 in chips) 
+Seat 5: rabscack ($2.57 in chips) 
+Seat 6: reek90 ($1.36 in chips) 
+Fly_By_Knight2: posts small blind $0.01
+PIOUJMJPRO: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [8h 6c]
+rabscack: calls $0.02
+reek90: calls $0.02
+sbc1985nj: calls $0.02
+amarkules: folds 
+Fly_By_Knight2: folds 
+PIOUJMJPRO: checks 
+*** FLOP *** [7c 2c 4d]
+PIOUJMJPRO: checks 
+rabscack: checks 
+reek90: checks 
+sbc1985nj: checks 
+*** TURN *** [7c 2c 4d] [Jd]
+PIOUJMJPRO: checks 
+rabscack: checks 
+reek90: bets $0.04
+sbc1985nj: calls $0.04
+PIOUJMJPRO: folds 
+rabscack: folds 
+*** RIVER *** [7c 2c 4d Jd] [4c]
+reek90: bets $0.08
+sbc1985nj: calls $0.08
+*** SHOW DOWN ***
+reek90: shows [Js 3s] (two pair, Jacks and Fours)
+sbc1985nj: shows [Qd Jh] (two pair, Jacks and Fours - Queen kicker)
+sbc1985nj collected $0.32 from pot
+*** SUMMARY ***
+Total pot $0.33 | Rake $0.01 
+Board [7c 2c 4d Jd 4c]
+Seat 1: sbc1985nj showed [Qd Jh] and won ($0.32) with two pair, Jacks and Fours
+Seat 2: amarkules (button) folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 (small blind) folded before Flop
+Seat 4: PIOUJMJPRO (big blind) folded on the Turn
+Seat 5: rabscack folded on the Turn
+Seat 6: reek90 showed [Js 3s] and lost with two pair, Jacks and Fours
+
+
+
+PokerStars Hand #253054518090:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:48:11 ET
+Table 'Hekate' 6-max Seat #3 is the button
+Seat 1: sbc1985nj ($2.26 in chips) 
+Seat 2: amarkules ($1.36 in chips) 
+Seat 3: Fly_By_Knight2 ($5.08 in chips) 
+Seat 4: PIOUJMJPRO ($2 in chips) 
+Seat 5: rabscack ($2.55 in chips) 
+Seat 6: reek90 ($1.22 in chips) 
+PIOUJMJPRO: posts small blind $0.01
+rabscack: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [8h 7s]
+reek90: calls $0.02
+sbc1985nj: folds 
+amarkules: folds 
+Fly_By_Knight2: calls $0.02
+PIOUJMJPRO: folds 
+rabscack: checks 
+*** FLOP *** [Ah 8s 4c]
+rabscack: checks 
+reek90 has timed out
+reek90: checks 
+Fly_By_Knight2: checks 
+*** TURN *** [Ah 8s 4c] [6s]
+rabscack: checks 
+reek90 is disconnected 
+reek90 has timed out while disconnected
+reek90: checks 
+Fly_By_Knight2: checks 
+*** RIVER *** [Ah 8s 4c 6s] [7h]
+rabscack: checks 
+reek90 has timed out while disconnected
+reek90: checks 
+Fly_By_Knight2: checks 
+*** SHOW DOWN ***
+rabscack: shows [5h Td] (a straight, Four to Eight)
+reek90: mucks hand 
+Fly_By_Knight2: mucks hand 
+rabscack collected $0.07 from pot
+*** SUMMARY ***
+Total pot $0.07 | Rake $0 
+Board [Ah 8s 4c 6s 7h]
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 (button) mucked [Qh Jd]
+Seat 4: PIOUJMJPRO (small blind) folded before Flop
+Seat 5: rabscack (big blind) showed [5h Td] and won ($0.07) with a straight, Four to Eight
+Seat 6: reek90 mucked [Ks 8d]
+
+
+
+PokerStars Hand #253054519174:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:50:58 ET
+Table 'Hekate' 6-max Seat #4 is the button
+Seat 6: reek90 ($1.20 in chips) is sitting out
+Seat 1: sbc1985nj ($2.26 in chips) 
+Seat 2: amarkules ($1.36 in chips) 
+Seat 3: Fly_By_Knight2 ($5.06 in chips) 
+Seat 4: PIOUJMJPRO ($2 in chips) 
+Seat 5: rabscack ($2.60 in chips) 
+rabscack: posts small blind $0.01
+sbc1985nj: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [4c 3d]
+amarkules: folds 
+Fly_By_Knight2: folds 
+PIOUJMJPRO: folds 
+rabscack: calls $0.01
+sbc1985nj: checks 
+*** FLOP *** [Ad Tc Qs]
+rabscack: checks 
+sbc1985nj: bets $0.02
+rabscack: folds 
+Uncalled bet ($0.02) returned to sbc1985nj
+sbc1985nj collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 
+Board [Ad Tc Qs]
+Seat 6: reek90
+Seat 1: sbc1985nj (big blind) collected ($0.04)
+Seat 2: amarkules folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: PIOUJMJPRO (button) folded before Flop (didn't bet)
+Seat 5: rabscack (small blind) folded on the Flop
+
+
+
+PokerStars Hand #253054519305:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:51:19 ET
+Table 'Hekate' 6-max Seat #5 is the button
+Seat 6: reek90 ($1.20 in chips) is sitting out
+Seat 1: sbc1985nj ($2.28 in chips) 
+Seat 2: amarkules ($1.36 in chips) 
+Seat 3: Fly_By_Knight2 ($5.06 in chips) 
+Seat 4: PIOUJMJPRO ($2 in chips) 
+Seat 5: rabscack ($2.58 in chips) 
+sbc1985nj: posts small blind $0.01
+amarkules: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [6c Kh]
+Fly_By_Knight2: folds 
+PIOUJMJPRO: folds 
+rabscack: folds 
+sbc1985nj: calls $0.01
+amarkules: checks 
+*** FLOP *** [7c 2h 6s]
+sbc1985nj: bets $0.02
+amarkules: raises $0.08 to $0.10
+sbc1985nj: calls $0.08
+*** TURN *** [7c 2h 6s] [As]
+sbc1985nj: bets $0.02
+amarkules: calls $0.02
+*** RIVER *** [7c 2h 6s As] [9s]
+sbc1985nj: bets $0.12
+amarkules: folds 
+Uncalled bet ($0.12) returned to sbc1985nj
+sbc1985nj collected $0.27 from pot
+*** SUMMARY ***
+Total pot $0.28 | Rake $0.01 
+Board [7c 2h 6s As 9s]
+Seat 6: reek90
+Seat 1: sbc1985nj (small blind) collected ($0.27)
+Seat 2: amarkules (big blind) folded on the River
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: PIOUJMJPRO folded before Flop (didn't bet)
+Seat 5: rabscack (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054519667:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:52:12 ET
+Table 'Hekate' 6-max Seat #1 is the button
+Seat 6: reek90 ($1.20 in chips) is sitting out
+Seat 1: sbc1985nj ($2.41 in chips) 
+Seat 2: amarkules ($1.22 in chips) 
+Seat 3: Fly_By_Knight2 ($5.06 in chips) 
+Seat 4: PIOUJMJPRO ($2 in chips) 
+Seat 5: rabscack ($2.58 in chips) 
+amarkules: posts small blind $0.01
+Fly_By_Knight2: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [3s Jd]
+reek90 is disconnected 
+PIOUJMJPRO: folds 
+rabscack: folds 
+sbc1985nj: folds 
+amarkules: folds 
+Uncalled bet ($0.01) returned to Fly_By_Knight2
+Fly_By_Knight2 collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 6: reek90
+Seat 1: sbc1985nj (button) folded before Flop (didn't bet)
+Seat 2: amarkules (small blind) folded before Flop
+Seat 3: Fly_By_Knight2 (big blind) collected ($0.02)
+Seat 4: PIOUJMJPRO folded before Flop (didn't bet)
+Seat 5: rabscack folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054519799:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:52:30 ET
+Table 'Hekate' 6-max Seat #2 is the button
+Seat 6: reek90 ($1.20 in chips) is sitting out
+Seat 1: sbc1985nj ($2.41 in chips) 
+Seat 2: amarkules ($1.21 in chips) 
+Seat 3: Fly_By_Knight2 ($5.07 in chips) 
+Seat 4: PIOUJMJPRO ($2 in chips) 
+Seat 5: rabscack ($2.58 in chips) 
+Fly_By_Knight2: posts small blind $0.01
+PIOUJMJPRO: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [3s Qh]
+rabscack: calls $0.02
+sbc1985nj: folds 
+amarkules: folds 
+Fly_By_Knight2: calls $0.01
+PIOUJMJPRO: checks 
+*** FLOP *** [Kc 3c 4h]
+Fly_By_Knight2: checks 
+PIOUJMJPRO: checks 
+rabscack: checks 
+*** TURN *** [Kc 3c 4h] [5c]
+Fly_By_Knight2: checks 
+PIOUJMJPRO: checks 
+rabscack: checks 
+*** RIVER *** [Kc 3c 4h 5c] [9h]
+Fly_By_Knight2: checks 
+PIOUJMJPRO: checks 
+rabscack: checks 
+*** SHOW DOWN ***
+Fly_By_Knight2: shows [As 7h] (high card Ace)
+PIOUJMJPRO: shows [9c Ts] (a pair of Nines)
+rabscack: mucks hand 
+PIOUJMJPRO collected $0.06 from pot
+*** SUMMARY ***
+Total pot $0.06 | Rake $0 
+Board [Kc 3c 4h 5c 9h]
+Seat 6: reek90
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules (button) folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 (small blind) showed [As 7h] and lost with high card Ace
+Seat 4: PIOUJMJPRO (big blind) showed [9c Ts] and won ($0.06) with a pair of Nines
+Seat 5: rabscack mucked [Js Qd]
+
+
+
+PokerStars Hand #253054520224:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:53:37 ET
+Table 'Hekate' 6-max Seat #3 is the button
+Seat 6: reek90 ($1.20 in chips) is sitting out
+Seat 1: sbc1985nj ($2.41 in chips) 
+Seat 2: amarkules ($1.21 in chips) 
+Seat 3: Fly_By_Knight2 ($5.05 in chips) 
+Seat 4: PIOUJMJPRO ($2.04 in chips) 
+Seat 5: rabscack ($2.56 in chips) 
+PIOUJMJPRO: posts small blind $0.01
+rabscack: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Js 9c]
+sbc1985nj: calls $0.02
+amarkules: raises $0.02 to $0.04
+Fly_By_Knight2: folds 
+PIOUJMJPRO: folds 
+rabscack: calls $0.02
+sbc1985nj: calls $0.02
+*** FLOP *** [3s Td 3c]
+rabscack: checks 
+sbc1985nj: checks 
+amarkules: checks 
+*** TURN *** [3s Td 3c] [Kh]
+rabscack: checks 
+sbc1985nj: checks 
+amarkules: checks 
+*** RIVER *** [3s Td 3c Kh] [As]
+rabscack: checks 
+sbc1985nj: checks 
+amarkules: checks 
+*** SHOW DOWN ***
+rabscack: shows [Jd 8s] (a pair of Threes)
+sbc1985nj: shows [8d Ah] (two pair, Aces and Threes)
+amarkules: mucks hand 
+sbc1985nj collected $0.12 from pot
+*** SUMMARY ***
+Total pot $0.13 | Rake $0.01 
+Board [3s Td 3c Kh As]
+Seat 6: reek90
+Seat 1: sbc1985nj showed [8d Ah] and won ($0.12) with two pair, Aces and Threes
+Seat 2: amarkules mucked [Js 9c]
+Seat 3: Fly_By_Knight2 (button) folded before Flop (didn't bet)
+Seat 4: PIOUJMJPRO (small blind) folded before Flop
+Seat 5: rabscack (big blind) showed [Jd 8s] and lost with a pair of Threes
+
+
+
+PokerStars Hand #253054520452:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:54:16 ET
+Table 'Hekate' 6-max Seat #4 is the button
+Seat 6: reek90 ($1.20 in chips) is sitting out
+Seat 1: sbc1985nj ($2.49 in chips) 
+Seat 2: amarkules ($1.17 in chips) 
+Seat 3: Fly_By_Knight2 ($5.05 in chips) 
+Seat 4: PIOUJMJPRO ($2.03 in chips) 
+Seat 5: rabscack ($2.52 in chips) 
+rabscack: posts small blind $0.01
+sbc1985nj: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Th Kc]
+amarkules: raises $0.07 to $0.09
+Fly_By_Knight2: folds 
+PIOUJMJPRO: folds 
+rabscack: calls $0.08
+sbc1985nj: folds 
+*** FLOP *** [3s 6h Qc]
+rabscack: checks 
+amarkules: checks 
+*** TURN *** [3s 6h Qc] [6s]
+rabscack: checks 
+amarkules: checks 
+*** RIVER *** [3s 6h Qc 6s] [8h]
+rabscack: checks 
+amarkules: checks 
+*** SHOW DOWN ***
+rabscack: shows [2c Ac] (a pair of Sixes)
+amarkules: mucks hand 
+rabscack collected $0.19 from pot
+*** SUMMARY ***
+Total pot $0.20 | Rake $0.01 
+Board [3s 6h Qc 6s 8h]
+Seat 6: reek90
+Seat 1: sbc1985nj (big blind) folded before Flop
+Seat 2: amarkules mucked [Th Kc]
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: PIOUJMJPRO (button) folded before Flop (didn't bet)
+Seat 5: rabscack (small blind) showed [2c Ac] and won ($0.19) with a pair of Sixes
+
+
+
+PokerStars Hand #253054520827:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:55:19 ET
+Table 'Hekate' 6-max Seat #5 is the button
+Seat 6: reek90 ($1.20 in chips) is sitting out
+Seat 1: sbc1985nj ($2.47 in chips) 
+Seat 2: amarkules ($1.08 in chips) 
+Seat 3: Fly_By_Knight2 ($5.05 in chips) 
+Seat 4: PIOUJMJPRO ($2.03 in chips) 
+Seat 5: rabscack ($2.62 in chips) 
+sbc1985nj: posts small blind $0.01
+amarkules: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [6c 7s]
+Fly_By_Knight2: folds 
+PIOUJMJPRO: folds 
+rabscack: folds 
+sbc1985nj: folds 
+Uncalled bet ($0.01) returned to amarkules
+amarkules collected $0.02 from pot
+amarkules: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 6: reek90
+Seat 1: sbc1985nj (small blind) folded before Flop
+Seat 2: amarkules (big blind) collected ($0.02)
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: PIOUJMJPRO folded before Flop (didn't bet)
+Seat 5: rabscack (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054520897:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:55:35 ET
+Table 'Hekate' 6-max Seat #1 is the button
+Seat 6: reek90 ($1.20 in chips) is sitting out
+Seat 1: sbc1985nj ($2.46 in chips) 
+Seat 2: amarkules ($1.09 in chips) 
+Seat 3: Fly_By_Knight2 ($5.05 in chips) 
+Seat 4: PIOUJMJPRO ($2.03 in chips) 
+Seat 5: rabscack ($2.62 in chips) 
+amarkules: posts small blind $0.01
+Fly_By_Knight2: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Qd 8d]
+PIOUJMJPRO: folds 
+rabscack: folds 
+sbc1985nj: folds 
+amarkules: raises $0.04 to $0.06
+Fly_By_Knight2: folds 
+Uncalled bet ($0.04) returned to amarkules
+amarkules collected $0.04 from pot
+amarkules: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 
+Seat 6: reek90
+Seat 1: sbc1985nj (button) folded before Flop (didn't bet)
+Seat 2: amarkules (small blind) collected ($0.04)
+Seat 3: Fly_By_Knight2 (big blind) folded before Flop
+Seat 4: PIOUJMJPRO folded before Flop (didn't bet)
+Seat 5: rabscack folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054520987:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:55:52 ET
+Table 'Hekate' 6-max Seat #2 is the button
+Seat 6: reek90 ($1.20 in chips) is sitting out
+Seat 1: sbc1985nj ($2.46 in chips) 
+Seat 2: amarkules ($1.11 in chips) 
+Seat 3: Fly_By_Knight2 ($5.03 in chips) 
+Seat 4: PIOUJMJPRO ($2.03 in chips) 
+Seat 5: rabscack ($2.62 in chips) 
+Fly_By_Knight2: posts small blind $0.01
+PIOUJMJPRO: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Qd Qc]
+rabscack: calls $0.02
+sbc1985nj: calls $0.02
+amarkules: raises $0.09 to $0.11
+Fly_By_Knight2: folds 
+PIOUJMJPRO: folds 
+rabscack: folds 
+sbc1985nj: folds 
+Uncalled bet ($0.09) returned to amarkules
+amarkules collected $0.09 from pot
+amarkules: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.09 | Rake $0 
+Seat 6: reek90
+Seat 1: sbc1985nj folded before Flop
+Seat 2: amarkules (button) collected ($0.09)
+Seat 3: Fly_By_Knight2 (small blind) folded before Flop
+Seat 4: PIOUJMJPRO (big blind) folded before Flop
+Seat 5: rabscack folded before Flop
+
+
+
+PokerStars Hand #253054521227:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:56:42 ET
+Table 'Hekate' 6-max Seat #3 is the button
+Seat 6: reek90 ($1.20 in chips) is sitting out
+Seat 1: sbc1985nj ($2.44 in chips) 
+Seat 2: amarkules ($1.18 in chips) 
+Seat 3: Fly_By_Knight2 ($5.02 in chips) 
+Seat 4: PIOUJMJPRO ($2.01 in chips) 
+Seat 5: rabscack ($2.60 in chips) 
+PIOUJMJPRO: posts small blind $0.01
+rabscack: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Qs 7h]
+sbc1985nj: folds 
+amarkules: folds 
+Fly_By_Knight2: folds 
+PIOUJMJPRO: raises $0.04 to $0.06
+rabscack: folds 
+Uncalled bet ($0.04) returned to PIOUJMJPRO
+PIOUJMJPRO collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 
+Seat 6: reek90
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 (button) folded before Flop (didn't bet)
+Seat 4: PIOUJMJPRO (small blind) collected ($0.04)
+Seat 5: rabscack (big blind) folded before Flop
+
+
+
+PokerStars Hand #253054521346:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:57:04 ET
+Table 'Hekate' 6-max Seat #4 is the button
+Seat 6: reek90 ($1.20 in chips) is sitting out
+Seat 1: sbc1985nj ($2.44 in chips) 
+Seat 2: amarkules ($1.18 in chips) 
+Seat 3: Fly_By_Knight2 ($5.02 in chips) 
+Seat 4: PIOUJMJPRO ($2.03 in chips) 
+Seat 5: rabscack ($2.58 in chips) 
+rabscack: posts small blind $0.01
+sbc1985nj: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Qs 6h]
+amarkules: folds 
+Fly_By_Knight2: folds 
+PIOUJMJPRO: folds 
+rabscack: folds 
+Uncalled bet ($0.01) returned to sbc1985nj
+sbc1985nj collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 6: reek90
+Seat 1: sbc1985nj (big blind) collected ($0.02)
+Seat 2: amarkules folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: PIOUJMJPRO (button) folded before Flop (didn't bet)
+Seat 5: rabscack (small blind) folded before Flop
+
+
+
+PokerStars Hand #253054521412:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:57:21 ET
+Table 'Hekate' 6-max Seat #5 is the button
+Seat 6: reek90 ($1.20 in chips) is sitting out
+Seat 1: sbc1985nj ($2.45 in chips) 
+Seat 2: amarkules ($1.18 in chips) 
+Seat 3: Fly_By_Knight2 ($5.02 in chips) 
+Seat 4: PIOUJMJPRO ($2.03 in chips) 
+Seat 5: rabscack ($2.57 in chips) 
+sbc1985nj: posts small blind $0.01
+amarkules: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [8s Js]
+Fly_By_Knight2: folds 
+PIOUJMJPRO: folds 
+rabscack: folds 
+sbc1985nj: folds 
+Uncalled bet ($0.01) returned to amarkules
+amarkules collected $0.02 from pot
+amarkules: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 
+Seat 6: reek90
+Seat 1: sbc1985nj (small blind) folded before Flop
+Seat 2: amarkules (big blind) collected ($0.02)
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: PIOUJMJPRO folded before Flop (didn't bet)
+Seat 5: rabscack (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054521469:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:57:31 ET
+Table 'Hekate' 6-max Seat #1 is the button
+Seat 6: reek90 ($1.20 in chips) is sitting out
+Seat 1: sbc1985nj ($2.44 in chips) 
+Seat 2: amarkules ($1.19 in chips) 
+Seat 3: Fly_By_Knight2 ($5.02 in chips) 
+Seat 4: PIOUJMJPRO ($2.03 in chips) 
+Seat 5: rabscack ($2.57 in chips) 
+amarkules: posts small blind $0.01
+Fly_By_Knight2: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [4d Ah]
+PIOUJMJPRO: folds 
+rabscack: folds 
+sbc1985nj: folds 
+amarkules: calls $0.01
+Fly_By_Knight2: checks 
+*** FLOP *** [Jh 6d 8c]
+amarkules: checks 
+Fly_By_Knight2: bets $0.04
+amarkules: folds 
+Uncalled bet ($0.04) returned to Fly_By_Knight2
+Fly_By_Knight2 collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 
+Board [Jh 6d 8c]
+Seat 6: reek90
+Seat 1: sbc1985nj (button) folded before Flop (didn't bet)
+Seat 2: amarkules (small blind) folded on the Flop
+Seat 3: Fly_By_Knight2 (big blind) collected ($0.04)
+Seat 4: PIOUJMJPRO folded before Flop (didn't bet)
+Seat 5: rabscack folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054521633:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:58:02 ET
+Table 'Hekate' 6-max Seat #2 is the button
+Seat 6: reek90 ($1.20 in chips) is sitting out
+Seat 1: sbc1985nj ($2.44 in chips) 
+Seat 2: amarkules ($1.17 in chips) 
+Seat 3: Fly_By_Knight2 ($5.04 in chips) 
+Seat 4: PIOUJMJPRO ($2.03 in chips) 
+Seat 5: rabscack ($2.57 in chips) 
+Fly_By_Knight2: posts small blind $0.01
+PIOUJMJPRO: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Th Kd]
+rabscack: raises $0.04 to $0.06
+sbc1985nj: folds 
+amarkules: raises $0.04 to $0.10
+Fly_By_Knight2: folds 
+PIOUJMJPRO: folds 
+rabscack: calls $0.04
+*** FLOP *** [8c 5h 5d]
+rabscack: checks 
+amarkules: checks 
+*** TURN *** [8c 5h 5d] [8s]
+rabscack: checks 
+amarkules: bets $0.11
+rabscack: calls $0.11
+*** RIVER *** [8c 5h 5d 8s] [9s]
+rabscack: checks 
+amarkules: bets $0.43
+rabscack: folds 
+Uncalled bet ($0.43) returned to amarkules
+amarkules collected $0.43 from pot
+amarkules: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.45 | Rake $0.02 
+Board [8c 5h 5d 8s 9s]
+Seat 6: reek90
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules (button) collected ($0.43)
+Seat 3: Fly_By_Knight2 (small blind) folded before Flop
+Seat 4: PIOUJMJPRO (big blind) folded before Flop
+Seat 5: rabscack folded on the River
+
+
+
+PokerStars Hand #253054521875:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:58:48 ET
+Table 'Hekate' 6-max Seat #3 is the button
+Seat 6: reek90 ($1.20 in chips) is sitting out
+Seat 1: sbc1985nj ($2.44 in chips) 
+Seat 2: amarkules ($1.39 in chips) 
+Seat 3: Fly_By_Knight2 ($5.03 in chips) 
+Seat 4: PIOUJMJPRO ($2.01 in chips) 
+Seat 5: rabscack ($2.36 in chips) 
+PIOUJMJPRO: posts small blind $0.01
+rabscack: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Td Ah]
+sbc1985nj: folds 
+amarkules: raises $0.06 to $0.08
+Fly_By_Knight2: folds 
+PIOUJMJPRO: folds 
+rabscack: calls $0.06
+*** FLOP *** [6d 2c Ts]
+rabscack: checks 
+amarkules: bets $0.16
+rabscack: calls $0.16
+*** TURN *** [6d 2c Ts] [9h]
+rabscack: checks 
+amarkules: checks 
+*** RIVER *** [6d 2c Ts 9h] [5d]
+rabscack: checks 
+amarkules: bets $0.24
+rabscack: folds 
+Uncalled bet ($0.24) returned to amarkules
+amarkules collected $0.47 from pot
+amarkules: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.49 | Rake $0.02 
+Board [6d 2c Ts 9h 5d]
+Seat 6: reek90
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules collected ($0.47)
+Seat 3: Fly_By_Knight2 (button) folded before Flop (didn't bet)
+Seat 4: PIOUJMJPRO (small blind) folded before Flop
+Seat 5: rabscack (big blind) folded on the River
+
+
+
+PokerStars Hand #253054522119:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:59:40 ET
+Table 'Hekate' 6-max Seat #4 is the button
+Seat 6: reek90 ($1.20 in chips) is sitting out
+Seat 1: sbc1985nj ($2.44 in chips) 
+Seat 2: amarkules ($1.62 in chips) 
+Seat 3: Fly_By_Knight2 ($5.03 in chips) 
+Seat 4: PIOUJMJPRO ($2 in chips) 
+Seat 5: rabscack ($2.12 in chips) 
+rabscack: posts small blind $0.01
+sbc1985nj: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Jh 8h]
+amarkules: raises $0.02 to $0.04
+Fly_By_Knight2: folds 
+PIOUJMJPRO: folds 
+rabscack: calls $0.03
+sbc1985nj: calls $0.02
+*** FLOP *** [6c As Jc]
+rabscack: checks 
+sbc1985nj: checks 
+amarkules: checks 
+*** TURN *** [6c As Jc] [7h]
+rabscack: checks 
+sbc1985nj: checks 
+amarkules: bets $0.11
+rabscack: folds 
+sbc1985nj: calls $0.11
+*** RIVER *** [6c As Jc 7h] [2c]
+sbc1985nj: checks 
+amarkules: bets $0.10
+sbc1985nj: folds 
+Uncalled bet ($0.10) returned to amarkules
+amarkules collected $0.32 from pot
+amarkules: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.34 | Rake $0.02 
+Board [6c As Jc 7h 2c]
+Seat 6: reek90
+Seat 1: sbc1985nj (big blind) folded on the River
+Seat 2: amarkules collected ($0.32)
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: PIOUJMJPRO (button) folded before Flop (didn't bet)
+Seat 5: rabscack (small blind) folded on the Turn
+
+
+
+PokerStars Hand #253054522402:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 22:00:39 ET
+Table 'Hekate' 6-max Seat #5 is the button
+Seat 6: reek90 ($1.20 in chips) is sitting out
+Seat 1: sbc1985nj ($2.29 in chips) 
+Seat 2: amarkules ($1.79 in chips) 
+Seat 3: Fly_By_Knight2 ($5.03 in chips) 
+Seat 4: PIOUJMJPRO ($2 in chips) 
+Seat 5: rabscack ($2.08 in chips) 
+sbc1985nj: posts small blind $0.01
+amarkules: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [9d 5s]
+Fly_By_Knight2: folds 
+PIOUJMJPRO: folds 
+rabscack: folds 
+sbc1985nj: calls $0.01
+amarkules: checks 
+*** FLOP *** [9s 5d 8d]
+sbc1985nj: bets $0.02
+amarkules: raises $0.08 to $0.10
+sbc1985nj: calls $0.08
+*** TURN *** [9s 5d 8d] [5c]
+sbc1985nj: bets $0.02
+amarkules: raises $0.14 to $0.16
+sbc1985nj: calls $0.14
+*** RIVER *** [9s 5d 8d 5c] [8c]
+sbc1985nj: bets $0.02
+amarkules: raises $0.57 to $0.59
+sbc1985nj: folds 
+Uncalled bet ($0.57) returned to amarkules
+amarkules collected $0.57 from pot
+amarkules: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.60 | Rake $0.03 
+Board [9s 5d 8d 5c 8c]
+Seat 6: reek90
+Seat 1: sbc1985nj (small blind) folded on the River
+Seat 2: amarkules (big blind) collected ($0.57)
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: PIOUJMJPRO folded before Flop (didn't bet)
+Seat 5: rabscack (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054522904:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 22:02:03 ET
+Table 'Hekate' 6-max Seat #1 is the button
+Seat 6: reek90 ($1.20 in chips) is sitting out
+Seat 1: sbc1985nj ($1.99 in chips) 
+Seat 2: amarkules ($2.06 in chips) 
+Seat 3: Fly_By_Knight2 ($5.03 in chips) 
+Seat 4: PIOUJMJPRO ($2 in chips) 
+Seat 5: rabscack ($2.08 in chips) 
+amarkules: posts small blind $0.01
+Fly_By_Knight2: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [7h 4c]
+reek90 leaves the table
+PIOUJMJPRO: folds 
+rabscack: raises $0.05 to $0.07
+sbc1985nj: folds 
+amarkules: folds 
+Fly_By_Knight2: calls $0.05
+*** FLOP *** [5d 2s Qd]
+Fly_By_Knight2: checks 
+rabscack: bets $0.04
+Fly_By_Knight2: folds 
+Uncalled bet ($0.04) returned to rabscack
+rabscack collected $0.14 from pot
+rabscack: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01 
+Board [5d 2s Qd]
+Seat 6: reek90
+Seat 1: sbc1985nj (button) folded before Flop (didn't bet)
+Seat 2: amarkules (small blind) folded before Flop
+Seat 3: Fly_By_Knight2 (big blind) folded on the Flop
+Seat 4: PIOUJMJPRO folded before Flop (didn't bet)
+Seat 5: rabscack collected ($0.14)
+
+
+
+PokerStars Hand #253054523135:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 22:02:38 ET
+Table 'Hekate' 6-max Seat #2 is the button
+Seat 1: sbc1985nj ($1.99 in chips) 
+Seat 2: amarkules ($2.05 in chips) 
+Seat 3: Fly_By_Knight2 ($4.96 in chips) 
+Seat 4: PIOUJMJPRO ($2 in chips) 
+Seat 5: rabscack ($2.15 in chips) 
+Fly_By_Knight2: posts small blind $0.01
+PIOUJMJPRO: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [7s 2c]
+rabscack: calls $0.02
+sbc1985nj: folds 
+amarkules: folds 
+Fly_By_Knight2: folds 
+PIOUJMJPRO has timed out
+PIOUJMJPRO: checks 
+*** FLOP *** [3c 8h 8c]
+PIOUJMJPRO has timed out
+PIOUJMJPRO: checks 
+rabscack: checks 
+*** TURN *** [3c 8h 8c] [9h]
+PIOUJMJPRO: bets $0.09
+rabscack: calls $0.09
+*** RIVER *** [3c 8h 8c 9h] [6h]
+PIOUJMJPRO: bets $0.11
+rabscack: calls $0.11
+*** SHOW DOWN ***
+PIOUJMJPRO: shows [5h 2h] (a flush, Nine high)
+rabscack: mucks hand 
+PIOUJMJPRO collected $0.43 from pot
+*** SUMMARY ***
+Total pot $0.45 | Rake $0.02 
+Board [3c 8h 8c 9h 6h]
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules (button) folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 (small blind) folded before Flop
+Seat 4: PIOUJMJPRO (big blind) showed [5h 2h] and won ($0.43) with a flush, Nine high
+Seat 5: rabscack mucked [Ah 9c]
+
+
+
+PokerStars Hand #253054523802:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 22:04:20 ET
+Table 'Hekate' 6-max Seat #3 is the button
+Seat 1: sbc1985nj ($1.99 in chips) 
+Seat 2: amarkules ($2.05 in chips) 
+Seat 3: Fly_By_Knight2 ($4.95 in chips) 
+Seat 4: PIOUJMJPRO ($2.21 in chips) 
+Seat 5: rabscack ($1.93 in chips) 
+PIOUJMJPRO: posts small blind $0.01
+rabscack: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [As 5s]
+sbc1985nj: folds 
+amarkules: raises $0.05 to $0.07
+Fly_By_Knight2: folds 
+PIOUJMJPRO: folds 
+rabscack: calls $0.05
+*** FLOP *** [8c Th 4s]
+rabscack: checks 
+amarkules: checks 
+*** TURN *** [8c Th 4s] [4h]
+rabscack: checks 
+amarkules: checks 
+*** RIVER *** [8c Th 4s 4h] [Ad]
+rabscack: checks 
+amarkules: bets $0.14
+rabscack: folds 
+Uncalled bet ($0.14) returned to amarkules
+amarkules collected $0.14 from pot
+amarkules: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01 
+Board [8c Th 4s 4h Ad]
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules collected ($0.14)
+Seat 3: Fly_By_Knight2 (button) folded before Flop (didn't bet)
+Seat 4: PIOUJMJPRO (small blind) folded before Flop
+Seat 5: rabscack (big blind) folded on the River
+
+
+
+PokerStars Hand #253054524141:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 22:05:10 ET
+Table 'Hekate' 6-max Seat #4 is the button
+Seat 1: sbc1985nj ($1.99 in chips) 
+Seat 2: amarkules ($2.12 in chips) 
+Seat 3: Fly_By_Knight2 ($4.95 in chips) 
+Seat 4: PIOUJMJPRO ($2.20 in chips) 
+Seat 5: rabscack ($1.86 in chips) 
+rabscack: posts small blind $0.01
+sbc1985nj: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [2d Qc]
+amarkules: folds 
+Fly_By_Knight2: folds 
+PIOUJMJPRO: folds 
+rabscack: raises $0.04 to $0.06
+sbc1985nj: calls $0.04
+*** FLOP *** [Ks 5s Tc]
+rabscack: bets $0.06
+sbc1985nj: calls $0.06
+*** TURN *** [Ks 5s Tc] [Jh]
+rabscack: checks 
+sbc1985nj: bets $0.02
+rabscack: calls $0.02
+*** RIVER *** [Ks 5s Tc Jh] [3d]
+rabscack: checks 
+sbc1985nj: bets $0.02
+rabscack: calls $0.02
+*** SHOW DOWN ***
+sbc1985nj: shows [Kh Qs] (a pair of Kings)
+rabscack: mucks hand 
+sbc1985nj collected $0.31 from pot
+*** SUMMARY ***
+Total pot $0.32 | Rake $0.01 
+Board [Ks 5s Tc Jh 3d]
+Seat 1: sbc1985nj (big blind) showed [Kh Qs] and won ($0.31) with a pair of Kings
+Seat 2: amarkules folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: PIOUJMJPRO (button) folded before Flop (didn't bet)
+Seat 5: rabscack (small blind) mucked [6c 6h]
+
+
+
+PokerStars Hand #253054524395:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 22:05:50 ET
+Table 'Hekate' 6-max Seat #5 is the button
+Seat 1: sbc1985nj ($2.14 in chips) 
+Seat 2: amarkules ($2.12 in chips) 
+Seat 3: Fly_By_Knight2 ($4.95 in chips) 
+Seat 4: PIOUJMJPRO ($2.20 in chips) 
+Seat 5: rabscack ($1.70 in chips) 
+sbc1985nj: posts small blind $0.01
+amarkules: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [9h 8d]
+Fly_By_Knight2: folds 
+PIOUJMJPRO: folds 
+rabscack: raises $0.04 to $0.06
+sbc1985nj: calls $0.05
+amarkules: folds 
+*** FLOP *** [4s Ks 9s]
+sbc1985nj: checks 
+rabscack: checks 
+*** TURN *** [4s Ks 9s] [5s]
+sbc1985nj: checks 
+rabscack: checks 
+*** RIVER *** [4s Ks 9s 5s] [4h]
+sbc1985nj: bets $0.02
+rabscack: folds 
+Uncalled bet ($0.02) returned to sbc1985nj
+sbc1985nj collected $0.13 from pot
+*** SUMMARY ***
+Total pot $0.14 | Rake $0.01 
+Board [4s Ks 9s 5s 4h]
+Seat 1: sbc1985nj (small blind) collected ($0.13)
+Seat 2: amarkules (big blind) folded before Flop
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: PIOUJMJPRO folded before Flop (didn't bet)
+Seat 5: rabscack (button) folded on the River
+
+
+
+PokerStars Hand #253054524635:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 22:06:26 ET
+Table 'Hekate' 6-max Seat #1 is the button
+Seat 1: sbc1985nj ($2.21 in chips) 
+Seat 2: amarkules ($2.10 in chips) 
+Seat 3: Fly_By_Knight2 ($4.95 in chips) 
+Seat 4: PIOUJMJPRO ($2.20 in chips) 
+Seat 5: rabscack ($1.64 in chips) 
+amarkules: posts small blind $0.01
+Fly_By_Knight2: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Qs 6c]
+PIOUJMJPRO: folds 
+rabscack: folds 
+sbc1985nj: calls $0.02
+amarkules: folds 
+Fly_By_Knight2: checks 
+*** FLOP *** [Td 5d 7h]
+Fly_By_Knight2: checks 
+sbc1985nj: bets $0.02
+Fly_By_Knight2: folds 
+Uncalled bet ($0.02) returned to sbc1985nj
+sbc1985nj collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Board [Td 5d 7h]
+Seat 1: sbc1985nj (button) collected ($0.05)
+Seat 2: amarkules (small blind) folded before Flop
+Seat 3: Fly_By_Knight2 (big blind) folded on the Flop
+Seat 4: PIOUJMJPRO folded before Flop (didn't bet)
+Seat 5: rabscack folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #253054524764:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 22:06:46 ET
+Table 'Hekate' 6-max Seat #2 is the button
+Seat 1: sbc1985nj ($2.24 in chips) 
+Seat 2: amarkules ($2.09 in chips) 
+Seat 3: Fly_By_Knight2 ($4.93 in chips) 
+Seat 4: PIOUJMJPRO ($2.20 in chips) 
+Seat 5: rabscack ($1.64 in chips) 
+Fly_By_Knight2: posts small blind $0.01
+PIOUJMJPRO: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [9d 4s]
+rabscack: calls $0.02
+sbc1985nj: folds 
+amarkules: folds 
+Fly_By_Knight2: folds 
+PIOUJMJPRO has timed out
+PIOUJMJPRO: checks 
+*** FLOP *** [Kc 7s Ks]
+PIOUJMJPRO: checks 
+rabscack: checks 
+*** TURN *** [Kc 7s Ks] [8s]
+PIOUJMJPRO: checks 
+rabscack: checks 
+*** RIVER *** [Kc 7s Ks 8s] [9s]
+PIOUJMJPRO: checks 
+rabscack: checks 
+*** SHOW DOWN ***
+PIOUJMJPRO: shows [Ad 3s] (a flush, King high)
+rabscack: mucks hand 
+PIOUJMJPRO collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 
+Board [Kc 7s Ks 8s 9s]
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules (button) folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 (small blind) folded before Flop
+Seat 4: PIOUJMJPRO (big blind) showed [Ad 3s] and won ($0.05) with a flush, King high
+Seat 5: rabscack mucked [2d Ac]
+
+
+
+PokerStars Hand #253054525144:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 22:07:43 ET
+Table 'Hekate' 6-max Seat #3 is the button
+Seat 1: sbc1985nj ($2.24 in chips) 
+Seat 2: amarkules ($2.09 in chips) 
+Seat 3: Fly_By_Knight2 ($4.92 in chips) 
+Seat 4: PIOUJMJPRO ($2.23 in chips) 
+Seat 5: rabscack ($1.62 in chips) 
+PIOUJMJPRO: posts small blind $0.01
+rabscack: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [6s Tc]
+sbc1985nj: folds 
+amarkules: folds 
+Fly_By_Knight2: raises $0.05 to $0.07
+PIOUJMJPRO: folds 
+rabscack: calls $0.05
+*** FLOP *** [2d 8h Qc]
+rabscack: checks 
+Fly_By_Knight2: bets $0.10
+rabscack: folds 
+Uncalled bet ($0.10) returned to Fly_By_Knight2
+Fly_By_Knight2 collected $0.14 from pot
+*** SUMMARY ***
+Total pot $0.15 | Rake $0.01 
+Board [2d 8h Qc]
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 (button) collected ($0.14)
+Seat 4: PIOUJMJPRO (small blind) folded before Flop
+Seat 5: rabscack (big blind) folded on the Flop
+
+
+
+PokerStars Hand #253054525463:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 22:08:28 ET
+Table 'Hekate' 6-max Seat #4 is the button
+Seat 1: sbc1985nj ($2.24 in chips) 
+Seat 2: amarkules ($2.09 in chips) 
+Seat 3: Fly_By_Knight2 ($4.99 in chips) 
+Seat 4: PIOUJMJPRO ($2.22 in chips) 
+Seat 5: rabscack ($1.55 in chips) 
+rabscack: posts small blind $0.01
+sbc1985nj: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [7h 6s]
+amarkules: folds 
+Fly_By_Knight2: raises $0.03 to $0.05
+PIOUJMJPRO: folds 
+rabscack: folds 
+sbc1985nj: calls $0.03
+*** FLOP *** [5s 3s Jc]
+sbc1985nj: checks 
+Fly_By_Knight2: checks 
+*** TURN *** [5s 3s Jc] [3c]
+sbc1985nj: bets $0.02
+Fly_By_Knight2: folds 
+Uncalled bet ($0.02) returned to sbc1985nj
+sbc1985nj collected $0.11 from pot
+*** SUMMARY ***
+Total pot $0.11 | Rake $0 
+Board [5s 3s Jc 3c]
+Seat 1: sbc1985nj (big blind) collected ($0.11)
+Seat 2: amarkules folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 folded on the Turn
+Seat 4: PIOUJMJPRO (button) folded before Flop (didn't bet)
+Seat 5: rabscack (small blind) folded before Flop
+
+
+
+PokerStars Hand #253054525737:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 22:09:13 ET
+Table 'Hekate' 6-max Seat #5 is the button
+Seat 1: sbc1985nj ($2.30 in chips) 
+Seat 2: amarkules ($2.09 in chips) 
+Seat 3: Fly_By_Knight2 ($4.94 in chips) 
+Seat 4: PIOUJMJPRO ($2.22 in chips) 
+Seat 5: rabscack ($1.54 in chips) 
+sbc1985nj: posts small blind $0.01
+amarkules: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [As 6h]
+Fly_By_Knight2: folds 
+PIOUJMJPRO: folds 
+rabscack: raises $0.02 to $0.04
+sbc1985nj: folds 
+amarkules: calls $0.02
+*** FLOP *** [2h 9d Ah]
+amarkules: bets $0.09
+rabscack: folds 
+Uncalled bet ($0.09) returned to amarkules
+amarkules collected $0.09 from pot
+amarkules: doesn't show hand 
+*** SUMMARY ***
+Total pot $0.09 | Rake $0 
+Board [2h 9d Ah]
+Seat 1: sbc1985nj (small blind) folded before Flop
+Seat 2: amarkules (big blind) collected ($0.09)
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: PIOUJMJPRO folded before Flop (didn't bet)
+Seat 5: rabscack (button) folded on the Flop
+
+
+
+PokerStars Hand #253054525971:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 22:09:49 ET
+Table 'Hekate' 6-max Seat #1 is the button
+Seat 1: sbc1985nj ($2.29 in chips) 
+Seat 2: amarkules ($2.14 in chips) 
+Seat 3: Fly_By_Knight2 ($4.94 in chips) 
+Seat 4: PIOUJMJPRO ($2.22 in chips) 
+Seat 5: rabscack ($1.50 in chips) 
+amarkules: posts small blind $0.01
+Fly_By_Knight2: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [As Ts]
+PIOUJMJPRO: folds 
+rabscack: raises $0.02 to $0.04
+sbc1985nj: folds 
+amarkules: raises $0.02 to $0.06
+Fly_By_Knight2: folds 
+rabscack: calls $0.02
+*** FLOP *** [9s 8s 8h]
+amarkules: bets $0.13
+rabscack: calls $0.13
+*** TURN *** [9s 8s 8h] [4c]
+amarkules: bets $0.19
+rabscack: calls $0.19
+*** RIVER *** [9s 8s 8h 4c] [Jh]
+amarkules: checks 
+rabscack: checks 
+*** SHOW DOWN ***
+amarkules: shows [As Ts] (a pair of Eights)
+rabscack: shows [9d Th] (two pair, Nines and Eights)
+rabscack collected $0.74 from pot
+*** SUMMARY ***
+Total pot $0.78 | Rake $0.04 
+Board [9s 8s 8h 4c Jh]
+Seat 1: sbc1985nj (button) folded before Flop (didn't bet)
+Seat 2: amarkules (small blind) showed [As Ts] and lost with a pair of Eights
+Seat 3: Fly_By_Knight2 (big blind) folded before Flop
+Seat 4: PIOUJMJPRO folded before Flop (didn't bet)
+Seat 5: rabscack showed [9d Th] and won ($0.74) with two pair, Nines and Eights
+
+
+
+PokerStars Hand #253054526371:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 22:10:52 ET
+Table 'Hekate' 6-max Seat #2 is the button
+Seat 1: sbc1985nj ($2.29 in chips) 
+Seat 2: amarkules ($1.76 in chips) 
+Seat 3: Fly_By_Knight2 ($4.92 in chips) 
+Seat 4: PIOUJMJPRO ($2.22 in chips) 
+Seat 5: rabscack ($1.86 in chips) 
+Fly_By_Knight2: posts small blind $0.01
+PIOUJMJPRO: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [7s Ah]
+rabscack: calls $0.02
+sbc1985nj: folds 
+amarkules: raises $0.04 to $0.06
+Fly_By_Knight2: folds 
+PIOUJMJPRO: raises $0.14 to $0.20
+rabscack: folds 
+amarkules: calls $0.14
+*** FLOP *** [8s 9h Kh]
+PIOUJMJPRO: checks 
+amarkules: checks 
+*** TURN *** [8s 9h Kh] [6d]
+PIOUJMJPRO: checks 
+amarkules: checks 
+*** RIVER *** [8s 9h Kh 6d] [2s]
+PIOUJMJPRO: bets $0.20
+amarkules: folds 
+Uncalled bet ($0.20) returned to PIOUJMJPRO
+PIOUJMJPRO collected $0.41 from pot
+*** SUMMARY ***
+Total pot $0.43 | Rake $0.02 
+Board [8s 9h Kh 6d 2s]
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules (button) folded on the River
+Seat 3: Fly_By_Knight2 (small blind) folded before Flop
+Seat 4: PIOUJMJPRO (big blind) collected ($0.41)
+Seat 5: rabscack folded before Flop
+
+
+
+PokerStars Hand #253054526740:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 22:11:49 ET
+Table 'Hekate' 6-max Seat #3 is the button
+Seat 1: sbc1985nj ($2.29 in chips) 
+Seat 2: amarkules ($1.56 in chips) 
+Seat 3: Fly_By_Knight2 ($4.91 in chips) 
+Seat 4: PIOUJMJPRO ($2.43 in chips) 
+Seat 5: rabscack ($1.84 in chips) 
+PIOUJMJPRO: posts small blind $0.01
+rabscack: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [4s 2h]
+sbc1985nj: folds 
+amarkules: folds 
+Fly_By_Knight2: folds 
+PIOUJMJPRO: raises $0.04 to $0.06
+rabscack: calls $0.04
+*** FLOP *** [7h 2c 6d]
+PIOUJMJPRO: bets $0.06
+rabscack: folds 
+Uncalled bet ($0.06) returned to PIOUJMJPRO
+PIOUJMJPRO collected $0.11 from pot
+*** SUMMARY ***
+Total pot $0.12 | Rake $0.01 
+Board [7h 2c 6d]
+Seat 1: sbc1985nj folded before Flop (didn't bet)
+Seat 2: amarkules folded before Flop (didn't bet)
+Seat 3: Fly_By_Knight2 (button) folded before Flop (didn't bet)
+Seat 4: PIOUJMJPRO (small blind) collected ($0.11)
+Seat 5: rabscack (big blind) folded on the Flop
+
+
+
+PokerStars Hand #253054526924:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 22:12:16 ET
+Table 'Hekate' 6-max Seat #4 is the button
+Seat 1: sbc1985nj ($2.29 in chips) 
+Seat 2: amarkules ($1.56 in chips) 
+Seat 3: Fly_By_Knight2 ($4.91 in chips) 
+Seat 4: PIOUJMJPRO ($2.48 in chips) 
+Seat 5: rabscack ($1.78 in chips) 
+rabscack: posts small blind $0.01
+sbc1985nj: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to amarkules [Js 8c]
+amarkules: calls $0.02
+Fly_By_Knight2: folds 
+PIOUJMJPRO: raises $0.11 to $0.13
+rabscack: folds 
+sbc1985nj: folds 
+amarkules: folds 
+Uncalled bet ($0.11) returned to PIOUJMJPRO
+PIOUJMJPRO collected $0.07 from pot
+*** SUMMARY ***
+Total pot $0.07 | Rake $0 
+Seat 1: sbc1985nj (big blind) folded before Flop
+Seat 2: amarkules folded before Flop
+Seat 3: Fly_By_Knight2 folded before Flop (didn't bet)
+Seat 4: PIOUJMJPRO (button) collected ($0.07)
+Seat 5: rabscack (small blind) folded before Flop
+
+
+

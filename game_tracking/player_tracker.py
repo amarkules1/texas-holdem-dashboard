@@ -17,3 +17,4 @@ class PlayerTracker:
     chips = 0
     seat = 0
     sitting_out = False
+    is_player = True

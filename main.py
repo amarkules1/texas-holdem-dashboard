@@ -9,6 +9,9 @@ from texas_hold_em_utils.card import Card
 from texas_hold_em_utils.preflop_stats_repository import PreflopStatsRepository
 import texas_hold_em_utils.relative_ranking as rr
 
+from game_tracking.game_tracker import GameTracker
+from game_tracking.player_round_stats_repository import PlayerRoundStatsRepository
+
 # create console logger and file logger
 
 logger = logging.getLogger(__name__)
@@ -27,6 +30,8 @@ CORS(app)
 _ = load_dotenv(find_dotenv())
 
 preflop_stats_repo = PreflopStatsRepository()
+player_round_stats_repo = PlayerRoundStatsRepository()
+game_tracker = GameTracker(player_round_stats_repo=player_round_stats_repo)
 
 
 @app.route('/')
@@ -90,6 +95,13 @@ def card_stats():
 
     # Flask seems to convert the dict to a string, series.to_json() worked before so there you go)
     return pd.Series(data=data).to_json()
+
+@app.route('/game-file', methods = ['POST'])
+def success():
+    f = request.files['file']
+    for line in f.stream:
+        game_tracker.parse_line(line.decode('utf-8'))
+    return {'status': 'success'}
 
 
 if __name__ == '__main__':

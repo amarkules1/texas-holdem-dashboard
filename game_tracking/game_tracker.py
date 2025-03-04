@@ -41,6 +41,11 @@ class GameTracker:
             self.save_player_round_summaries()
             self.game_id = line.split(" ")[2]
             self.is_summary_phase = False
+            self.betting_round = 0
+            self.pot = 0
+            self.round_bet = 0
+            self.total_pot = 0
+            self.rake = 0
             self.community_cards = []
             return
         if line.startswith("Table"):
@@ -97,6 +102,8 @@ class GameTracker:
         line = line.replace("»", "")
         line = line.replace("¿", "")
         line = line.replace("\n", "")
+        line = line.replace("\r", "")
+        line = line.replace("﻿", "")
         return line
 
     def handle_seat_line(self, line):

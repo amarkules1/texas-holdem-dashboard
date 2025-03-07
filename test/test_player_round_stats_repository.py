@@ -22,3 +22,13 @@ def test_add_and_get_all():
     assert all[0].game_id == 'test'
     #cleanup
     repo.delete_all()
+
+def test_add_and_get_by_game_id():
+    repo = PlayerRoundStatsRepository(TEST_ENV_PATH)
+    p = PlayerRoundStats('test', 'test', True, True, True, True, 1, 1, 1, 1, 1)
+    p1 = PlayerRoundStats('test1', 'test2', True, True, True, True, 1, 1, 1, 1, 1)
+
+    repo.add(p)
+    result = repo.get_records_for_game('test')
+    assert len(result) == 1
+    assert result[0].username == 'test'

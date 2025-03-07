@@ -101,6 +101,7 @@ def success():
     f = request.files['file']
     for line in f.stream:
         game_tracker.parse_line(line.decode('utf-8'))
+    game_tracker.save_player_round_summaries()
     return {'status': 'success'}
 
 

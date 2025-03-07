@@ -18,11 +18,32 @@ def test_single_file():
 def test_full_file():
     test_file = os.path.join("data", "HH20241031 Hekate - $0.01-$0.02 - USD No Limit Hold'em.txt")
     prsr = PlayerRoundStatsRepository(TEST_ENV_PATH)
+    prsr.delete_all()
     game_tracker = GameTracker(player_round_stats_repo=prsr)
     with open(test_file) as f:
         for line in f:
             game_tracker.parse_line(line)
+        game_tracker.save_player_round_summaries()
 
-    assert len(prsr.get_all()) == 542
+    assert len(prsr.get_all()) == 547
     #cleanup
+    prsr.delete_all()
+
+
+def test_skip_save_when_already_saved():
+    test_file = os.path.join("data", "HH20241031 Hekate - $0.01-$0.02 - USD No Limit Hold'em.txt")
+    prsr = PlayerRoundStatsRepository(TEST_ENV_PATH)
+    prsr.delete_all()
+    game_tracker = GameTracker(player_round_stats_repo=prsr)
+    # process file twice
+    with open(test_file) as f:
+        for line in f:
+            game_tracker.parse_line(line)
+        game_tracker.save_player_round_summaries()
+    with open(test_file) as f:
+        for line in f:
+            game_tracker.parse_line(line)
+
+    assert len(prsr.get_all()) == 547
+    # cleanup
     prsr.delete_all()

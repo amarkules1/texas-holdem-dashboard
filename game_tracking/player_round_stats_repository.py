@@ -17,6 +17,8 @@ class PlayerRoundStatsRepository:
         con_str = os.getenv("DATABASE_CONN_STRING")
         self.db_engine = sqlalchemy.create_engine(con_str)
         with self.db_engine.connect() as conn:
+            if con_str.startswith('postgresql'):
+                conn.commit()
             conn.execute(text(f"CREATE TABLE IF NOT EXISTS player_round_stats ("
                          f"id {'serial PRIMARY KEY' if con_str.startswith('postgresql') else 'INTEGER PRIMARY KEY AUTOINCREMENT'}, "
                          f"username VARCHAR(255) NOT NULL, "
@@ -51,3 +53,8 @@ class PlayerRoundStatsRepository:
     def delete_all(self):
         self.session.query(PlayerRoundStatsTable).delete()
         self.session.commit()
+
+    def get_records_for_game(self, game_id: str) -> list[PlayerRoundStats]:
+        stmt = select(PlayerRoundStatsTable).where(PlayerRoundStatsTable.game_id == game_id)
+        # map result to PlayerRoundStats
+        return self.session.execute(stmt).scalars(PlayerRoundStatsTable).all()

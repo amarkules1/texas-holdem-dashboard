@@ -1,5 +1,6 @@
 import logging
 import math
+import re
 
 from texas_hold_em_utils.card import Card
 from texas_hold_em_utils.preflop_stats_repository import PreflopStatsRepository
@@ -33,20 +34,25 @@ class GameTracker:
         self.preflop_stats_repo = PreflopStatsRepository()
         self.betting_round = 0 # 0= preflop, 1=flop, 2=turn, 3=river
 
+    def reset(self):
+        self.players = []
+        self.game_id = None
+        self.is_summary_phase = False
+        self.betting_round = 0
+        self.pot = 0
+        self.round_bet = 0
+        self.total_pot = 0
+        self.rake = 0
+        self.community_cards = []
+
     def parse_line(self, line):
         self.line_count += 1
         self.logger.debug(f"Line {self.line_count}: {line}")
         line = self.clean_line(line)
         if line.startswith("PokerStars Hand #"):
             self.save_player_round_summaries()
-            self.game_id = line.split(" ")[2]
-            self.is_summary_phase = False
-            self.betting_round = 0
-            self.pot = 0
-            self.round_bet = 0
-            self.total_pot = 0
-            self.rake = 0
-            self.community_cards = []
+            self.reset()
+            self.game_id = re.sub("[^0-9]", "", line.split(" ")[2])
             return
         if line.startswith("Table"):
             self.table_name = line.split("'")[1]
@@ -325,7 +331,9 @@ class GameTracker:
 
     def save_player_round_summaries(self):
         if self.player_round_stats_repo is not None and len(self.players) > 0:
-            for player in self.players:
-                if player.username is not None and not player.sitting_out:
-                    prs = PlayerRoundStats().from_player_tracker(player)
-                    self.player_round_stats_repo.add(prs)
+            existing_player_round_stats = self.player_round_stats_repo.get_records_for_game(self.game_id)
+            if len(existing_player_round_stats) == 0:
+                for player in self.players:
+                    if player.username is not None and not player.sitting_out:
+                        prs = PlayerRoundStats().from_player_tracker(player)
+                        self.player_round_stats_repo.add(prs)

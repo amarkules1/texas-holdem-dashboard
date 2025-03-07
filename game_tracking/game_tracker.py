@@ -183,6 +183,19 @@ class GameTracker:
             self.round_bet = self.big_blind_amount
             self.pot += self.big_blind_amount
             return
+        if "posts small & big blinds " in line:
+            self.small_blind_seat = player.seat
+            self.big_blind_seat = player.seat
+            self.dealer_seat = self.find_dealer_from_sb(self.small_blind_seat)
+            amount = line.split("small & big blinds ")[1]
+            amount = float(amount.replace("$", ""))
+            self.small_blind_amount = float(amount) / 3
+            self.big_blind_amount = self.small_blind_amount * 2
+            player.chips -= amount
+            player.betting_round_amount_paid_in += amount
+            self.round_bet = self.big_blind_amount
+            self.pot += amount
+            return
         if "folds" in line:
             if self.betting_round < 1:
                 player.folded_before_flop = True
@@ -347,6 +360,8 @@ class GameTracker:
                 for player in self.players:
                     if player.username is not None and not player.sitting_out:
                         prs = PlayerRoundStats().from_player_tracker(player)
+                        prs.big_blind = self.big_blind_amount
+                        prs.dealer_seat = self.dealer_seat
                         self.player_round_stats_repo.add(prs)
 
     def handle_collected_line(self, line):

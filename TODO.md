@@ -21,9 +21,10 @@
 - [x] make card selection more mobile friendly
 - [x] add footer with contact info
   - need to make it so this doesn't get in the way of card selector
-- [ ] connect to database to store player stats
+- [x] connect to database to store player stats
   - use existing linode server database
   - table player_round_stats: username, folded_before_flop, folded_before_turn, folded_before_river, folded_before_showdown, raise_count, amount_paid_in, amount_won
+- [ ] look into amount paid in calc issue - `select  username, sum(amount_paid_in), sum(amount_won), sum(amount_won) / sum(amount_paid_in) from player_round_stats group by username`
 - [ ] build out player stat tracking from files
 - [ ] player stats table
   - searchable

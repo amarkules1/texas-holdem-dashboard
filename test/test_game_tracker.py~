@@ -27,7 +27,7 @@ def test_collection_issue():
     for player in game_tracker.players:
         total_paid_in += player.amount_paid_in
         total_paid_out += player.amount_won
-    assert total_paid_in * 0.9 < total_paid_out
+    assert total_paid_in * 0.9 > total_paid_out
 
 def test_full_file():
     test_file = os.path.join("data", "HH20241031 Hekate - $0.01-$0.02 - USD No Limit Hold'em.txt")

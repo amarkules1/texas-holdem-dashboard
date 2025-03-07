@@ -12,6 +12,7 @@ class PlayerTracker:
     call_count: int = 0
     check_count: int = 0
     amount_paid_in: float = 0
+    betting_round_amount_paid_in: float = 0
     amount_won: float = 0
     round_start_chips: float = 0
     chips = 0

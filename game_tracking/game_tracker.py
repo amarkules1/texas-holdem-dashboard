@@ -65,10 +65,11 @@ class GameTracker:
         if self.is_player_action_line(line):
             self.handle_player_action_line(line)
             return
-        if (line == "*** HOLE CARDS ***" or line == "*** SHOW DOWN ***" or " collected " in line or line.strip() == ""
+        if (line == "*** HOLE CARDS ***" or line == "*** SHOW DOWN ***" or line.strip() == ""
                 or "is connected" in line or "has timed out" in line):
             return
         if "*** SUMMARY ***" in line:
+            self.collect_chips()
             self.is_summary_phase = True
             return
         if line.startswith("Dealt to "):
@@ -100,6 +101,9 @@ class GameTracker:
             return
         if line.startswith("Uncalled bet"):
             self.handle_uncalled_bet_line(line)
+            return
+        if " collected " in line:
+            self.handle_collected_line(line)
             return
         raise ValueError(f"Unknown line #{self.line_count}: {line}")
 
@@ -136,8 +140,6 @@ class GameTracker:
         if " won ($" in player_round_summary:
             won = player_round_summary.split(" won ($")[1].split(")")[0]
             player.amount_won = float(won)
-        else:
-            player.amount_won = 0.0
 
     def is_player_action_line(self, line):
         # if there's no player in a seat, then we have a player with no username, indicates we need to filter
@@ -165,7 +167,7 @@ class GameTracker:
             sb = sb.replace("$", "")
             self.small_blind_amount = float(sb)
             player.chips -= self.small_blind_amount
-            player.amount_paid_in += self.small_blind_amount
+            player.betting_round_amount_paid_in += self.small_blind_amount
             self.round_bet = self.small_blind_amount
             self.pot += self.small_blind_amount
             return
@@ -177,7 +179,7 @@ class GameTracker:
             bb = bb.replace("$", "")
             self.big_blind_amount = float(bb)
             player.chips -= self.big_blind_amount
-            player.amount_paid_in += self.big_blind_amount
+            player.betting_round_amount_paid_in += self.big_blind_amount
             self.round_bet = self.big_blind_amount
             self.pot += self.big_blind_amount
             return
@@ -197,7 +199,7 @@ class GameTracker:
             amount = line.split("calls ")[1].split(" ")[0]
             amount = amount.replace("$", "")
             amount = float(amount)
-            player.amount_paid_in += amount
+            player.betting_round_amount_paid_in += amount
             player.chips -= amount
             self.pot += amount
             self.round_bet = amount
@@ -205,10 +207,11 @@ class GameTracker:
         if "raises" in line:
             player.sitting_out = False
             player.raise_count += 1
+            # so if there's already been a bet in the round
             amount = line.split("raises ")[1].split("to ")[1].split(" ")[0]
             amount = amount.replace("$", "")
             amount = float(amount)
-            player.amount_paid_in += amount
+            player.betting_round_amount_paid_in = amount
             player.chips -= amount
             self.pot += amount
             self.round_bet = amount
@@ -231,7 +234,7 @@ class GameTracker:
             amount = line.split(" bets ")[1].split(" ")[0]
             amount = amount.replace("$", "")
             amount = float(amount)
-            player.amount_paid_in += amount
+            player.betting_round_amount_paid_in += amount
             player.chips -= amount
             self.pot += amount
             self.round_bet = amount
@@ -273,6 +276,7 @@ class GameTracker:
         return None
 
     def handle_flop_line(self, line):
+        self.collect_chips()
         self.betting_round = 1
 
     def handle_leave_table_line(self, line):
@@ -281,9 +285,11 @@ class GameTracker:
         player.sitting_out = True
 
     def handle_river_line(self, line):
+        self.collect_chips()
         self.betting_round = 3
 
     def handle_turn_line(self, line):
+        self.collect_chips()
         self.betting_round = 2
 
     def add_player_statuses_to_summary(self, betting_round_summary):
@@ -329,6 +335,11 @@ class GameTracker:
         player.chips += returned_amount
         player.amount_paid_in -= returned_amount
 
+    def collect_chips(self):
+        for player in self.players:
+            player.amount_paid_in += player.betting_round_amount_paid_in
+            player.betting_round_amount_paid_in = 0
+
     def save_player_round_summaries(self):
         if self.player_round_stats_repo is not None and len(self.players) > 0:
             existing_player_round_stats = self.player_round_stats_repo.get_records_for_game(self.game_id)
@@ -337,3 +348,9 @@ class GameTracker:
                     if player.username is not None and not player.sitting_out:
                         prs = PlayerRoundStats().from_player_tracker(player)
                         self.player_round_stats_repo.add(prs)
+
+    def handle_collected_line(self, line):
+        amount = float(line.split(" collected ")[1].split(" ")[0].replace("$", "").replace("(", "").replace(")", ""))
+        player = self.get_player(line.split(" collected ")[0])
+        player.amount_won = amount
+

@@ -1,0 +1,39 @@
+
+PokerStars Hand #253054517429:  Hold'em No Limit ($0.01/$0.02 USD) - 2024/10/31 21:46:20 ET
+Table 'Hekate' 6-max Seat #1 is the button
+Seat 4: PIOUJMJPRO ($2 in chips) is sitting out
+Seat 1: sbc1985nj ($2.12 in chips)
+Seat 2: amarkules ($1.23 in chips)
+Seat 3: Fly_By_Knight2 ($5.11 in chips)
+Seat 5: rabscack ($2.61 in chips)
+Seat 6: reek90 ($1.40 in chips)
+amarkules: posts small blind $0.01
+Fly_By_Knight2: posts big blind $0.02
+PIOUJMJPRO: sits out
+*** HOLE CARDS ***
+Dealt to amarkules [Ts 8s]
+rabscack: calls $0.02
+reek90: calls $0.02
+sbc1985nj: calls $0.02
+amarkules: raises $0.02 to $0.04
+Fly_By_Knight2: folds
+rabscack: calls $0.02
+reek90: calls $0.02
+sbc1985nj: calls $0.02
+*** FLOP *** [7d 9h 8d]
+amarkules: bets $0.17
+rabscack: folds
+reek90: folds
+sbc1985nj: folds
+Uncalled bet ($0.17) returned to amarkules
+amarkules collected $0.17 from pot
+amarkules: doesn't show hand
+*** SUMMARY ***
+Total pot $0.18 | Rake $0.01
+Board [7d 9h 8d]
+Seat 4: PIOUJMJPRO
+Seat 1: sbc1985nj (button) folded on the Flop
+Seat 2: amarkules (small blind) collected ($0.17)
+Seat 3: Fly_By_Knight2 (big blind) folded before Flop
+Seat 5: rabscack folded on the Flop
+Seat 6: reek90 folded on the Flop

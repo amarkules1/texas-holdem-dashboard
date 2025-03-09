@@ -104,6 +104,20 @@ def success():
     game_tracker.save_player_round_summaries()
     return {'status': 'success'}
 
+@app.route('/player-summaries', methods = ['GET'])
+def player_summaries():
+    df = player_round_stats_repo.get_player_summaries()
+    df['preflop_fold_rate'] = df['preflop_fold_count'] / df['game_count']
+    df['preturn_fold_rate'] = df['preturn_fold_count'] / df['game_count']
+    df['preriver_fold_rate'] = df['preriver_fold_count'] / df['game_count']
+    df['preshowdown_fold_rate'] = df['preshowdown_fold_count'] / df['game_count']
+    df['raise_rate'] = df['total_raise_count'] / df['game_count']
+    df['call_rate'] = df['total_call_count'] / df['game_count']
+    df['check_rate'] = df['check_count'] / df['game_count']
+    df['profit_loss'] = df['total_won'] - df['total_paid_in']
+    df['profit_loss_per_game'] = df['profit_loss'] / df['game_count']
+    return df.to_json(orient='records')
+
 
 if __name__ == '__main__':
     app.run(port=5000, debug=True)

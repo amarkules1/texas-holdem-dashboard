@@ -116,6 +116,7 @@ def player_summaries():
     df['check_rate'] = df['check_count'] / df['game_count']
     df['profit_loss'] = df['total_won'] - df['total_paid_in']
     df['profit_loss_per_game'] = df['profit_loss'] / df['game_count']
+    df.sort_values('last_timestamp', ascending=False, inplace=True)
     return df.to_json(orient='records')
 
 

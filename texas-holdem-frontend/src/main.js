@@ -10,6 +10,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import CardStatsContainer from './components/CardStatsContainer'
 import ResourcesComponent from './components/ResourcesComponent.vue'
 import HandComparison from './components/HandComparison.vue'
+import PlayerStats from './components/PlayerStats.vue'
 
 const router = createRouter({
     history: createWebHashHistory(),
@@ -17,6 +18,7 @@ const router = createRouter({
         { path: '/home', component: CardStatsContainer },
         { path: '/resources', component: ResourcesComponent },
         { path: '/hand-comparison', component: HandComparison},
+        { path: '/player-stats', component: PlayerStats},
         { path: '/', redirect: '/home' }
     ]
 })

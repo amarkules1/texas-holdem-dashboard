@@ -1,7 +1,7 @@
 <template>
-    <div v-if="playerStats">
+    <div v-if="playerStats && playerStats.length">
         <DataTable :value="playerStats" tableStyle="min-width: 50rem">
-            <Column v-for="col of columns" :key="col.field" :field="col.field" :header="col.header"></Column>
+            <Column v-for="col of columns" sortable :key="col.field" :field="col.field" :header="col.header"></Column>
         </DataTable>
     </div>
 </template>
@@ -31,7 +31,7 @@ export default {
             ]
         }
     },
-    async mounted() {
+    async beforeMount() {
         this.playerStats = await this.getPlayerStats()
     },
     methods: {

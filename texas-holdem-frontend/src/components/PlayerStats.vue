@@ -1,5 +1,8 @@
 <template>
     <div v-if="playerStats && playerStats.length">
+        <div class="searchContainer">
+            <input class="searchBar" v-model="search" placeholder="Search by username" @keyup="searchPlayers"/>
+        </div>
         <DataTable :value="playerStats" tableStyle="min-width: 50rem">
             <Column v-for="col of columns" sortable :key="col.field" :field="col.field" :header="col.header"></Column>
         </DataTable>
@@ -18,6 +21,7 @@ export default {
     data() {
         return {
             playerStats: null,
+            search: null,
             columns: [
                 {field: "username", header: "Username"},
                 {field: "profit_loss_per_game", header: "P/L per Game"},
@@ -38,6 +42,9 @@ export default {
         async getPlayerStats() {
             const response = await axios.get(process.env.VUE_APP_REST_ENDPOINT + "/player-summaries")
             return response.data
+        },
+        searchPlayers() {
+            this.playerStats = this.playerStats.filter(player => player.username.toLowerCase().includes(this.search.toLowerCase()))
         }
     }
 }

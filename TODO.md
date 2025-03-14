@@ -29,8 +29,8 @@
 - [x] player stats table
   - [x] searchable
   - [x] put players you select in top table
-- [ ] make P/L per game relative to big blind
-- [ ] round numbers on player stats page
+- [x] make P/L per game relative to big blind
+- [x] round numbers on player stats page
 - [ ] color code numbers on player stats page - green high, yellow medium, red low, ideally gradient
 - [ ] add bar chart to OG page with win/loss/tie bars for each hand type
   - toggle on and off

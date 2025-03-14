@@ -48,7 +48,11 @@
                         <button @click="removePlayer(slotProps.data.username)" class="btn btn-danger" v-else>Remove</button>
                     </template>
                 </Column>
-                <Column v-for="col of columns" sortable :key="col.field" :field="col.field" :header="col.header"></Column>
+                <Column v-for="col of columns" sortable :key="col.field" :field="col.field" :header="col.header">
+                    <template #body="slotProps">
+                        {{ typeof slotProps.data[col.field] === 'number' && slotProps.data[col.field] % 1 !== 0 ? slotProps.data[col.field].toFixed(4) : slotProps.data[col.field] }}
+                    </template>
+                </Column>
             </DataTable>
         </div>
     </div>
@@ -79,8 +83,8 @@ export default {
                 {field: "profit_loss_per_game", header: "P/L per Game"},
                 {field: "profit_loss_per_game_bb", header: "P/L per Game (BB)"},
                 {field: "game_count", header: "Game Count"},
-                {field: "call_rate", header: "Call Rate"},
-                {field: "raise_rate", header: "Raise Rate"},
+                {field: "call_rate", header: "Calls Per Game"},
+                {field: "raise_rate", header: "Raises Per Game"},
                 {field: "preflop_fold_rate", header: "Pre-Flop Fold Rate"},
                 {field: "preturn_fold_rate", header: "Pre-Turn Fold Rate"},
                 {field: "preriver_fold_rate", header: "Pre-River Fold Rate"},

@@ -2,17 +2,23 @@
     <div >
         <div class="buttonsContainer container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-5">
                     <label for="search" v-if="!(selectedPlayerStats && selectedPlayerStats.length)">Search: &nbsp;</label>
                     <input class="searchBar" v-model="search" placeholder="Search by username" @keyup="searchPlayers" v-if="!(selectedPlayerStats && selectedPlayerStats.length)"/>
                 </div>
-                <div class="col-6" v-if="!loadingFile">
+                <div class="col-5" v-if="!loadingFile">
                     <label for="gameFile">Upload Game File: &nbsp;</label>
                     <input type="file" @change="handleFileUpload" ref="fileInput" />
                     <p v-if="mostRecentFileName">Successfully uploaded file: {{ mostRecentFileName }}"</p>
                 </div>
-                <div class="col-6" v-else>
+                <div class="col-5" v-else>
                     <label for="gameFile">Loading...</label>
+                </div>
+                <div class="col-2" v-if="!refreshing">
+                    <button @click="refresh" class="btn btn-warning reset-btn">Refresh Data</button>
+                </div>
+                <div class="col-2" v-else>
+                    <button class="btn btn-warning reset-btn" disabled>Refreshing...</button>
                 </div>
             </div>
         </div>
@@ -66,6 +72,7 @@ export default {
             search: null,
             gameFile: null,
             loadingFile: false,
+            refreshing: false,
             mostRecentFileName: null,
             columns: [
                 {field: "username", header: "Username"},
@@ -110,6 +117,13 @@ export default {
         removePlayer(username) {
             this.selectedPlayers = this.selectedPlayers.filter(player => player !== username)
             this.selectedPlayerStats = this.allPlayerStats.filter(player => this.selectedPlayers.includes(player.username))
+        },
+        async refresh() {
+            this.refreshing = true
+            this.playerStats = await this.getPlayerStats()
+            this.allPlayerStats = this.playerStats
+            this.selectedPlayerStats = this.allPlayerStats.filter(player => this.selectedPlayers.includes(player.username))
+            this.refreshing = false
         }
     }
 }

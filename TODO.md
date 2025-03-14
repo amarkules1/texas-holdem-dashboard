@@ -27,8 +27,8 @@
 - [x] look into amount paid in calc issue - `select  username, sum(amount_paid_in), sum(amount_won), sum(amount_won) / sum(amount_paid_in) from player_round_stats group by username`
 - [x] build out player stat tracking from files
 - [x] player stats table
-  - [ ] searchable
-  - [ ] put players you select in top table
+  - [x] searchable
+  - [x] put players you select in top table
 - [ ] add bar chart to OG page with win/loss/tie bars for each hand type
   - toggle on and off
   - toggle stats on and off too

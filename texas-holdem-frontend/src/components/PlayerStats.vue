@@ -77,6 +77,7 @@ export default {
             columns: [
                 {field: "username", header: "Username"},
                 {field: "profit_loss_per_game", header: "P/L per Game"},
+                {field: "profit_loss_per_game_bb", header: "P/L per Game (BB)"},
                 {field: "game_count", header: "Game Count"},
                 {field: "call_rate", header: "Call Rate"},
                 {field: "raise_rate", header: "Raise Rate"},

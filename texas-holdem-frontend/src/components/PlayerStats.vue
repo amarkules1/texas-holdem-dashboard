@@ -6,9 +6,13 @@
                     <label for="search" v-if="!(selectedPlayerStats && selectedPlayerStats.length)">Search: &nbsp;</label>
                     <input class="searchBar" v-model="search" placeholder="Search by username" @keyup="searchPlayers" v-if="!(selectedPlayerStats && selectedPlayerStats.length)"/>
                 </div>
-                <div class="col-6">
+                <div class="col-6" v-if="!loadingFile">
                     <label for="gameFile">Upload Game File: &nbsp;</label>
-                    <input type="file" @change="handleFileUpload" ref="fileInput"/>
+                    <input type="file" @change="handleFileUpload" ref="fileInput" />
+                    <p v-if="mostRecentFileName">Successfully uploaded file: {{ mostRecentFileName }}"</p>
+                </div>
+                <div class="col-6" v-else>
+                    <label for="gameFile">Loading...</label>
                 </div>
             </div>
         </div>
@@ -34,7 +38,8 @@
             <DataTable :value="playerStats" tableStyle="min-width: 50rem">
                 <Column header="Add">
                     <template #body="slotProps">
-                        <button @click="addPlayer(slotProps.data.username)" class="btn btn-success">Add</button>
+                        <button @click="addPlayer(slotProps.data.username)" class="btn btn-success" v-if="!selectedPlayers.includes(slotProps.data.username)">Add</button>
+                        <button @click="removePlayer(slotProps.data.username)" class="btn btn-danger" v-else>Remove</button>
                     </template>
                 </Column>
                 <Column v-for="col of columns" sortable :key="col.field" :field="col.field" :header="col.header"></Column>
@@ -60,6 +65,8 @@ export default {
             selectedPlayerStats: [],
             search: null,
             gameFile: null,
+            loadingFile: false,
+            mostRecentFileName: null,
             columns: [
                 {field: "username", header: "Username"},
                 {field: "profit_loss_per_game", header: "P/L per Game"},
@@ -85,11 +92,16 @@ export default {
         searchPlayers() {
             this.playerStats = this.allPlayerStats.filter(player => player.username.toLowerCase().includes(this.search.toLowerCase()))
         },
-        handleFileUpload() {
+        async handleFileUpload() {
+            this.loadingFile = true
             this.gameFile = this.$refs.fileInput.files[0]
             const formData = new FormData()
             formData.append('file', this.gameFile)
-            axios.post(process.env.VUE_APP_REST_ENDPOINT + "/game-file", formData)
+            await axios.post(process.env.VUE_APP_REST_ENDPOINT + "/game-file", formData)
+            this.playerStats = await this.getPlayerStats()
+            this.allPlayerStats = this.playerStats 
+            this.mostRecentFileName = this.gameFile.name
+            this.loadingFile = false
         },
         addPlayer(username) {
             this.selectedPlayers.push(username)

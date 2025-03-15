@@ -29,7 +29,10 @@
                         <button @click="removePlayer(slotProps.data.username)" class="btn btn-danger">Remove</button>
                     </template>
                 </Column>
-                <Column v-for="col of columns" sortable :key="col.field" :field="col.field" :header="col.header"></Column>
+                <Column v-for="col of columns" sortable :key="col.field" :field="col.field" :header="col.header">
+                    <template #body="slotProps">
+                        {{ typeof slotProps.data[col.field] === 'number' && slotProps.data[col.field] % 1 !== 0 ? slotProps.data[col.field].toFixed(4) : slotProps.data[col.field] }}
+                    </template></Column>
             </DataTable>
         </div>
         <div class="buttonsContainer container" v-if="selectedPlayerStats && selectedPlayerStats.length">

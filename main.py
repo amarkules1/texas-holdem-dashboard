@@ -5,6 +5,7 @@ from dotenv import load_dotenv, find_dotenv
 import sqlalchemy
 import os
 import pandas as pd
+from pandas.core.dtypes.common import is_numeric_dtype
 from texas_hold_em_utils.card import Card
 from texas_hold_em_utils.preflop_stats_repository import PreflopStatsRepository
 import texas_hold_em_utils.relative_ranking as rr
@@ -118,6 +119,9 @@ def player_summaries():
     df['profit_loss_per_game'] = df['profit_loss'] / df['game_count']
     df['profit_loss_bb'] = df['total_won_bb'] - df['total_paid_in_bb']
     df['profit_loss_per_game_bb'] = df['profit_loss_bb'] / df['game_count']
+    for col in df.columns:
+        if is_numeric_dtype(df[col]):
+            df[f"{col}_z_score"] = (df[col] - df[col].mean()) / df[col].std()
     df.sort_values('last_timestamp', ascending=False, inplace=True)
     return df.to_json(orient='records')
 

@@ -1,10 +1,12 @@
 <template>
-    <div >
+    <div>
         <div class="buttonsContainer container">
             <div class="row">
                 <div class="col-5">
-                    <label for="search" v-if="!(selectedPlayerStats && selectedPlayerStats.length)">Search: &nbsp;</label>
-                    <input class="searchBar" v-model="search" placeholder="Search by username" @keyup="searchPlayers" v-if="!(selectedPlayerStats && selectedPlayerStats.length)"/>
+                    <label for="search" v-if="!(selectedPlayerStats && selectedPlayerStats.length)">Search:
+                        &nbsp;</label>
+                    <input class="searchBar" v-model="search" placeholder="Search by username" @keyup="searchPlayers"
+                        v-if="!(selectedPlayerStats && selectedPlayerStats.length)" />
                 </div>
                 <div class="col-5" v-if="!loadingFile">
                     <label for="gameFile">Upload Game File: &nbsp;</label>
@@ -22,7 +24,7 @@
                 </div>
             </div>
         </div>
-        <div class="tableContainer" v-if="selectedPlayerStats && selectedPlayerStats.length">
+        <div class="tableContainer upperTable" v-if="selectedPlayerStats && selectedPlayerStats.length">
             <DataTable :value="selectedPlayerStats" tableStyle="min-width: 50rem">
                 <Column header="Remove">
                     <template #body="slotProps">
@@ -31,29 +33,36 @@
                 </Column>
                 <Column v-for="col of columns" sortable :key="col.field" :field="col.field" :header="col.header">
                     <template #body="slotProps">
-                        {{ typeof slotProps.data[col.field] === 'number' && slotProps.data[col.field] % 1 !== 0 ? slotProps.data[col.field].toFixed(4) : slotProps.data[col.field] }}
-                    </template></Column>
+                        <p :style="{ backgroundColor: get_color(col.field, slotProps.data[col.field]) }">
+                            {{ typeof slotProps.data[col.field] === 'number' && slotProps.data[col.field] % 1 !== 0 ?
+                                slotProps.data[col.field].toFixed(4) : slotProps.data[col.field] }}
+                        </p>
+                    </template>
+                </Column>
             </DataTable>
         </div>
         <div class="buttonsContainer container" v-if="selectedPlayerStats && selectedPlayerStats.length">
             <div class="row">
                 <div class="col-6" v-if="selectedPlayerStats && selectedPlayerStats.length">
                     <label for="search">Search: &nbsp;</label>
-                    <input class="searchBar" v-model="search" placeholder="Search by username" @keyup="searchPlayers"/>
+                    <input class="searchBar" v-model="search" placeholder="Search by username" @keyup="searchPlayers" />
                 </div>
             </div>
         </div>
-        <div class="tableContainer" v-if="playerStats && playerStats.length">
+        <div class="tableContainer lowerTable" v-if="playerStats && playerStats.length">
             <DataTable :value="playerStats" tableStyle="min-width: 50rem">
                 <Column header="Add">
                     <template #body="slotProps">
-                        <button @click="addPlayer(slotProps.data.username)" class="btn btn-success" v-if="!selectedPlayers.includes(slotProps.data.username)">Add</button>
-                        <button @click="removePlayer(slotProps.data.username)" class="btn btn-danger" v-else>Remove</button>
+                        <button @click="addPlayer(slotProps.data.username)" class="btn btn-success"
+                            v-if="!selectedPlayers.includes(slotProps.data.username)">Add</button>
+                        <button @click="removePlayer(slotProps.data.username)" class="btn btn-danger"
+                            v-else>Remove</button>
                     </template>
                 </Column>
                 <Column v-for="col of columns" sortable :key="col.field" :field="col.field" :header="col.header">
                     <template #body="slotProps">
-                        {{ typeof slotProps.data[col.field] === 'number' && slotProps.data[col.field] % 1 !== 0 ? slotProps.data[col.field].toFixed(4) : slotProps.data[col.field] }}
+                        {{ typeof slotProps.data[col.field] === 'number' && slotProps.data[col.field] % 1 !== 0 ?
+                            slotProps.data[col.field].toFixed(4) : slotProps.data[col.field] }}
                     </template>
                 </Column>
             </DataTable>
@@ -62,8 +71,10 @@
 </template>
 <script>
 import axios from 'axios'
-import {DataTable} from 'primevue';
-import {Column} from 'primevue';
+import { DataTable } from 'primevue';
+import { Column } from 'primevue';
+import chroma from 'chroma-js';
+
 export default {
     name: 'PlayerStats',
     components: {
@@ -81,17 +92,18 @@ export default {
             loadingFile: false,
             refreshing: false,
             mostRecentFileName: null,
+            colorScale: chroma.scale(['green', '#444', 'red']),
             columns: [
-                {field: "username", header: "Username"},
-                {field: "profit_loss_per_game", header: "P/L per Game"},
-                {field: "profit_loss_per_game_bb", header: "P/L per Game (BB)"},
-                {field: "game_count", header: "Game Count"},
-                {field: "call_rate", header: "Calls Per Game"},
-                {field: "raise_rate", header: "Raises Per Game"},
-                {field: "preflop_fold_rate", header: "Pre-Flop Fold Rate"},
-                {field: "preturn_fold_rate", header: "Pre-Turn Fold Rate"},
-                {field: "preriver_fold_rate", header: "Pre-River Fold Rate"},
-                {field: "preshowdown_fold_rate", header: "Pre-Showdown Fold Rate"}
+                { field: "username", header: "Username" },
+                { field: "profit_loss_per_game", header: "P/L per Game" },
+                { field: "profit_loss_per_game_bb", header: "P/L per Game (BB)" },
+                { field: "game_count", header: "Game Count" },
+                { field: "call_rate", header: "Calls Per Game" },
+                { field: "raise_rate", header: "Raises Per Game" },
+                { field: "preflop_fold_rate", header: "Pre-Flop Fold Rate" },
+                { field: "preturn_fold_rate", header: "Pre-Turn Fold Rate" },
+                { field: "preriver_fold_rate", header: "Pre-River Fold Rate" },
+                { field: "preshowdown_fold_rate", header: "Pre-Showdown Fold Rate" }
             ]
         }
     },
@@ -114,7 +126,7 @@ export default {
             formData.append('file', this.gameFile)
             await axios.post(process.env.VUE_APP_REST_ENDPOINT + "/game-file", formData)
             this.playerStats = await this.getPlayerStats()
-            this.allPlayerStats = this.playerStats 
+            this.allPlayerStats = this.playerStats
             this.mostRecentFileName = this.gameFile.name
             this.loadingFile = false
         },
@@ -132,6 +144,24 @@ export default {
             this.allPlayerStats = this.playerStats
             this.selectedPlayerStats = this.allPlayerStats.filter(player => this.selectedPlayers.includes(player.username))
             this.refreshing = false
+        },
+        get_color(col, value) {
+            if (col.includes("count") || col.includes("user")) {
+                return "#333"
+            }
+            let z_score = this.playerStats.filter(player => player[col] === value)[0][col + "_z_score"]
+            if (!(col.includes("profit") || col.includes("raise"))) {
+                z_score = z_score * -1
+            }
+            return this.pickHex( z_score)
+        },
+        pickHex(z) {
+            var weight = (z + 3) / 6
+            let a = this.colorScale(weight)
+            console.log(z)
+            console.log(weight)
+            console.log(a)
+            return a;
         }
     }
 }

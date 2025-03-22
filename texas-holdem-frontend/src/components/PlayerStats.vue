@@ -102,7 +102,8 @@ export default {
                 { field: "limper_score", header: "Limper Score" },
                 { field: "aggressive_score", header: "Aggressive Score" },
                 { field: "call_rate", header: "Calls Per Game" },
-                { field: "raise_rate", header: "Raises Per Game" }
+                { field: "raise_rate", header: "Raises Per Game" },
+                { field: "preshowdown_fold_rate", header: "Fold Rate" }
             ]
         }
     },

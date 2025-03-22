@@ -92,18 +92,17 @@ export default {
             loadingFile: false,
             refreshing: false,
             mostRecentFileName: null,
-            colorScale: chroma.scale(['green', '#444', 'red']),
+            colorScale: chroma.scale(['red', '#444', 'green']),
             columns: [
                 { field: "username", header: "Username" },
                 { field: "profit_loss_per_game", header: "P/L per Game" },
                 { field: "profit_loss_per_game_bb", header: "P/L per Game (BB)" },
                 { field: "game_count", header: "Game Count" },
+                { field: "bluffable_score", header: "Bluffable Score" },
+                { field: "limper_score", header: "Limper Score" },
+                { field: "aggressive_score", header: "Aggressive Score" },
                 { field: "call_rate", header: "Calls Per Game" },
-                { field: "raise_rate", header: "Raises Per Game" },
-                { field: "preflop_fold_rate", header: "Pre-Flop Fold Rate" },
-                { field: "preturn_fold_rate", header: "Pre-Turn Fold Rate" },
-                { field: "preriver_fold_rate", header: "Pre-River Fold Rate" },
-                { field: "preshowdown_fold_rate", header: "Pre-Showdown Fold Rate" }
+                { field: "raise_rate", header: "Raises Per Game" }
             ]
         }
     },
@@ -150,9 +149,6 @@ export default {
                 return "#333"
             }
             let z_score = this.playerStats.filter(player => player[col] === value)[0][col + "_z_score"]
-            if (!(col.includes("profit") || col.includes("raise"))) {
-                z_score = z_score * -1
-            }
             return this.pickHex( z_score)
         },
         pickHex(z) {

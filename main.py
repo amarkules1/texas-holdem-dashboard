@@ -122,6 +122,16 @@ def player_summaries():
     for col in df.columns:
         if is_numeric_dtype(df[col]):
             df[f"{col}_z_score"] = (df[col] - df[col].mean()) / df[col].std()
+    # folds late = bluffable
+    df['bluffable_score'] = (((df['preriver_fold_rate'] + df['preshowdown_fold_rate']) / 2) - (df['preflop_fold_rate']))
+    df['bluffable_score_z_score'] = (df['bluffable_score'] - df['bluffable_score'].mean()) / df['bluffable_score'].std()
+    # limper = low fold rates, low raise rate
+    df['limper_score'] = -1 * (df['raise_rate'] + ((df['preflop_fold_rate'] + df['preturn_fold_rate'] + df['preriver_fold_rate'] + df['preshowdown_fold_rate']) / 4))
+    df['limper_score_z_score'] = (df['limper_score'] - df['limper_score'].mean()) / df['limper_score'].std()
+    # aggressive = high raise rate, low fold rates
+    df['aggressive_score'] = df['raise_rate'] - ((df['preflop_fold_rate'] + df['preturn_fold_rate'] + df['preriver_fold_rate'] + df['preshowdown_fold_rate']) / 4)
+    df['aggressive_score_z_score'] = (df['aggressive_score'] - df['aggressive_score'].mean()) / df['aggressive_score'].std()
+
     df.sort_values('last_timestamp', ascending=False, inplace=True)
     return df.to_json(orient='records')
 

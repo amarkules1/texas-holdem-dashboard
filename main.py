@@ -9,6 +9,7 @@ from pandas.core.dtypes.common import is_numeric_dtype
 from texas_hold_em_utils.card import Card
 from texas_hold_em_utils.preflop_stats_repository import PreflopStatsRepository
 import texas_hold_em_utils.relative_ranking as rr
+from texas_hold_em_utils.outs_counter import OutsMetrics
 
 from game_tracking.game_tracker import GameTracker
 from game_tracking.player_round_stats_repository import PlayerRoundStatsRepository
@@ -135,6 +136,16 @@ def player_summaries():
     df.sort_values('last_timestamp', ascending=False, inplace=True)
     return df.to_json(orient='records')
 
-
+@app.route('/all-player-outs', methods=['GET'])
+def all_player_outs():
+    hands_orig = request.args.get('hands')
+    hands = [hand.split(",") for hand in hands_orig.split("/")]
+    hands = [[Card().from_name(card) for card in hand] for hand in hands]
+    community_cards_orig = request.args.get('community_cards')
+    community_cards = [Card().from_name(card) for card in community_cards_orig.split(",")]
+    outs_metrics = OutsMetrics(hands, community_cards)
+    return outs_metrics.to_json()
+    
+    
 if __name__ == '__main__':
     app.run(port=5000, debug=True)

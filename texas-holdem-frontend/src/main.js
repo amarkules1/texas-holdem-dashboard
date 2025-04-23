@@ -11,6 +11,7 @@ import CardStatsContainer from './components/CardStatsContainer'
 import ResourcesComponent from './components/ResourcesComponent.vue'
 import HandComparison from './components/HandComparison.vue'
 import PlayerStats from './components/PlayerStats.vue'
+import OutsTracker from './components/OutsTracker.vue'
 
 const router = createRouter({
     history: createWebHashHistory(),
@@ -19,6 +20,7 @@ const router = createRouter({
         { path: '/resources', component: ResourcesComponent },
         { path: '/hand-comparison', component: HandComparison},
         { path: '/player-stats', component: PlayerStats},
+        { path: '/outs-tracker', component: OutsTracker},
         { path: '/', redirect: '/home' }
     ]
 })

@@ -31,6 +31,9 @@
                     <li class="nav-item">
                         <router-link class="nav-link" active-class="active" to="/resources">Resources</router-link>
                     </li>
+                    <li class="nav-item">
+                        <router-link class="nav-link" active-class="active" to="/outs-tracker">Outs Tracker</router-link>
+                    </li>
                 </ul>
             </div>
 

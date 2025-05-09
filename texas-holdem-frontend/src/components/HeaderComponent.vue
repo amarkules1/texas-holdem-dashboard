@@ -26,13 +26,10 @@
                         <router-link class="nav-link" active-class="active" to="/hand-comparison">Hand Comparison</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="nav-link" active-class="active" to="/player-stats">Player Stats</router-link>
+                        <router-link class="nav-link" active-class="active" to="/outs-tracker">Outs Tracker</router-link>
                     </li>
                     <li class="nav-item">
                         <router-link class="nav-link" active-class="active" to="/resources">Resources</router-link>
-                    </li>
-                    <li class="nav-item">
-                        <router-link class="nav-link" active-class="active" to="/outs-tracker">Outs Tracker</router-link>
                     </li>
                 </ul>
             </div>

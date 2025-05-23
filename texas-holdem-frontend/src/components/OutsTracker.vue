@@ -158,7 +158,7 @@ export default {
       for (let i = 0; i < slotsLeft; i++) {
         totalCombos *= (remainingCards - i)
       }
-      this.totalCombos = slotsLeft > 0 ? totalCombos : 1
+      this.totalCombos = slotsLeft > 0 ? totalCombos / slotsLeft : 1
       this.loadingStats = true
       // Prepare hands and community for backend
       const hands = this.playersCards.map(

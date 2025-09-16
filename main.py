@@ -1,4 +1,5 @@
 from flask import Flask, request, redirect
+import psycopg2
 from flask_cors import CORS
 import logging
 from dotenv import load_dotenv, find_dotenv
@@ -28,6 +29,10 @@ logger.addHandler(handler2)
 
 app = Flask(__name__, static_folder='texas-holdem-frontend/dist', static_url_path='')
 CORS(app)
+
+load_dotenv()
+db_conn_string = os.getenv("DATABASE_CONN_STRING")
+db_conn = psycopg2.connect(db_conn_string)
 
 _ = load_dotenv(find_dotenv())
 
@@ -145,6 +150,27 @@ def all_player_outs():
     community_cards = [Card().from_name(card) for card in community_cards_orig.split(",")]
     outs_metrics = OutsMetrics(hands, community_cards)
     return outs_metrics.to_json()
+
+@app.route('/blackjack-basic-strategy', methods=['GET'])
+def blackjack_basic_strategy():
+    where_clauses = []
+    if 'dealer_hit_soft_17' in request.args:
+        val = str(request.args.get('dealer_hit_soft_17')).lower() == 'true'
+        where_clauses.append(f"dealer_hit_soft_17 = {val}")
+
+    if 'double_after_split' in request.args:
+        val = str(request.args.get('double_after_split')).lower() == 'true'
+        where_clauses.append(f"double_after_split = {val}")
+
+    if 'blackjack_pays' in request.args:
+        val = request.args.get('blackjack_pays', type=float)
+        where_clauses.append(f"blackjack_pays = {val}")
+
+    query = "SELECT * FROM blackjack_odds"
+    if where_clauses:
+        query += " WHERE " + " AND ".join(where_clauses)
+
+    return pd.read_sql(query, conn).to_json(orient='records')
     
     
 if __name__ == '__main__':

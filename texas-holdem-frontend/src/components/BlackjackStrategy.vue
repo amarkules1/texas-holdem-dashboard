@@ -32,7 +32,7 @@
       <tbody>
         <tr v-for="playerTotal in playerTotals" :key="playerTotal">
           <td>{{ formatPlayerTotal(playerTotal) }}</td>
-          <td v-for="dealerCard in dealerCards" :key="dealerCard">
+          <td v-for="dealerCard in dealerCards" :key="dealerCard" :style="{ backgroundColor: getColorForAction(getAction(playerTotal, dealerCard)) }">
             {{ getAction(playerTotal, dealerCard) }}
           </td>
         </tr>
@@ -111,6 +111,22 @@ export default {
           .join(' ');
       }
       return total;
+    },
+    getColorForAction(action) {
+      if (!action) return '';
+      const actionType = action.split('/')[0].toLowerCase(); // Handle cases like 'Double/Hit'
+      switch (actionType) {
+        case 'stand':
+          return 'rgba(255, 87, 87, 0.15)'; // Red
+        case 'split':
+          return 'rgba(255, 255, 87, 0.2)'; // Yellow
+        case 'hit':
+          return 'rgba(87, 151, 255, 0.2)'; // Blue
+        case 'double':
+          return 'rgba(87, 255, 87, 0.2)'; // Green
+        default:
+          return '';
+      }
     },
     getAction(playerTotal, dealerCard) {
       const entry = this.strategyData.find(

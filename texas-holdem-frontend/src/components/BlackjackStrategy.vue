@@ -12,9 +12,11 @@
       </label>
       <label>
         Blackjack pays:
-        <input type="number" v-model.number="blackjackPays" step="0.1" />
+        <select v-model.number="blackjackPays">
+          <option value="1.5">3:2</option>
+          <option value="1.2">6:5</option>
+        </select>
       </label>
-      <button @click="fetchStrategy">Get Strategy</button>
     </div>
     <table v-if="strategyData.length" class="strategy-table">
       <thead>
@@ -25,7 +27,7 @@
       </thead>
       <tbody>
         <tr v-for="playerTotal in playerTotals" :key="playerTotal">
-          <td>{{ playerTotal }}</td>
+          <td>{{ formatPlayerTotal(playerTotal) }}</td>
           <td v-for="dealerCard in dealerCards" :key="dealerCard">
             {{ getAction(playerTotal, dealerCard) }}
           </td>
@@ -48,9 +50,36 @@ export default {
       strategyData: [],
     };
   },
+  watch: {
+    dealerHitSoft17() {
+      this.fetchStrategy();
+    },
+    doubleAfterSplit() {
+      this.fetchStrategy();
+    },
+    blackjackPays() {
+      this.fetchStrategy();
+    },
+  },
   computed: {
     playerTotals() {
-      return [...new Set(this.strategyData.map(item => item.player_total))].sort((a, b) => a - b);
+      const totals = [...new Set(this.strategyData.map(item => item.player_total))];
+      return totals.sort((a, b) => {
+        const aIsNum = !isNaN(a);
+        const bIsNum = !isNaN(b);
+
+        if (aIsNum && bIsNum) {
+          return a - b; // Sort numbers numerically
+        }
+        if (aIsNum && !bIsNum) {
+          return -1; // Numbers come before strings
+        }
+        if (!aIsNum && bIsNum) {
+          return 1; // Strings come after numbers
+        }
+        // Both are strings, sort alphabetically
+        return a.localeCompare(b);
+      });
     },
     dealerCards() {
       return [...new Set(this.strategyData.map(item => item.dealer_card_up))].sort((a, b) => a - b);
@@ -69,6 +98,15 @@ export default {
       } catch (error) {
         console.error('Error fetching blackjack strategy:', error);
       }
+    },
+    formatPlayerTotal(total) {
+      if (typeof total === 'string') {
+        return total
+          .split('_')
+          .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+          .join(' ');
+      }
+      return total;
     },
     getAction(playerTotal, dealerCard) {
       const entry = this.strategyData.find(
@@ -101,6 +139,7 @@ export default {
   text-align: center;
 }
 .strategy-table th {
-  background-color: #f2f2f2;
+  background-color: #6c757d; /* A darker gray from Bootstrap's color palette */
+  color: white;
 }
 </style>

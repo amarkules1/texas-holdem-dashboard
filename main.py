@@ -170,7 +170,7 @@ def blackjack_basic_strategy():
     if where_clauses:
         query += " WHERE " + " AND ".join(where_clauses)
 
-    return pd.read_sql(query, conn).to_json(orient='records')
+    return pd.read_sql(query, db_conn).to_json(orient='records')
     
     
 if __name__ == '__main__':

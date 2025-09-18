@@ -12,6 +12,7 @@ import ResourcesComponent from './components/ResourcesComponent.vue'
 import HandComparison from './components/HandComparison.vue'
 import PlayerStats from './components/PlayerStats.vue'
 import OutsTracker from './components/OutsTracker.vue'
+import BlackjackStrategy from './components/BlackjackStrategy.vue'
 
 const router = createRouter({
     history: createWebHashHistory(),
@@ -21,6 +22,7 @@ const router = createRouter({
         { path: '/hand-comparison', component: HandComparison},
         { path: '/player-stats', component: PlayerStats},
         { path: '/outs-tracker', component: OutsTracker},
+        { path: '/blackjack-strategy', component: BlackjackStrategy},
         { path: '/', redirect: '/home' }
     ]
 })

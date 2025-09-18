@@ -21,6 +21,10 @@
     <table v-if="strategyData.length" class="strategy-table">
       <thead>
         <tr>
+          <th></th>
+          <th :colspan="dealerCards.length" style="text-align: center;">Dealer's Up Card</th>
+        </tr>
+        <tr>
           <th>Player Total</th>
           <th v-for="dealerCard in dealerCards" :key="dealerCard">{{ dealerCard }}</th>
         </tr>
@@ -129,6 +133,8 @@ export default {
   margin-right: 15px;
 }
 .strategy-table {
+  max-width: 90%;
+  margin: 0 auto;
   width: 100%;
   border-collapse: collapse;
 }
@@ -140,6 +146,11 @@ export default {
 }
 .strategy-table th {
   background-color: #6c757d; /* A darker gray from Bootstrap's color palette */
+  color: white;
+}
+.strategy-table tbody tr td:first-child {
+  font-weight: bold;
+  background-color: #6c757d;
   color: white;
 }
 </style>

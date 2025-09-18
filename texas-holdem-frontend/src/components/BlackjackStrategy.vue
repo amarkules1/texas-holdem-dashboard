@@ -32,12 +32,25 @@
       <tbody>
         <tr v-for="playerTotal in playerTotals" :key="playerTotal">
           <td>{{ formatPlayerTotal(playerTotal) }}</td>
-          <td v-for="dealerCard in dealerCards" :key="dealerCard" :style="{ backgroundColor: getColorForAction(getAction(playerTotal, dealerCard)) }">
+          <td 
+            v-for="dealerCard in dealerCards" 
+            :key="dealerCard" 
+            :style="{ backgroundColor: getColorForAction(getAction(playerTotal, dealerCard)) }"
+            @mouseenter="(event) => showTooltip(event, playerTotal, dealerCard)"
+            @mouseleave="hideTooltip"
+          >
             {{ getAction(playerTotal, dealerCard) }}
           </td>
         </tr>
       </tbody>
     </table>
+    <Teleport to="body">
+      <div v-if="tooltip.visible" class="tooltip" :style="tooltip.style">
+        <div v-for="(value, key) in tooltip.content" :key="key">
+          <strong>{{ key }}:</strong> {{ value.toFixed(4) }}
+        </div>
+      </div>
+    </Teleport>
   </div>
 </template>
 
@@ -52,6 +65,12 @@ export default {
       doubleAfterSplit: true,
       blackjackPays: 1.5,
       strategyData: [],
+      tooltip: {
+        visible: false,
+        content: {},
+        style: {},
+        timer: null,
+      },
     };
   },
   watch: {
@@ -117,7 +136,7 @@ export default {
       const actionType = action.split('/')[0].toLowerCase(); // Handle cases like 'Double/Hit'
       switch (actionType) {
         case 'stand':
-          return 'rgba(255, 87, 87, 0.15)'; // Red
+          return 'rgba(255, 87, 87, 0.2)'; // Red
         case 'split':
           return 'rgba(255, 255, 87, 0.2)'; // Yellow
         case 'hit':
@@ -127,6 +146,39 @@ export default {
         default:
           return '';
       }
+    },
+    showTooltip(event, playerTotal, dealerCard) {
+      if (this.tooltip.timer) {
+        clearTimeout(this.tooltip.timer);
+      }
+      this.tooltip.timer = setTimeout(() => {
+        const entry = this.strategyData.find(
+          item => item.player_total === playerTotal && item.dealer_card_up === dealerCard
+        );
+        if (!entry) return;
+
+        const content = {};
+        if (entry.double_ev !== null) content['Double'] = entry.double_ev;
+        if (entry.hit_ev !== null) content['Hit'] = entry.hit_ev;
+        if (entry.stand_ev !== null) content['Stand'] = entry.stand_ev;
+        if (entry.split_ev !== null) content['Split'] = entry.split_ev;
+
+        if (Object.keys(content).length > 0) {
+          const rect = event.target.getBoundingClientRect();
+          this.tooltip.content = content;
+          this.tooltip.style = {
+            left: `${rect.left + rect.width / 2}px`,
+            top: `${rect.top - 10}px`,
+            transform: 'translateX(-50%) translateY(-100%)',
+          };
+          this.tooltip.visible = true;
+          console.log(playerTotal, dealerCard);
+        }
+      }, 500);
+    },
+    hideTooltip() {
+      clearTimeout(this.tooltip.timer);
+      this.tooltip.visible = false;
     },
     getAction(playerTotal, dealerCard) {
       const entry = this.strategyData.find(
@@ -168,5 +220,16 @@ export default {
   font-weight: bold;
   background-color: #6c757d;
   color: white;
+}
+.tooltip {
+  position: fixed;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1000;
+  pointer-events: none; /* Allows mouse events to pass through to elements below */
+  font-size: 0.9em;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 </style>

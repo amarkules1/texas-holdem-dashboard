@@ -138,7 +138,7 @@ export default {
       return this.currentScenario ? this.currentScenario.best_action : '';
     },
     isCorrect() {
-      return this.selectedAction === this.correctAction;
+      return this.selectedAction.toLowerCase() === this.correctAction.toLowerCase();
     },
     scorePercentage() {
       return this.totalQuestions > 0 ? Math.round((this.correctAnswers / this.totalQuestions) * 100) : 0;

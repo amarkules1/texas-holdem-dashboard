@@ -293,6 +293,7 @@ export default {
   padding: 15px;
   background-color: #f8f9fa;
   border-radius: 8px;
+  color: #333;
 }
 
 .controls label {

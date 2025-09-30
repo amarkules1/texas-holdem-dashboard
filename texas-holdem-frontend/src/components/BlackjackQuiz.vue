@@ -103,7 +103,12 @@
 
 <script>
 import axios from 'axios';
-
+// TODO: AI botched this and tried to just use the API output for scenarios
+// working on using actual deck of cards for scenarios
+// function to get hand values: getPlayerHandValue() DONE
+// function to generate a hand/dealer card scenario
+// function to determine the right answer for a hand/dealer card scenario
+// change UI to display the actual cards
 export default {
   name: 'BlackjackQuiz',
   data() {
@@ -127,7 +132,9 @@ export default {
       totalQuestions: 0,
       
       // Available actions for quiz
-      allActions: ['Hit', 'Stand', 'Double', 'Split']
+      allActions: ['Hit', 'Stand', 'Double', 'Split'],
+      ranks: ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'jack', 'queen', 'king', 'ace'],
+      suits: ['clubs', 'diamonds', 'hearts', 'spades']
     };
   },
   computed: {
@@ -276,6 +283,43 @@ export default {
       }
       
       return [playerTotal.toString()];
+    },
+
+    getPlayerHandValue(card1, card2) {
+      // Returns the value of the player's hand. e.g. '14', 'soft_17', 'paired_8', 'paired_aces'
+      if (card1 === card2) {
+        if (card1 == 'ace') {
+          return 'paired_aces';
+        } if (['10', 'jack', 'queen', 'king'].includes(card1)) {
+          return `20`;
+        }
+        return `paired_${parseInt(card1) + parseInt(card2)}`;
+      }
+      if (card1 == 'ace') {
+        if (["10", "jack", "queen", "king"].includes(card2)) {
+          return `21`;
+        }
+        return `soft_${parseInt(card2) + 11}`;
+      }
+      if (card2 == 'ace') {
+        if (["10", "jack", "queen", "king"].includes(card1)) {
+          return `21`;
+        }
+        return `soft_${parseInt(card1) + 11}`;
+      }
+      let card1Val = 0;
+      let card2Val = 0;
+      if (["10", "jack", "queen", "king"].includes(card1)) {
+        card1Val = 10;
+      } else {
+        card1Val = parseInt(card1)
+      }
+      if (["10", "jack", "queen", "king"].includes(card2)) {
+        card2Val = 10;
+      } else {
+        card2Val = parseInt(card2Val)
+      }
+      return card1Val + card2Val;
     }
   }
 };

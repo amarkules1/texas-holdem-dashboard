@@ -348,6 +348,15 @@ export default {
       const deck = this.getDeck();
       const shuffled = deck.sort(() => 0.5 - Math.random());
       return shuffled.slice(0, 3);
+    }, 
+
+    getStrategyForCards(cards) {
+      const playerCards = cards.slice(0, 2);
+      const dealerCards = cards.slice(2);
+      const playerTotal = this.getPlayerHandValue(playerCards[0], playerCards[1]);
+      const dealerTotal = this.getDealerHandValue(dealerCards[0]);
+      const strategy = this.strategyData.find(s => s.player_total === playerTotal && s.dealer_total === dealerTotal);
+      return strategy;
     }
   }
 };

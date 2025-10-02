@@ -320,6 +320,34 @@ export default {
         card2Val = parseInt(card2Val)
       }
       return card1Val + card2Val;
+    },
+
+    getDealerHandValue(card) {
+      if (card == 'ace') {
+        return 11;
+      }
+      if (['10', 'jack', 'queen', 'king'].includes(card)) {
+        return 10;
+      }
+      return parseInt(card);
+    },
+
+    getDeck() {
+      const ranks = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'jack', 'queen', 'king', 'ace'];
+      const suits = ['clubs', 'diamonds', 'hearts', 'spades'];
+      const deck = [];
+      for (let rank of ranks) {
+        for (let suit of suits) {
+          deck.push({ rank, suit });
+        }
+      }
+      return deck;
+    },
+
+    getRandom3Cards() {
+      const deck = this.getDeck();
+      const shuffled = deck.sort(() => 0.5 - Math.random());
+      return shuffled.slice(0, 3);
     }
   }
 };

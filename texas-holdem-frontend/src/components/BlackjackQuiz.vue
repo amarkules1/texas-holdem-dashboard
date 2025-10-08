@@ -106,8 +106,8 @@ import axios from 'axios';
 // TODO: AI botched this and tried to just use the API output for scenarios
 // working on using actual deck of cards for scenarios
 // function to get hand values: getPlayerHandValue() DONE
-// function to generate a hand/dealer card scenario
-// function to determine the right answer for a hand/dealer card scenario
+// function to generate a hand/dealer card scenario DONE
+// function to determine the right answer for a hand/dealer card scenario DONE
 // change UI to display the actual cards
 export default {
   name: 'BlackjackQuiz',
@@ -338,7 +338,7 @@ export default {
       const deck = [];
       for (let rank of ranks) {
         for (let suit of suits) {
-          deck.push({ rank, suit });
+          deck.push({ rank: rank, suit: suit });
         }
       }
       return deck;
@@ -353,9 +353,11 @@ export default {
     getStrategyForCards(cards) {
       const playerCards = cards.slice(0, 2);
       const dealerCards = cards.slice(2);
-      const playerTotal = this.getPlayerHandValue(playerCards[0], playerCards[1]);
-      const dealerTotal = this.getDealerHandValue(dealerCards[0]);
+      const playerTotal = this.getPlayerHandValue(playerCards[0].rank, playerCards[1].rank);
+      const dealerTotal = this.getDealerHandValue(dealerCards[0].rank);
       const strategy = this.strategyData.find(s => s.player_total === playerTotal && s.dealer_total === dealerTotal);
+      strategy.player_cards = playerCards;
+      strategy.dealer_card_up = dealerCards[0];
       return strategy;
     }
   }

@@ -30,14 +30,32 @@
         <div class="cards-display">
           <div class="dealer-section">
             <h4>Dealer's Up Card</h4>
-            <div class="card dealer-card">{{ currentScenario.dealer_card_up }}</div>
+            <div class="card dealer-card">
+              <img
+                v-if="currentScenario.dealer_card"
+                class="cardImage"
+                :src="require(`../assets/cards/${currentScenario.dealer_card.suit}_${currentScenario.dealer_card.rank}.svg`)"
+                alt="dealer card"
+                rel="preload"
+              />
+            </div>
           </div>
           
           <div class="player-section">
             <h4>Your Hand: {{ formatPlayerTotal(currentScenario.player_total) }}</h4>
             <div class="player-cards">
-              <div class="card player-card" v-for="(card, index) in getPlayerCards(currentScenario.player_total)" :key="index">
-                {{ card }}
+              <div
+                class="card player-card"
+                v-for="(card, index) in currentScenario.player_cards"
+                :key="index"
+              >
+                <img
+                  v-if="card"
+                  class="cardImage"
+                  :src="require(`../assets/cards/${card.suit}_${card.rank}.svg`)"
+                  alt="player card"
+                  rel="preload"
+                />
               </div>
             </div>
           </div>
@@ -205,9 +223,14 @@ export default {
     },
     
     generateQuizScenarios() {
-      // Create a randomized subset of scenarios for the quiz
-      const shuffled = [...this.strategyData].sort(() => 0.5 - Math.random());
-      this.quizScenarios = shuffled.slice(0, 20); // Take 20 random scenarios
+      for (let i = 0; i < 20; i++) {
+        let cards = this.getRandom3Cards();
+        while (this.getPlayerHandValue(cards.slice(0, 2)) == 21) {
+          cards = this.getRandom3Cards();
+        }
+        const scenario = this.getStrategyForCards(cards);
+        this.quizScenarios.push(scenario);
+      }
     },
     
     startQuiz() {
@@ -317,7 +340,7 @@ export default {
       if (["10", "jack", "queen", "king"].includes(card2)) {
         card2Val = 10;
       } else {
-        card2Val = parseInt(card2Val)
+        card2Val = parseInt(card2)
       }
       return card1Val + card2Val;
     },
@@ -353,11 +376,11 @@ export default {
     getStrategyForCards(cards) {
       const playerCards = cards.slice(0, 2);
       const dealerCards = cards.slice(2);
-      const playerTotal = this.getPlayerHandValue(playerCards[0].rank, playerCards[1].rank);
-      const dealerTotal = this.getDealerHandValue(dealerCards[0].rank);
-      const strategy = this.strategyData.find(s => s.player_total === playerTotal && s.dealer_total === dealerTotal);
+      const playerTotal = this.getPlayerHandValue(playerCards[0].rank, playerCards[1].rank).toString();
+      const dealerTotal = this.getDealerHandValue(dealerCards[0].rank).toString();
+      const strategy = this.strategyData.find(s => s.player_total === playerTotal && s.dealer_card_up === dealerTotal);
       strategy.player_cards = playerCards;
-      strategy.dealer_card_up = dealerCards[0];
+      strategy.dealer_card = dealerCards[0];
       return strategy;
     }
   }
@@ -429,6 +452,12 @@ export default {
   font-weight: bold;
   margin: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .dealer-card {

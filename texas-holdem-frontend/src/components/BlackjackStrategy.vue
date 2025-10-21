@@ -45,8 +45,8 @@
       </tbody>
     </table>
     <Teleport to="body">
-      <div v-if="tooltip.visible" class="tooltip" :style="tooltip.style">
-        <div v-for="(value, key) in tooltip.content" :key="key">
+      <div v-if="tooltips.visible" class="tooltips" :style="tooltips.style">
+        <div v-for="(value, key) in tooltips.content" :key="key">
           <strong>{{ key }}:</strong> {{ value.toFixed(4) }}
         </div>
       </div>
@@ -65,7 +65,7 @@ export default {
       doubleAfterSplit: true,
       blackjackPays: 1.5,
       strategyData: [],
-      tooltip: {
+      tooltips: {
         visible: false,
         content: {},
         style: {},
@@ -148,10 +148,10 @@ export default {
       }
     },
     showTooltip(event, playerTotal, dealerCard) {
-      if (this.tooltip.timer) {
-        clearTimeout(this.tooltip.timer);
+      if (this.tooltips.timer) {
+        clearTimeout(this.tooltips.timer);
       }
-      this.tooltip.timer = setTimeout(() => {
+      this.tooltips.timer = setTimeout(() => {
         const entry = this.strategyData.find(
           item => item.player_total === playerTotal && item.dealer_card_up === dealerCard
         );
@@ -165,20 +165,20 @@ export default {
 
         if (Object.keys(content).length > 0) {
           const rect = event.target.getBoundingClientRect();
-          this.tooltip.content = content;
-          this.tooltip.style = {
+          this.tooltips.content = content;
+          this.tooltips.style = {
             left: `${rect.left + rect.width / 2}px`,
             top: `${rect.top - 10}px`,
             transform: 'translateX(-50%) translateY(-100%)',
           };
-          this.tooltip.visible = true;
+          this.tooltips.visible = true;
           console.log(playerTotal, dealerCard);
         }
       }, 500);
     },
     hideTooltip() {
-      clearTimeout(this.tooltip.timer);
-      this.tooltip.visible = false;
+      clearTimeout(this.tooltips.timer);
+      this.tooltips.visible = false;
     },
     getAction(playerTotal, dealerCard) {
       const entry = this.strategyData.find(
@@ -221,7 +221,7 @@ export default {
   background-color: #6c757d;
   color: white;
 }
-.tooltip {
+.tooltips {
   position: fixed;
   background-color: #333;
   color: white;

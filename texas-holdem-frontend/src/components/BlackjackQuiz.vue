@@ -121,12 +121,6 @@
 
 <script>
 import axios from 'axios';
-// TODO: AI botched this and tried to just use the API output for scenarios
-// working on using actual deck of cards for scenarios
-// function to get hand values: getPlayerHandValue() DONE
-// function to generate a hand/dealer card scenario DONE
-// function to determine the right answer for a hand/dealer card scenario DONE
-// change UI to display the actual cards
 export default {
   name: 'BlackjackQuiz',
   data() {

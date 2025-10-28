@@ -116,7 +116,7 @@ export default {
           double_after_split: this.doubleAfterSplit,
           blackjack_pays: this.blackjackPays,
         };
-        const response = await axios.get('http://localhost:5000/blackjack-basic-strategy', { params });
+        const response = await axios.get(process.env.VUE_APP_REST_ENDPOINT + '/blackjack-basic-strategy', { params });
         this.strategyData = response.data;
       } catch (error) {
         console.error('Error fetching blackjack strategy:', error);

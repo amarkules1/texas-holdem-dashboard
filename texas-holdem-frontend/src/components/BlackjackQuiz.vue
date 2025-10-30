@@ -238,7 +238,7 @@ export default {
       this.selectedAction = '';
       this.correctAnswers = 0;
       this.totalQuestions = 0;
-      this.fetchStrategy();
+      this.quizScenarios = [];
     },
     
     selectAction(action) {

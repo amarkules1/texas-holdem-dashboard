@@ -14,6 +14,7 @@ from texas_hold_em_utils.outs_counter import OutsMetrics
 
 from game_tracking.game_tracker import GameTracker
 from game_tracking.player_round_stats_repository import PlayerRoundStatsRepository
+from betting_odds.odds_functions import get_bet_summary
 
 # create console logger and file logger
 
@@ -172,6 +173,25 @@ def blackjack_basic_strategy():
 
     return pd.read_sql(query, db_conn).to_json(orient='records')
     
+
+@app.route('/bet-summary', methods=['GET'])
+def bet_summary():
+    """
+    Returns a summary of betting odds.
+    Query parameters:
+    - odds_1: int (required) - American odds for the first outcome
+    - odds_2: int (required) - American odds for the second outcome
+    - total_bet: float (optional, default=1) - Total amount to bet
+    """
+    odds_1 = request.args.get('odds_1', type=int)
+    odds_2 = request.args.get('odds_2', type=int)
+    total_bet = request.args.get('total_bet', default=1, type=float)
     
+    if odds_1 is None or odds_2 is None:
+        return {'error': 'odds_1 and odds_2 are required parameters'}, 400
+        
+    return get_bet_summary(odds_1, odds_2, total_bet)
+    
+
 if __name__ == '__main__':
     app.run(port=5000, debug=True)

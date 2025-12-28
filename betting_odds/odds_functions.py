@@ -27,3 +27,17 @@ def even_split_bet_expected_return(odds_1, odds_2):
     profit_if_2_wins = profit_from_win(odds_2, bet_2) + bet_2
     assert abs(profit_if_1_wins - profit_if_2_wins) < 1e-6
     return profit_if_1_wins
+
+def get_bet_summary(odds_1, odds_2, total_bet=1):
+    percent_probability = american_to_probability_average(odds_1, odds_2)
+    opp_percent_probability = 1 - percent_probability
+    bet_amount, bet_amount_opp = even_split_bet_amounts(odds_1, odds_2, total_bet)
+    expected_return = even_split_bet_expected_return(odds_1, odds_2)
+    # return as JSON
+    return {
+        "percent_probability": percent_probability,
+        "opp_percent_probability": opp_percent_probability,
+        "bet_amount": bet_amount,
+        "bet_amount_opp": bet_amount_opp,
+        "expected_return": expected_return
+    }

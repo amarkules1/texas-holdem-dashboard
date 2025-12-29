@@ -35,6 +35,9 @@
                         <router-link class="nav-link" to="/blackjack-quiz">Blackjack Quiz</router-link>
                     </li>
                     <li class="nav-item">
+                        <router-link class="nav-link" to="/bet-analysis">Bet Analysis</router-link>
+                    </li>
+                    <li class="nav-item">
                         <router-link class="nav-link" active-class="active" to="/resources">Resources</router-link>
                     </li>
                 </ul>

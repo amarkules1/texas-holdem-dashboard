@@ -14,6 +14,7 @@ import PlayerStats from './components/PlayerStats.vue'
 import OutsTracker from './components/OutsTracker.vue'
 import BlackjackStrategy from './components/BlackjackStrategy.vue'
 import BlackjackQuiz from './components/BlackjackQuiz.vue'
+import BetSummary from './components/BetSummary.vue'
 
 const router = createRouter({
     history: createWebHashHistory(),
@@ -25,6 +26,7 @@ const router = createRouter({
         { path: '/outs-tracker', component: OutsTracker},
         { path: '/blackjack-strategy', component: BlackjackStrategy},
         { path: '/blackjack-quiz', component: BlackjackQuiz},
+        { path: '/bet-analysis', component: BetSummary},
         { path: '/', redirect: '/home' }
     ]
 })

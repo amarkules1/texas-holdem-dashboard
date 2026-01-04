@@ -7,11 +7,11 @@
                 <div class="row">
                     <div class="col-md-4">
                         <label for="odds1" class="form-label">Odds 1 (American)</label>
-                        <input type="number" id="odds1" v-model.number="odds1" class="form-control" placeholder="-110">
+                        <input type="number" id="odds1" v-model.number="odds1" class="form-control" placeholder="e.g. -110 or 250">
                     </div>
                     <div class="col-md-4">
                         <label for="odds2" class="form-label">Odds 2 (American)</label>
-                        <input type="number" id="odds2" v-model.number="odds2" class="form-control" placeholder="-110">
+                        <input type="number" id="odds2" v-model.number="odds2" class="form-control" placeholder="e.g. -110 or 250">
                     </div>
                     <div class="col-md-4">
                         <label for="totalBet" class="form-label">Total Bet Amount</label>

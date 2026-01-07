@@ -81,11 +81,7 @@ export default {
             this.results = null
             
             try {
-                let endpoint = process.env.VUE_APP_REST_ENDPOINT || 'http://localhost:5000'
-                // Remove trailing slash if present
-                if (endpoint.endsWith('/')) {
-                    endpoint = endpoint.slice(0, -1) 
-                }
+                let endpoint = process.env.VUE_APP_REST_ENDPOINT
                 
                 const response = await axios.get(`${endpoint}/bet-summary`, {
                     params: {

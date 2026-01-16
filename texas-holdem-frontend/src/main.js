@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import "bootstrap"
 import { createRouter, createWebHashHistory } from 'vue-router'
+import HomePage from './components/HomePage.vue'
 import CardStatsContainer from './components/CardStatsContainer'
 import ResourcesComponent from './components/ResourcesComponent.vue'
 import HandComparison from './components/HandComparison.vue'
@@ -19,14 +20,15 @@ import BetSummary from './components/BetSummary.vue'
 const router = createRouter({
     history: createWebHashHistory(),
     routes: [
-        { path: '/home', component: CardStatsContainer },
+        { path: '/home', component: HomePage },
+        { path: '/poker-hand-stats', component: CardStatsContainer },
         { path: '/resources', component: ResourcesComponent },
-        { path: '/hand-comparison', component: HandComparison},
-        { path: '/player-stats', component: PlayerStats},
-        { path: '/outs-tracker', component: OutsTracker},
-        { path: '/blackjack-strategy', component: BlackjackStrategy},
-        { path: '/blackjack-quiz', component: BlackjackQuiz},
-        { path: '/bet-analysis', component: BetSummary},
+        { path: '/hand-comparison', component: HandComparison },
+        { path: '/player-stats', component: PlayerStats },
+        { path: '/outs-tracker', component: OutsTracker },
+        { path: '/blackjack-strategy', component: BlackjackStrategy },
+        { path: '/blackjack-quiz', component: BlackjackQuiz },
+        { path: '/bet-analysis', component: BetSummary },
         { path: '/', redirect: '/home' }
     ]
 })

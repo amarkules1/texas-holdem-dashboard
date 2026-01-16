@@ -33,7 +33,7 @@ export default {
                 },
                 {
                     title: "Hand Comparison",
-                    description: "Compare two specific poker hands to see which one wins.",
+                    description: "Compare two specific poker hands to see their odds of beating eachother.",
                     path: "/hand-comparison"
                 },
                 {
@@ -43,12 +43,12 @@ export default {
                 },
                 {
                     title: "Bet Analysis",
-                    description: "Analyze your betting history (requires uploaded data).",
+                    description: "Analyze sports bets and look for arbitrage opportunities.",
                     path: "/bet-analysis"
                 },
                 {
                     title: "Blackjack Strategy",
-                    description: "Learn optimal Blackjack strategy.",
+                    description: "Learn Blackjack basic strategy.",
                     path: "/blackjack-strategy"
                 },
                 {

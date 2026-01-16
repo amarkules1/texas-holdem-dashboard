@@ -3,9 +3,9 @@
         <div class="container">
             <div class="centering">
                 <router-link class="title" to="/home">
-                    <img class="headerImage" src="../../public/android-chrome-192x192.png" alt="PokerSolver" width="100"
+                    <img class="headerImage" src="../../public/web-app-manifest-192x192.png" alt="CasinoSolver" width="100"
                         height="100" />
-                    <h1 class="headerText">PokerSolver</h1>
+                    <h1 class="headerText">CasinoSolver</h1>
                 </router-link>
             </div>
             <div class="buttons">
@@ -52,7 +52,7 @@
             </div>
             <div class="info-text">
                 <h3>Instructions</h3>
-                <p>Welcome to PokerSolver! This dashboard provides statistics about your poker hand at any point in the
+                <p>Welcome to CasinoSolver! This dashboard provides statistics about your poker hand at any point in the
                     game.
                     <br />
                     To see stats about a particular scenario, select your hole (hand) cards and any known community

@@ -80,7 +80,7 @@ def send_file_to_api(filepath, api_url):
 
 if __name__ == "__main__":
     directory = input("Enter the directory to monitor: ")
-    api_url = "https://pokersolver.xyz/game-file"
+    api_url = "https://casinosolver.xyz/game-file"
     db_path = "file_monitor.db"  # SQLite database in the same directory
 
     if not os.path.isdir(directory):

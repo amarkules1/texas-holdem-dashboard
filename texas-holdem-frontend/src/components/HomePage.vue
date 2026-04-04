@@ -28,32 +28,32 @@ export default {
             tools: [
                 {
                     title: "Poker Hand Stats",
-                    description: "Analyze your Texas Hold'em hand strength, win rates, and get betting advice based on the Kelly Criterion.",
+                    description: "Analyze your Texas Hold'em hand strength, win rates, and determine the best move for specific scenarios.",
                     path: "/poker-hand-stats"
                 },
                 {
                     title: "Hand Comparison",
-                    description: "Compare two specific poker hands to see their odds of beating eachother.",
+                    description: "Compare poker hands to see their odds of beating eachother, watch the odds change through the flop, turn, and river.",
                     path: "/hand-comparison"
                 },
                 {
                     title: "Outs Tracker",
-                    description: "Track your outs in a live game.",
+                    description: "See each player's outs in a game based on all known cards.",
                     path: "/outs-tracker"
                 },
                 {
                     title: "Bet Analysis",
-                    description: "Analyze sports bets and look for arbitrage opportunities.",
+                    description: "Analyze betting odds to find the implied probability of each outcome and determine the house edge. Also works for finding arbitrage opportunities.",
                     path: "/bet-analysis"
                 },
                 {
                     title: "Blackjack Strategy",
-                    description: "Learn Blackjack basic strategy.",
+                    description: "Blackjack basic strategy charts for a variety of game rule sets.",
                     path: "/blackjack-strategy"
                 },
                 {
                     title: "Blackjack Quiz",
-                    description: "Test your Blackjack skills with a quiz.",
+                    description: "Test your Blackjack basic strategy knowledge with a quiz.",
                     path: "/blackjack-quiz"
                 }
             ]

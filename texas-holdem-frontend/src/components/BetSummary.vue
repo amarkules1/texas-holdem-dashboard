@@ -5,17 +5,19 @@
         <div class="card input-card">
             <div class="card-body">
                 <div class="row">
-                    <div class="col-md-4">
-                        <label for="odds1" class="form-label">Odds 1 (American)</label>
-                        <input type="number" id="odds1" v-model.number="odds1" class="form-control" placeholder="e.g. -110 or 250">
+                    <div class="col-md-3 mb-3" v-for="(odd, index) in oddsList" :key="index">
+                        <label :for="'odds' + (index + 1)" class="form-label">Odds {{ index + 1 }} (American)</label>
+                        <div class="input-group">
+                            <input type="number" :id="'odds' + (index + 1)" v-model.number="oddsList[index]" class="form-control" placeholder="-110">
+                            <button v-if="oddsList.length > 2" class="btn btn-outline-danger" type="button" @click="removeOdd(index)" title="Remove odds">-</button>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <label for="odds2" class="form-label">Odds 2 (American)</label>
-                        <input type="number" id="odds2" v-model.number="odds2" class="form-control" placeholder="e.g. -110 or 250">
+                    <div class="col-md-3 mb-3 d-flex align-items-end">
+                        <button class="btn btn-outline-secondary me-2" type="button" @click="addOdd" title="Add another odds">Add Odds</button>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-12 mt-2">
                         <label for="totalBet" class="form-label">Total Bet Amount</label>
-                        <input type="number" id="totalBet" v-model.number="totalBet" class="form-control" placeholder="100">
+                        <input type="number" id="totalBet" v-model.number="totalBet" class="form-control" style="max-width: 200px;" placeholder="100">
                     </div>
                 </div>
                 <div class="row mt-3">
@@ -34,15 +36,15 @@
             <div class="card-header">Results</div>
             <div class="card-body">
                 <div class="row">
-                    <div class="col-md-6 result-column">
+                    <div class="col-md-3 result-column mb-3">
                         <h4>Outcome 1</h4>
                         <p><strong>Probability:</strong> {{ (results.percent_probability * 100).toFixed(2) }}%</p>
                         <p><strong>Bet Amount:</strong> ${{ results.bet_amount.toFixed(2) }}</p>
                     </div>
-                    <div class="col-md-6 result-column">
-                        <h4>Outcome 2</h4>
-                        <p><strong>Probability:</strong> {{ (results.opp_percent_probability * 100).toFixed(2) }}%</p>
-                        <p><strong>Bet Amount:</strong> ${{ results.bet_amount_opp.toFixed(2) }}</p>
+                    <div class="col-md-3 result-column mb-3" v-for="(prob, index) in results.opp_percent_probabilities" :key="index">
+                        <h4>Outcome {{ index + 2 }}</h4>
+                        <p><strong>Probability:</strong> {{ (prob * 100).toFixed(2) }}%</p>
+                        <p><strong>Bet Amount:</strong> ${{ results.other_bets[index].toFixed(2) }}</p>
                     </div>
                 </div>
                 <div class="row mt-3">
@@ -62,8 +64,7 @@ export default {
     name: 'BetSummary',
     data() {
         return {
-            odds1: null,
-            odds2: null,
+            oddsList: [null, null],
             totalBet: 100,
             results: null,
             loading: false,
@@ -71,9 +72,15 @@ export default {
         }
     },
     methods: {
+        addOdd() {
+            this.oddsList.push(null);
+        },
+        removeOdd(index) {
+            this.oddsList.splice(index, 1);
+        },
         async calculateBetSummary() {
-            if (this.odds1 === null || this.odds2 === null) {
-                this.error = "Please enter both odds."
+            if (this.oddsList.some(odd => odd === null || odd === '')) {
+                this.error = "Please enter all odds."
                 return
             }
             this.error = null
@@ -83,12 +90,13 @@ export default {
             try {
                 let endpoint = process.env.VUE_APP_REST_ENDPOINT
                 
-                const response = await axios.get(`${endpoint}/bet-summary`, {
-                    params: {
-                        odds_1: this.odds1,
-                        odds_2: this.odds2,
-                        total_bet: this.totalBet
-                    }
+                let params = { total_bet: this.totalBet };
+                this.oddsList.forEach((odd, index) => {
+                    params[`odds_${index + 1}`] = odd;
+                });
+                
+                const response = await axios.get(`${endpoint}/bet-summary-multi-way`, {
+                    params: params
                 })
                 this.results = response.data
             } catch (err) {

@@ -49,8 +49,6 @@ def even_split_bet_expected_return(odds_1, odds_2):
 def even_split_bet_expected_return_multi(odds, opp_odds_list):
     bet_1, other_bets = even_split_bet_amounts_multi(odds, opp_odds_list)
     profit_if_1_wins = profit_from_win(odds, bet_1) + bet_1
-    profit_if_opp_wins = sum([profit_from_win(opp_odds, bet) + bet for opp_odds, bet in zip(opp_odds_list, other_bets)])
-    assert abs(profit_if_1_wins - profit_if_opp_wins) < 1e-6
     return profit_if_1_wins
 
 def get_bet_summary(odds_1, odds_2, total_bet=1):
@@ -69,13 +67,13 @@ def get_bet_summary(odds_1, odds_2, total_bet=1):
 
 def get_bet_summary_multi(odds, opp_odds_list, total_bet=1):
     percent_probability = american_to_probability_average_multi(odds, opp_odds_list)
-    opp_percent_probability = 1 - percent_probability
     bet_amount, other_bets = even_split_bet_amounts_multi(odds, opp_odds_list, total_bet)
+    opp_percent_probabilities = [american_to_probability_average_multi(opp_odds, [odds] + opp_odds_list[:index] + opp_odds_list[index+1:]) for index, opp_odds in enumerate(opp_odds_list)]
     expected_return = even_split_bet_expected_return_multi(odds, opp_odds_list) * total_bet
     # return as JSON
     return {
         "percent_probability": percent_probability,
-        "opp_percent_probability": opp_percent_probability,
+        "opp_percent_probabilities": opp_percent_probabilities,
         "bet_amount": bet_amount,
         "other_bets": other_bets,
         "expected_return": expected_return

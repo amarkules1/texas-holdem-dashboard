@@ -20,8 +20,10 @@ greenlet = "*"
 gunicorn = "*"
 pytest = "*"
 psycopg2 = "*"
+ipykernel = "*"
 
 [dev-packages]
+ipykernel = "*"
 
 [requires]
 python_version = "3.10"

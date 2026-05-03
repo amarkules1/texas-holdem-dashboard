@@ -371,7 +371,7 @@ export default {
       const playerCards = cards.slice(0, 2);
       const dealerCards = cards.slice(2);
       const playerTotal = this.getPlayerHandValue(playerCards[0].rank, playerCards[1].rank).toString();
-      const dealerTotal = this.getDealerHandValue(dealerCards[0].rank).toString();
+      const dealerTotal = this.getDealerHandValue(dealerCards[0].rank);
       const strategy = this.strategyData.find(s => s.player_total === playerTotal && s.dealer_card_up === dealerTotal);
       strategy.player_cards = playerCards;
       strategy.dealer_card = dealerCards[0];

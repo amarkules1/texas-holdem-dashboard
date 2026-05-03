@@ -154,24 +154,21 @@ def all_player_outs():
 
 @app.route('/blackjack-basic-strategy', methods=['GET'])
 def blackjack_basic_strategy():
-    where_clauses = []
+    df = pd.read_csv('data/blackjack_odds.csv', index_col=0)
+
     if 'dealer_hit_soft_17' in request.args:
         val = str(request.args.get('dealer_hit_soft_17')).lower() == 'true'
-        where_clauses.append(f"dealer_hit_soft_17 = {val}")
+        df = df[df['dealer_hit_soft_17'] == val]
 
     if 'double_after_split' in request.args:
         val = str(request.args.get('double_after_split')).lower() == 'true'
-        where_clauses.append(f"double_after_split = {val}")
+        df = df[df['double_after_split'] == val]
 
     if 'blackjack_pays' in request.args:
         val = request.args.get('blackjack_pays', type=float)
-        where_clauses.append(f"blackjack_pays = {val}")
+        df = df[df['blackjack_pays'] == val]
 
-    query = "SELECT * FROM blackjack_odds"
-    if where_clauses:
-        query += " WHERE " + " AND ".join(where_clauses)
-
-    return pd.read_sql(query, db_conn).to_json(orient='records')
+    return df.to_json(orient='records')
     
 
 @app.route('/bet-summary', methods=['GET'])

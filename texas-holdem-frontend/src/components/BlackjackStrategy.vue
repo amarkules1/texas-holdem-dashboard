@@ -124,7 +124,7 @@ export default {
     },
     formatPlayerTotal(total) {
       if (typeof total === 'string') {
-        if (total.startswith('paired') && !total.endswith('s')) {
+        if (total.startsWith('paired') && !total.endsWith('s')) {
           return total.split('_')[0].charAt(0).toUpperCase() + total.split('_')[0].slice(1) + ' ' + (parseInt(total.split('_')[1]) / 2) + 's';
         }
         return total

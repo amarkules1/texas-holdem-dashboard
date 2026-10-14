@@ -22,6 +22,9 @@
                         <router-link class="nav-link" active-class="active" to="/home">Home</router-link>
                     </li>
                     <li class="nav-item">
+                        <router-link class="nav-link" active-class="active" to="/texas-holdem-ai">Texas Hold'em AI</router-link>
+                    </li>
+                    <li class="nav-item">
                         <router-link class="nav-link" active-class="active" to="/poker-hand-stats">Poker Hand
                             Stats</router-link>
                     </li>

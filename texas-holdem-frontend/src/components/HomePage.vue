@@ -27,6 +27,11 @@ export default {
         return {
             tools: [
                 {
+                    title: "Texas Hold'em AI",
+                    description: "Deep Reinforcement Learning & GTO advisor recommending optimal game moves, bet sizing, and probability distributions for any scenario.",
+                    path: "/texas-holdem-ai"
+                },
+                {
                     title: "Poker Hand Stats",
                     description: "Analyze your Texas Hold'em hand strength, win rates, and determine the best move for specific scenarios.",
                     path: "/poker-hand-stats"

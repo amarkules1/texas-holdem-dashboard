@@ -16,11 +16,13 @@ import OutsTracker from './components/OutsTracker.vue'
 import BlackjackStrategy from './components/BlackjackStrategy.vue'
 import BlackjackQuiz from './components/BlackjackQuiz.vue'
 import BetSummary from './components/BetSummary.vue'
+import TexasHoldemAI from './components/TexasHoldemAI.vue'
 
 const router = createRouter({
     history: createWebHashHistory(),
     routes: [
         { path: '/home', component: HomePage },
+        { path: '/texas-holdem-ai', component: TexasHoldemAI },
         { path: '/poker-hand-stats', component: CardStatsContainer },
         { path: '/resources', component: ResourcesComponent },
         { path: '/hand-comparison', component: HandComparison },

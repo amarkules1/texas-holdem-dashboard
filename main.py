@@ -1,10 +1,17 @@
+import os
+# Ensure OpenMP/Intel MKL libraries initialize cleanly on Windows
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+try:
+    import torch
+except Exception:
+    pass
+
 from flask import Flask, request, redirect
 import psycopg2
 from flask_cors import CORS
 import logging
 from dotenv import load_dotenv, find_dotenv
 import sqlalchemy
-import os
 import pandas as pd
 from pandas.core.dtypes.common import is_numeric_dtype
 from texas_hold_em_utils.card import Card

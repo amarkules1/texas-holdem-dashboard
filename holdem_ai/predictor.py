@@ -1,27 +1,63 @@
 """
 HoldemPredictor - High Level API for Texas Hold'em Strategy Prediction.
 Provides move recommendations and probability distributions for any poker scenario.
+Supports both pure NumPy inference (zero external runtime dependencies) and PyTorch.
 """
 
 import os
-import torch
+import numpy as np
 from texas_hold_em_utils.card import Card
 from .feature_extractor import FeatureExtractor, parse_card
-from .model import HoldemPolicyValueNet
+from .model import HoldemPolicyValueNumpy, HoldemPolicyValueNet, TORCH_AVAILABLE
 
 
 class HoldemPredictor:
     """
     High-level interface to evaluate Texas Hold'em scenarios using the trained ML model.
+    Seamlessly uses pure NumPy or PyTorch depending on environment availability.
     """
 
     def __init__(self, model_path=None):
-        if model_path and os.path.exists(model_path):
-            self.model = HoldemPolicyValueNet.from_checkpoint(model_path)
-            print(f"Loaded trained weights from {model_path} (input_dim={self.model.input_dim}, hidden_dim={self.model.hidden_dim})")
-        else:
-            self.model = HoldemPolicyValueNet()
-        self.model.eval()
+        base_dir = os.path.dirname(__file__)
+        default_npz = os.path.join(base_dir, "saved_models", "holdem_policy_net.npz")
+        default_pt = os.path.join(base_dir, "saved_models", "holdem_policy_net.pt")
+
+        if model_path is None:
+            model_path = default_npz if os.path.exists(default_npz) else default_pt
+
+        npz_path = model_path.replace(".pt", ".npz") if model_path.endswith(".pt") else model_path
+        pt_path = model_path.replace(".npz", ".pt") if model_path.endswith(".npz") else model_path
+
+        # 1. Prefer pure NumPy engine if .npz file is available or PyTorch is not available
+        loaded = False
+        if os.path.exists(npz_path):
+            try:
+                self.model = HoldemPolicyValueNumpy.from_checkpoint(npz_path)
+                print(f"Loaded trained weights from {npz_path} via NumPy engine (input_dim={self.model.input_dim}, hidden_dim={self.model.hidden_dim})")
+                loaded = True
+            except Exception as e:
+                print(f"NumPy engine load failed: {e}")
+
+        # 2. Try PyTorch engine if NumPy wasn't loaded and PyTorch is available
+        if not loaded and os.path.exists(pt_path) and TORCH_AVAILABLE and HoldemPolicyValueNet is not None:
+            try:
+                self.model = HoldemPolicyValueNet.from_checkpoint(pt_path)
+                print(f"Loaded trained weights from {pt_path} via PyTorch engine (input_dim={self.model.input_dim}, hidden_dim={self.model.hidden_dim})")
+                loaded = True
+            except Exception as e:
+                print(f"PyTorch engine load failed: {e}")
+
+        # 3. Fallback to default NumPy initialization
+        if not loaded:
+            if os.path.exists(npz_path):
+                self.model = HoldemPolicyValueNumpy.from_checkpoint(npz_path)
+            elif os.path.exists(pt_path) and TORCH_AVAILABLE:
+                self.model = HoldemPolicyValueNet.from_checkpoint(pt_path)
+            else:
+                raise FileNotFoundError(f"Neither {npz_path} nor {pt_path} could be loaded.")
+
+        if hasattr(self.model, "eval"):
+            self.model.eval()
 
     def predict_scenario(
         self,
@@ -80,7 +116,7 @@ class HoldemPredictor:
             player_ct=player_ct
         )
         input_dim = getattr(self.model, "input_dim", len(features))
-        state_tensor = torch.tensor(features[:input_dim], dtype=torch.float32)
+        state_tensor = np.array(features[:input_dim], dtype=np.float32)
 
         # 2. Build action mask
         mask = [1.0, 1.0, 1.0, 1.0, 1.0]
@@ -92,7 +128,7 @@ class HoldemPredictor:
             mask[4] = 0.0  # Cannot raise all-in
         if stack == 0:
             mask = [0.0, 1.0, 0.0, 0.0, 0.0]
-        action_mask = torch.tensor(mask, dtype=torch.float32)
+        action_mask = np.array(mask, dtype=np.float32)
 
         # 3. Network Prediction
         action_idx, action_name, prob_dict = self.model.predict_action(
@@ -102,9 +138,13 @@ class HoldemPredictor:
             temperature=temperature
         )
 
-        with torch.no_grad():
-            _, value_est = self.model(state_tensor)
+        _, value_est = self.model(state_tensor)
+        if hasattr(value_est, "item"):
             state_val = float(value_est.item())
+        elif hasattr(value_est, "__len__"):
+            state_val = float(value_est[0])
+        else:
+            state_val = float(value_est)
 
         # 4. Determine bet amount and game action
         if action_idx == 0:
@@ -138,28 +178,32 @@ class HoldemPredictor:
         win_rate_2p = float(features[1])
         percentile = float(features[2]) * 100.0
         ideal_kelly = float(features[3])
-        sklansky_grp = int(round(features[4] * 9.0))
-        outs_1card = int(round(features[5] * 47.0))
-        pot_odds = float(features[7])
+
+        # Pot odds calculation
+        pot_odds = float(to_call / (pot + to_call)) if (pot + to_call) > 0 else 0.0
+
+        # Sklansky group
+        raw_sklansky = int(round(float(features[4]) * 8.0)) + 1
+        sklansky_group = max(1, min(9, raw_sklansky))
+
+        hand_analysis = {
+            "expected_win_rate": round(win_rate, 4),
+            "expected_2_player_win_rate": round(win_rate_2p, 4),
+            "percentile_rank": round(percentile, 1),
+            "ideal_kelly_max": round(ideal_kelly, 4),
+            "sklansky_group": sklansky_group,
+            "pot_odds": round(pot_odds, 4),
+            "to_call": to_call,
+            "pot": pot,
+            "stack": stack,
+            "round_num": round_num
+        }
 
         return {
-            "hole_cards": [str(c) for c in h_cards],
-            "community_cards": [str(c) for c in c_cards],
             "recommended_action": action_name,
-            "action_type": action_type,
             "recommended_bet_amount": bet_amt,
+            "action_type": action_type,
             "action_probabilities": prob_dict,
-            "state_value_estimate": state_val,
-            "hand_analysis": {
-                "expected_win_rate": round(win_rate, 4),
-                "expected_2_player_win_rate": round(win_rate_2p, 4),
-                "percentile_rank": round(percentile, 2),
-                "ideal_kelly_max": round(ideal_kelly, 4),
-                "sklansky_group": sklansky_grp,
-                "outs_1card": outs_1card,
-                "pot_odds": round(pot_odds, 4),
-                "to_call": to_call,
-                "pot": pot,
-                "stack": stack
-            }
+            "state_value_estimate": round(state_val, 4),
+            "hand_analysis": hand_analysis
         }

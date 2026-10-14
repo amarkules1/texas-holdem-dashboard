@@ -1,10 +1,5 @@
 import os
-# Ensure OpenMP/Intel MKL libraries initialize cleanly on Windows
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
-try:
-    import torch
-except Exception:
-    pass
 
 from flask import Flask, request, redirect
 import psycopg2
@@ -50,9 +45,13 @@ game_tracker = GameTracker(player_round_stats_repo=player_round_stats_repo)
 
 try:
     from holdem_ai.predictor import HoldemPredictor
-    HOLDEM_AI_MODEL_PATH = os.path.join(os.path.dirname(__file__), "holdem_ai", "saved_models", "holdem_policy_net.pt")
+    HOLDEM_AI_MODEL_PATH = os.path.join(os.path.dirname(__file__), "holdem_ai", "saved_models", "holdem_policy_net.npz")
     if not os.path.exists(HOLDEM_AI_MODEL_PATH):
-        alt_path = os.path.join(os.path.dirname(__file__), "..", "texas-holdem-player", "saved_models", "holdem_policy_net.pt")
+        HOLDEM_AI_MODEL_PATH = os.path.join(os.path.dirname(__file__), "holdem_ai", "saved_models", "holdem_policy_net.pt")
+    if not os.path.exists(HOLDEM_AI_MODEL_PATH):
+        alt_path = os.path.join(os.path.dirname(__file__), "..", "texas-holdem-player", "saved_models", "holdem_policy_net.npz")
+        if not os.path.exists(alt_path):
+            alt_path = os.path.join(os.path.dirname(__file__), "..", "texas-holdem-player", "saved_models", "holdem_policy_net.pt")
         if os.path.exists(alt_path):
             HOLDEM_AI_MODEL_PATH = alt_path
     holdem_ai_predictor = HoldemPredictor(model_path=HOLDEM_AI_MODEL_PATH)

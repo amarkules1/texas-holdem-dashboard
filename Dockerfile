@@ -14,8 +14,13 @@ RUN apt-get update && apt-get install -y gcc libpq-dev && \
     apt-get purge -y --auto-remove gcc && \
     rm -rf /var/lib/apt/lists/*
 
-# Copy main.py to the working directory
+# Copy main.py and project modules to the working directory
 COPY main.py .
+COPY holdem_ai holdem_ai
+COPY betting_odds betting_odds
+COPY game_tracking game_tracking
+COPY schema schema
+COPY data data
 
 # Copy texas-holdem-frontend/dist directory to the same in the container
 COPY texas-holdem-frontend/dist texas-holdem-frontend/dist

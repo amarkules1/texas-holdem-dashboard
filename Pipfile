@@ -20,7 +20,6 @@ greenlet = "*"
 gunicorn = "*"
 pytest = "*"
 psycopg2 = "*"
-torch = "*"
 ipykernel = "*"
 
 [dev-packages]
